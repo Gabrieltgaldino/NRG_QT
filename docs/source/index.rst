@@ -1,10 +1,9 @@
-Welcome to Lumache's documentation!
+Welcome to NRGlab's documentation for NRGQT pymol plug-in!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+NRGQT is a pymol plug-in for molecular docking and virtual screening using NRGdock, GetCleft, FlexAID and Surfaces. This plug-in was created to facilitate the use the tools developed in Najmanovich's Reseach Group and was inspired in the NRG suite pymol plug-in (ref) for FlexAID.
+
+The plug-in counts with a variaty of functionalities: Binding site defition, docking similaiton with FlexAID and NRGdock, high-throughput screening with NRGdock using the Chemical Component Dictionary (CCD) and the dataset of all approved drugs of DrugBank and ligand interaction visualization using surfaces.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
