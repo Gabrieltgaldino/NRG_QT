@@ -3,14 +3,26 @@ Usage
 
 .. _installation:
 
-Installation
+Pymol Installation
 ------------
 
-To use Lumache, first install it using pip:
+
+MAC OS:
+
+Open-Source PyMOL is available free of charge and may be readily installed via the Homebrew (recommended)
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   brew install brewsci/bio/pymol
+
+WINDOWS INSTALL:
+
+for windows install information refer to: https://pymolwiki.org/index.php/Windows_Install
+
+LINUX INSTALL:
+
+
+
 
 Creating recipes
 ----------------
