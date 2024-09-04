@@ -28,29 +28,28 @@ Plug-in installation:
 
 The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/tag/v1_11
 
-Download the "NRG_plugin-v_v.zip" file and extract it to a known directory.
+1. Download the "NRG_plugin-v_v.zip" file and extract it to a known directory.
 
-Open Pymol interface and click in 'Plugin -> Plugin Manager -> Install New Plugin -> Choose file'.
+2. Open Pymol interface and click in 'Plugin -> Plugin Manager -> Install New Plugin -> Choose file'.
 
 .. image:: images/pymol_interface.png
        :alt: An example image
        :width: 300px
        :align: center
 
-Go to the directory of the extracted source code and select the file '__init__.py' and click 'Open'.
+3. Go to the directory of the extracted source code and select the file '__init__.py' and click 'Open'.
 
 .. image:: images/int_file.png
        :alt: An example image
        :width: 300px
        :align: center
 
-Choose a directory for the installed plug-in. **IMPORTANT!** It must be **DIFERENT** from the extracted source code. macOS users must save this path and execute the steps in the note bellow **before proceeding with the installation**.
+4. Choose a directory for the installed plug-in. **IMPORTANT!** It must be **DIFERENT** from the extracted source code in step 1. macOS users must save this path and execute the steps in the note bellow **before proceeding with the installation**.
 
 .. image:: images/plug-inpath.png
        :alt: An example image
        :width: 300px
        :align: center
-
 
 .. note::
 
@@ -67,3 +66,8 @@ Choose a directory for the installed plug-in. **IMPORTANT!** It must be **DIFERE
            :align: center
     A terminal window will open each time you double click each one of the executables, close it and proceed with the installation.
 
+5. Close and re-open pymol. The plug-in must be listed as 'NRGSuite_QT' the 'Plugin' menu and should be listed in the 'Installed Plugins' list in the 'Plugin Manager' window.
+    .. image:: images/pluginlisted.png
+        :alt: An example image
+        :width: 300px
+        :align: center
