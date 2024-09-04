@@ -1,7 +1,7 @@
-.. _GetCleft:
-
 GetCleft
 ===
+
+.. _GetCleft:
 
 The software **GetCleft** (https://github.com/NRGlab/Get_Cleft) was developed for detection of cavities and surface-exposed areas.
 And it is used for biding site definition in FlexAID and NRGdock.
