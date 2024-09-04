@@ -1,4 +1,4 @@
-Usage
+Installation
 =====
 
 .. _installation:
@@ -21,11 +21,9 @@ for windows install information refer to: https://pymolwiki.org/index.php/Window
 
 LINUX INSTALL:
 
-
-
-
-Creating recipes
+Plug-in installation:
 ----------------
+
 
 
 

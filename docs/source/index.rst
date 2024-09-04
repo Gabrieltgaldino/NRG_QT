@@ -17,8 +17,7 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   Installation
    NRGdock
    FlexAID
    Surfaces
