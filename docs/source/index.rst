@@ -19,3 +19,7 @@ Contents
 
    usage
    api
+   NRGdock
+   FlexAID
+   Surfaces
+   Tutorial
