@@ -1,8 +1,7 @@
-NRGdock
-===
 .. _NRGdock:
 
-.. autosummary::
-   :toctree: generated
+NRGdock
+===
 
-   gtiago
+NRGdock
+------------

@@ -1,7 +1,7 @@
+.. _Surfaces:
+
 Surfaces
 ===
-.. _Surfaces:
-.. autosummary::
-   :toctree: generated
 
-   gtiago
+Surfaces
+------------
