@@ -1,7 +1,7 @@
+.. _FlexAID:
+
 FlexAID
 =====
-
-.. _FlexAID:
 
 FlexAID
 ------------
