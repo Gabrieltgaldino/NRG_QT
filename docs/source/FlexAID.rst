@@ -1,7 +1,7 @@
-FlexAID(docking)
+FlexAID
 =====
 
-.. _FlexAID(docking):
+.. _FlexAID:
 
 FlexAID
 ------------
