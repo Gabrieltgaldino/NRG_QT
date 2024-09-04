@@ -1,7 +1,7 @@
 Welcome to NRGlab's documentation for NRGQT pymol plug-in!
 ===================================
 
-NRGQT is a pymol plug-in for molecular docking and virtual screening using NRGdock, GetCleft, FlexAID and Surfaces. This plug-in was created to facilitate the use the tools developed in Najmanovich's Reseach Group and was inspired in the NRG suite pymol plug-in (ref) for FlexAID.
+NRGQT is a pymol plug-in for molecular docking and virtual screening using NRGdock, GetCleft, FlexAID and Surfaces. This plug-in was created to facilitate the use the tools developed in Najmanovich's Research Group and was inspired in the NRG suite pymol plug-in (ref) for FlexAID.
 
 The plug-in counts with a variety of functionalities: Binding site definition, docking simulation with FlexAID and NRGdock, high-throughput screening with NRGdock using the Chemical Component Dictionary (CCD) and the dataset of all approved drugs of DrugBank and ligand interaction visualization using surfaces.
 
@@ -19,6 +19,6 @@ Contents
 
    usage
    api
-   FlexAID(docking)
-   NRGdock(high-trough-put docking)
-   Surfaces(ligand interactions visualisation)
+   FlexAID
+   NRGdock
+   Surfaces
