@@ -23,7 +23,7 @@ LINUX INSTALL:
 
 for linux install information refer to: https://pymolwiki.org/index.php/Linux_Install
 
-Plug-in installation:
+Plug-in installation
 ----------------
 
 The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/tag/v1_11
