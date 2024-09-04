@@ -65,3 +65,5 @@ Choose a directory for the installed plug-in. **IMPORTANT!** It must be **DIFERE
            :alt: An example image
            :width: 300px
            :align: center
+    A terminal window will open each time you double click each one of the executables, close it and proceed with the installation.
+
