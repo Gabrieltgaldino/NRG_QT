@@ -60,12 +60,14 @@ The source code of latest release of NRG_QT version is available at: https://git
 
 .. note::
     For macOS users: After installing the plug-in, go to the directory of the installed plugin, open the bin folder and double click on each of the precompiled versions of 'GetCleft','FlexAID','vcon' and 'Process_Ligand'
+
     .. image:: images/macOS_bin.png
         :alt: An example image
         :width: 300px
         :align: center
 
     a pop-up window may appear, click in open:
+
     .. image:: images/macOS_pop_up.png
         :alt: An example image
         :width: 300px
