@@ -30,12 +30,34 @@ The source code of latest release of NRG_QT version is available at: https://git
 
 Download the "NRG_plugin-v_v.zip" file and extract it to a known directory.
 
-.. note::
+Open Pymol interface and click in 'Plugin -> Plugin Manager -> Install New Plugin -> Choose file'. Go to the directory of the source code and click on the file '
 
-   For macOS users: After extracting the files go to the code directory and click in each of the precompiled versions of 'GetCleft','FlexAID','vcon' and 'Process_Ligand'
-    .. image:: images/macOS_bin.png
+.. image:: images/pymol_interface.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+.. image:: images/int_file.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+.. image:: images/plug-inpath.png
        :alt: An example image
        :width: 300px
        :align: center
 
 
+.. note::
+
+    For macOS users: After extracting the files go to the code directory and double click on each of the precompiled versions of 'GetCleft','FlexAID','vcon' and 'Process_Ligand'
+    .. image:: images/macOS_bin.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+    a pop-up window may appear, click in open:
+    .. image:: images/macOS_pop_up.png
+       :alt: An example image
+       :width: 300px
+       :align: center
