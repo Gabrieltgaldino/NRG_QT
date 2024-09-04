@@ -18,6 +18,7 @@ Contents
 .. toctree::
 
    Installation
+   GetCleft
    NRGdock
    FlexAID
    Surfaces
