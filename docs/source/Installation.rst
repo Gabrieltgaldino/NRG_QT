@@ -48,6 +48,7 @@ The source code of latest release of NRG_QT version is available at: https://git
 
 .. note::
     For macOS users: In your 'System Settings' in the session 'Private and Security' menu the option 'Allow applications from' should marked as 'App store and identified developers'.
+
     .. image:: images/sucrity_mac.png
         :alt: An example image
         :width: 300px
