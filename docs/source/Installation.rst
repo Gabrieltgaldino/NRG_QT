@@ -13,7 +13,7 @@ Open-Source PyMOL is available free of charge and may be readily installed via t
 
 .. code-block:: console
 
-   brew install brewsci/bio/pymol
+   brew install pymol
 
 WINDOWS INSTALL:
 
@@ -26,7 +26,7 @@ for linux install information refer to: https://pymolwiki.org/index.php/Linux_In
 Plug-in installation
 ----------------
 
-The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/tag/v1_11
+The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
 
 1. Download the "NRG_plugin-v_v.zip" file and extract it to a known directory.
 
