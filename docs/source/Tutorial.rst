@@ -113,7 +113,7 @@ The TOP10 results will be plotted in the pymol interface:
        :width: 300px
        :align: center
 
-Performing docking of Nilotinib using FlexAID
+Visualizing nilotinib/Eph4 interactions with Surfaces
 ------------
 
 We will now run the Surfaces to the best pose. Click on 'Surfaces' button in the menu.
