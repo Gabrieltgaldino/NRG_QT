@@ -87,15 +87,37 @@ Performing docking of Nilotinib using FlexAID
 
 Click on the button 'FlexAID' on the left corner menu. Go to the tab 'Settings'. Set the 'Number of chromosomes' to 500 and 'Number of generations' to 500.
 
+.. image:: images/set-flex-tut.png
+       :alt: An example image
+       :width: 300px
+       :align: center
 
-Go to the tab 'Simulate'
+Go to the tab 'Simulate'. Press the button 'Refresh' in the target list, in the ligand list and in the bind-site. Select '2wo2' as the target, 'DB04868' as ligand and 'receptor_sph_1' as the target cleft.
 
+.. image:: images/simu-flex-tut.png
+       :alt: An example image
+       :width: 300px
+       :align: center
 
+The tab 'Results' will open automatically. The progress bar will indicate the progress of the simulation and the list of the TOP5 best ligand poses and their score (CF, most negative -> better is the scoring).
 
+.. image:: images/results_flex_tut.png
+       :alt: An example image
+       :width: 300px
+       :align: center
 
+The TOP10 results will be plotted in the pymol interface:
 
+.. image:: images/results_plot_py_tut.png
+       :alt: An example image
+       :width: 300px
+       :align: center
 
+Performing docking of Nilotinib using FlexAID
+------------
 
+We will now run the Surfaces to the best pose. Click on 'Surfaces' button in the menu.
+Click on the button 'Refresh' and select 'Result_0'
 
 
 
