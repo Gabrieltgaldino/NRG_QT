@@ -15,7 +15,8 @@ Preparing the target
 Open pymol and run the command:
 
 .. code-block:: console
-    fetch 2wo2
+
+        fetch 2wo2
 
 .. image:: images/fetch.png
        :alt: An example image
@@ -27,6 +28,7 @@ We now follow the preparation steps for the docking, removing the EPHRIN-B2 chai
 Run the command:
 
 .. code-block:: console
+
     remove chain B
     remove solvent
 
@@ -49,7 +51,7 @@ The cleft of biggest volume 'receptor_sph_1' is the one we will be using for our
        :width: 300px
        :align: center
 
-Running FDA-approved-drugs Ligand-set on Eph4
+Running FDA-approved-drugs Ligand-set on Eph4 (this can take up 30min in certain laptops)
 ------------
 
 In the Plugin interface, click on the button 'NRGdock' on the left corner of the plugin. Click on the tab 'Settings'.
@@ -80,9 +82,13 @@ The Top20 ligands will be plotted in the pymol interface. Search for 'DB04868' ,
 
 In order to have a more realistic pose of the complex nilotinib/Eph4, we will re-do the docking simulation for nilotinib using FlexAID.
 
+Performing docking of Nilotinib using FlexAID
+------------
+
+Click on the button 'FlexAID' on the left corner menu. Go to the tab 'Settings'. Set the 'Number of chromosomes' to 500 and 'Number of generations' to 500.
 
 
-
+Go to the tab 'Simulate'
 
 
 
