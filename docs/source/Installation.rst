@@ -6,29 +6,21 @@ Installation
 Pymol Installation
 ------------
 
+Pymol installation will be done using Miniconda (https://docs.anaconda.com/miniconda/#quick-command-line-install )
 
-MAC OS:
-
-Open-Source PyMOL is available free of charge and may be readily installed via the Homebrew (recommended)
+Once miniconda was installed:
 
 .. code-block:: console
 
-   brew install pymol
+    conda install conda-forge::pymol-open-source
 
-WINDOWS INSTALL:
-
-for windows install information refer to: https://pymolwiki.org/index.php/Windows_Install
-
-LINUX INSTALL:
-
-for linux install information refer to: https://pymolwiki.org/index.php/Linux_Install
 
 Plug-in installation
 ----------------
 
 The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
 
-1. Download the "NRG_plugin-v_v.zip" file and extract it to a known directory.
+1. Download the "NRGSuite_Qt.zip" in a known directory.
 
 2. Open Pymol interface and click in 'Plugin -> Plugin Manager -> Install New Plugin -> Choose file'.
 
@@ -37,14 +29,10 @@ The source code of latest release of NRG_QT version is available at: https://git
        :width: 300px
        :align: center
 
-3. Go to the directory of the extracted source code and select the file '__init__.py' and click 'Open'.
+3. Go to the directory of the source code and select 'NRGSuite_Qt.zip'  and click 'Open'.
 
-.. image:: images/int_file.png
-       :alt: An example image
-       :width: 300px
-       :align: center
 
-4. Choose a directory for the installed plug-in. **IMPORTANT!** It must be **DIFERENT** from the extracted source code in step 1. macOS users must save this path and execute the steps in the note bellow Before proceeding with the installation .
+4. Choose a directory for the installed plug-in.
 
 .. image:: images/plug-inpath.png
        :alt: An example image
@@ -59,19 +47,5 @@ The source code of latest release of NRG_QT version is available at: https://git
     :align: center
 
 .. note::
-    For macOS users: After installing the plug-in, go to the directory of the installed plugin, open the bin folder and double click on each of the precompiled versions of 'GetCleft','FlexAID','vcon' and 'Process_Ligand'
-
-    .. image:: images/macOS_bin.png
-        :alt: An example image
-        :width: 300px
-        :align: center
-
-    a pop-up window may appear, click in open:
-
-    .. image:: images/macOS_pop_up.png
-        :alt: An example image
-        :width: 300px
-        :align: center
-    A terminal window will open each time you double click each one of the executables, close it and proceed with the installation.
-
+    For macOS users:
 
