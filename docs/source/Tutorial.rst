@@ -1,18 +1,14 @@
 .. _Tutorial:
 
 Tutorial
-=====
+========
 
-For this tutorial, we will be reproducing the results of Gu S. et al. 2018 (https://www.nature.com/articles/s41598-018-25790-1 ).
-In their work they searched in a data set of FDA approved drugs inhibitors of the receptor tyrosine kinase erythropoietin-producing hepatocellular A4 (EphA4).
-This receptor was identified as a molecular target for Alzheimer’s disease (AD). They selected and tested 22 molecules found 5 potential inhibitors of EphA4.
-Specifically, nilotinib (https://go.drugbank.com/drugs/DB04868 ), a kinase inhibitor, inhibited the binding of EphA4 and ephrin-A at micromolar scale in a dosage-dependent manner.
-In this tutorial, we are going to use a structure of EphA4 (PDB code: 2wo2, https://www.rcsb.org/structure/2WO2 ), same structure Gu S. et. al. used in their work.
+In this tutorial, we will reproduce the results of Gu S. et al. 2018 (https://www.nature.com/articles/s41598-018-25790-1). In their work, they searched a dataset of FDA-approved drugs for inhibitors of the receptor tyrosine kinase erythropoietin-producing hepatocellular A4 (EphA4). This receptor was identified as a molecular target for Alzheimer’s disease (AD). They selected and tested 22 molecules and found 5 potential inhibitors of EphA4. Specifically, nilotinib (https://go.drugbank.com/drugs/DB04868), a kinase inhibitor, inhibited the binding of EphA4 and ephrin-A at a micromolar scale in a dose-dependent manner. In this tutorial, we are going to use a structure of EphA4 (PDB code: 2wo2, https://www.rcsb.org/structure/2WO2), the same structure Gu S. et al. used in their work.
 
-Preparing the target
-------------
+Preparing the Target
+--------------------
 
-Open pymol and run the command:
+Open PyMOL and run the command:
 
 .. code-block:: console
 
@@ -23,9 +19,9 @@ Open pymol and run the command:
        :width: 300px
        :align: center
 
-The structure of the target should appear in pymol window.
-We now follow the preparation steps for the docking, removing the EPHRIN-B2 chain and removing water molecules.
-Run the command:
+The structure of the target should appear in the PyMOL window.
+We now follow the preparation steps for docking, removing the EPHRIN-B2 chain and water molecules.
+Run the commands:
 
 .. code-block:: console
 
@@ -37,101 +33,98 @@ Run the command:
        :width: 300px
        :align: center
 
+Defining Binding Site Area of EphA4
+-----------------------------------
 
-Defining binde site area of Eph4
-------------
+Open the NRGqt plugin from the PyMOL plugin menu and click on the button 'GetCleft' (see :doc:`GetCleft`). Click 'Refresh', select '2wo2', and press 'Play'.
 
-Open the NRGqt plugin in the manu of plugins of pymol and click on the button 'GetCleft' (see :doc:`GetCleft`). Click on 'Refresh' and select '2wo2' and press play.
-
-5 clefts should be loaded in the pymol interface.
-The cleft of biggest volume 'receptor_sph_1' is the one we will be using for our docking experiments.
+Five clefts should load in the PyMOL interface.
+The cleft with the largest volume, 'receptor_sph_1', is the one we will use for our docking experiments.
 
 .. image:: images/clefts_tutorial.png
        :alt: An example image
        :width: 300px
        :align: center
 
-Running FDA-approved-drugs Ligand-set on Eph4 (this can take up 30min in certain laptops)
-------------
+Running the FDA-Approved-Drugs Ligand Set on EphA4 (this can take up to 30 minutes on certain laptops)
+------------------------------------------------------------------------------------------------------
 
-In the Plugin interface, click on the button 'NRGdock' on the left corner of the plugin. Click on the tab 'Settings'.
+In the plugin interface, click the 'NRGdock' button in the left corner. Go to the 'Settings' tab.
 
-Set the number of 'Save poses for top n results' to 20 (so we can have the structure of the TOP20 molecules). We expect that nilotinib (code: DB04868) the inhibitor identified in the paper, to be ranked among the best scored ligands of the 'DrugBank FDA' ligand set, so it should be ranked among the top 20 best ligands.
+Set the number of 'Save poses for top n results' to 20 (so we can have the structures of the top 20 molecules). We expect that nilotinib (code: DB04868), the inhibitor identified in the paper, will be ranked among the best-scored ligands of the 'DrugBank FDA' ligand set, so it should appear among the top 20 ligands.
 
-The ligand rotations will remain 9 (default)
+The ligand rotations will remain at 9 (default).
 
 .. image:: images/settings_nrgdock_tut.png
        :alt: An example image
        :width: 300px
        :align: center
 
-Click on the tab 'Run'. Press 'Refresh' on the target list and select '2wo2'. Press 'Refresh' in the 'Binding site' list
-and select 'receptor_sph_1'. Press run and wait until the Progress bar is full.
+Click the 'Run' tab. Press 'Refresh' on the target list and select '2wo2'. Press 'Refresh' in the 'Binding site' list and select 'receptor_sph_1'. Press 'Run' and wait until the progress bar is full.
 
 .. image:: images/run_nrg_dock_tutorial.png
        :alt: An example image
        :width: 300px
        :align: center
 
-The Top20 ligands will be plotted in the pymol interface. Search for 'DB04868' , this is the pose generated by NRGdock.
+The top 20 ligands will be plotted in the PyMOL interface. Search for 'DB04868'—this is the pose generated by NRGdock.
 
 .. image:: images/results_nrgdock.png
        :alt: An example image
        :width: 300px
        :align: center
 
-In order to have a more realistic pose of the complex nilotinib/Eph4, we will re-do the docking simulation for nilotinib using FlexAID.
+To obtain a more realistic pose of the nilotinib/EphA4 complex, we will re-do the docking simulation for nilotinib using FlexAID.
 
-Performing docking of Nilotinib using FlexAID
-------------
+Performing Docking of Nilotinib Using FlexAID
+---------------------------------------------
 
-Click on the button 'FlexAID' on the left corner menu. Go to the tab 'Settings'. Set the 'Number of chromosomes' to 500 and 'Number of generations' to 500.
+Click the 'FlexAID' button in the left corner menu. Go to the 'Settings' tab. Set the 'Number of chromosomes' to 500 and 'Number of generations' to 500.
 
 .. image:: images/set-flex-tut.png
        :alt: An example image
        :width: 300px
        :align: center
 
-Go to the tab 'Simulate'. Press the button 'Refresh' in the target list, in the ligand list and in the bind-site. Select '2wo2' as the target, 'DB04868' as ligand and 'receptor_sph_1' as the target cleft.
+Go to the 'Simulate' tab. Press 'Refresh' in the target list, ligand list, and bind-site list. Select '2wo2' as the target, 'DB04868' as the ligand, and 'receptor_sph_1' as the target cleft.
 
 .. image:: images/simu-flex-tut.png
        :alt: An example image
        :width: 300px
        :align: center
 
-The tab 'Results' will open automatically. The progress bar will indicate the progress of the simulation and the list of the TOP5 best ligand poses and their score (CF, most negative -> better is the scoring).
+The 'Results' tab will open automatically. The progress bar will indicate the progress of the simulation and list the top 5 best ligand poses and their scores (CF, most negative -> better scoring).
 
 .. image:: images/results_flex_tut.png
        :alt: An example image
        :width: 300px
        :align: center
 
-The TOP10 results will be plotted in the pymol interface:
+The top 10 results will be plotted in the PyMOL interface:
 
 .. image:: images/results_plot_py_tut.png
        :alt: An example image
        :width: 300px
        :align: center
 
-Visualizing nilotinib/Eph4 interactions with Surfaces
-------------
+Visualizing Nilotinib/EphA4 Interactions with Surfaces
+------------------------------------------------------
 
-We will now run the Surfaces to the best pose. Click on 'Surfaces' button in the menu.
-Click on the button 'Refresh' and select 'Result_0'. Press "Run Surfaces".
+We will now run the Surfaces for the best pose. Click the 'Surfaces' button in the menu. Click 'Refresh' and select 'Result_0'. Press 'Run Surfaces'.
 
 .. image:: images/surf_menu.png
        :alt: An example image
        :width: 300px
        :align: center
 
-A list a view of all interactions is showed in pymol interface.
+A list view of all interactions is shown in the PyMOL interface.
 
 .. image:: images/surf_plot.png
        :alt: An example image
        :width: 300px
        :align: center
 
-In order to better visualize the interactions, run the following command in Pymol:
+To better visualize the interactions, run the following command in PyMOL:
 
 .. code-block:: console
 

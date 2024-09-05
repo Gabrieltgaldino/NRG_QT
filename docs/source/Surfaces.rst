@@ -8,7 +8,7 @@ We implemented surfaces in NRG-QT in order to analyse the ligand/target interact
 
 .. note::
 
-    In order to run Surfaces, one need to run FlexAID in advance and **do not delete the Result_n object**
+    In order to run Surfaces, one need to run FlexAID in advance and **do not delete the RESULT_n object**
 
 Select surfaces in the main menu on the left corner of the plug-in. Press 'Refresh' and select the FlexAID result in 'Result to run surfaces on' list. Press the button 'Run Surfaces'.
 
@@ -17,7 +17,7 @@ Select surfaces in the main menu on the left corner of the plug-in. Press 'Refre
        :width: 300px
        :align: center
 
-The visiual of surfaces will be shown in the pymol window.
+The visual of surfaces will be shown in the pymol window.
 
 .. image:: images/surf_plot.png
        :alt: An example image
