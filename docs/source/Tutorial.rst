@@ -74,6 +74,14 @@ The top 20 ligands will be plotted in the PyMOL interface. Search for 'DB04868'â
        :width: 300px
        :align: center
 
+You can access the complete list of results of NRGdock by opening the '.csv' file in the 'temp' directory of 'NRGsuite_QT' in documents.
+
+.. image:: images/full_res.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+
 To obtain a more realistic pose of the nilotinib/EphA4 complex, we will re-do the docking simulation for nilotinib using FlexAID.
 
 Performing Docking of Nilotinib Using FlexAID
