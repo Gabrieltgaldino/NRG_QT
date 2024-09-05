@@ -46,7 +46,7 @@ Plug-in installation
 
 The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
 
-1. Download the "NRGSuite_Qt.zip" in a known directory.
+1. Download the "NRGSuite_Qt.zip" (macOS) or "Source code (zip)" (for Windows) in a known directory.
 
 2. Open Pymol interface and click in 'Plugin -> Plugin Manager -> Install New Plugin -> Choose file'.
 
@@ -57,6 +57,8 @@ The source code of latest release of NRG_QT version is available at: https://git
 
 3. Go to the directory of the source code and select 'NRGSuite_Qt.zip'  and click 'Open'.
 
+.. note::
+    If the file was downloaded via Safari and the zip was extracted and doesn't exist in the directory. Go to the extracted directory and click on the file '__ini__.py'.
 
 4. Choose a directory for the installed plug-in.
 

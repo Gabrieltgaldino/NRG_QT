@@ -81,7 +81,6 @@ You can access the complete list of results of NRGdock by opening the '.csv' fil
        :width: 300px
        :align: center
 
-
 To obtain a more realistic pose of the nilotinib/EphA4 complex, we will re-do the docking simulation for nilotinib using FlexAID.
 
 Performing Docking of Nilotinib Using FlexAID
@@ -142,3 +141,5 @@ To better visualize the interactions, run the following command in PyMOL:
        :alt: An example image
        :width: 300px
        :align: center
+
+In the article the authors say: 'Nilotinib is predicted to form hydrogen bonds with Q70 in the D-E loop and T104 as well as hydrophobic interactions with F154, V157, I163, L166, A193, and V195.'
