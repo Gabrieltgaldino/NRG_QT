@@ -54,3 +54,16 @@ The source code of latest release of NRG_QT version is available at: https://git
         :width: 300px
         :align: center
 
+    For users of older MACs (not M1) the command should be:
+    .. code-block:: console
+
+        mkdir -p ~/miniconda3
+        curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o ~/miniconda3/miniconda.sh
+        bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+        rm ~/miniconda3/miniconda.sh
+
+    and then after the installation:
+.. code-block:: console
+
+        ~/miniconda3/bin/conda init bash
+        ~/miniconda3/bin/conda init zsh
