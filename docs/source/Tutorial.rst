@@ -117,14 +117,27 @@ Performing docking of Nilotinib using FlexAID
 ------------
 
 We will now run the Surfaces to the best pose. Click on 'Surfaces' button in the menu.
-Click on the button 'Refresh' and select 'Result_0'
+Click on the button 'Refresh' and select 'Result_0'. Press "Run Surfaces".
 
 .. image:: images/surf_menu.png
        :alt: An example image
        :width: 300px
        :align: center
 
+A list a view of all interactions is showed in pymol interface.
 
+.. image:: images/surf_plot.png
+       :alt: An example image
+       :width: 300px
+       :align: center
 
+In order to better visualize the interactions, run the following command in Pymol:
 
+.. code-block:: console
 
+    hide surface
+
+.. image:: images/best_view_surf.png
+       :alt: An example image
+       :width: 300px
+       :align: center
