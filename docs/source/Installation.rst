@@ -55,6 +55,7 @@ The source code of latest release of NRG_QT version is available at: https://git
         :align: center
 
     For users of older MACs (not M1) open 'Terminal' and type command:
+
     .. code-block:: console
 
         mkdir -p ~/miniconda3
@@ -63,6 +64,7 @@ The source code of latest release of NRG_QT version is available at: https://git
         rm ~/miniconda3/miniconda.sh
 
     and then after the installation:
+
     .. code-block:: console
 
         ~/miniconda3/bin/conda init bash
