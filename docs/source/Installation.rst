@@ -59,6 +59,10 @@ The source code of latest release of NRG_QT version is available at: https://git
 
 .. note::
     If the file was downloaded via Safari and the zip was extracted and doesn't exist in the directory. Go to the extracted directory and click on the file '__ini__.py'.
+    .. image:: images/inifig.png
+       :alt: An example image
+       :width: 300px
+       :align: center
 
 4. Choose a directory for the installed plug-in.
 
