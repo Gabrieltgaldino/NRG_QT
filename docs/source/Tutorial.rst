@@ -119,10 +119,11 @@ Performing docking of Nilotinib using FlexAID
 We will now run the Surfaces to the best pose. Click on 'Surfaces' button in the menu.
 Click on the button 'Refresh' and select 'Result_0'
 
-.. image:: images/results_plot_py_tut.png
+.. image:: images/surf_menu.png
        :alt: An example image
        :width: 300px
        :align: center
+
 
 
 
