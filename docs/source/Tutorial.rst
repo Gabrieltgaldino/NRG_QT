@@ -56,12 +56,23 @@ In the Plugin interface, click on the button 'NRGdock' on the left corner of the
 
 Set the number of 'Save poses for top n results' to 20 (so we can have the structure of the TOP20 molecules). We expect that nilotinib (code: DB04868) the inhibitor identified in the paper, to be ranked among the best scored ligands of the 'DrugBank FDA' ligand set, so it should be ranked among the top 20 best ligands.
 
+The ligand rotations will remain 9 (default)
+
 .. image:: images/settings_nrgdock_tut.png
        :alt: An example image
        :width: 300px
        :align: center
 
-The ligand rotations will remain 9 (default)
+Click on the tab 'Run'
+
+.. image:: images/run_tab_nrgdock.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+
+
+
 
 
 
