@@ -17,6 +17,11 @@ Open pymol and run the command:
 .. code-block:: console
     fetch 2wo2
 
+.. image:: images/fetch.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
 The structure of the target should appear in pymol window.
 We now follow the preparation steps for the docking, removing the EPHRIN-B2 chain and removing water molecules.
 Run the command:
@@ -25,7 +30,39 @@ Run the command:
     remove chain B
     remove solvent
 
-Open the plug-in
+.. image:: images/remove_chains.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+
+Defining binde site area of Eph4
+------------
+
+Open the NRGqt plugin in the manu of plugins of pymol and click on the button 'GetCleft' (see :doc:`GetCleft`). Click on 'Refresh' and select '2wo2' and press play.
+
+5 clefts should be loaded in the pymol interface.
+The cleft of biggest volume 'receptor_sph_1' is the one we will be using for our docking experiments.
+
+.. image:: images/clefts_tutorial.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+Running FDA-approved-drugs Ligand-set on Eph4
+------------
+
+In the Plugin interface, click on the button 'NRGdock' on the left corner of the plugin. Click on the tab 'Settings'.
+
+Set the number of 'Save poses for top n results' to 20 (so we can have the structure of the TOP20 molecules). We expect that nilotinib (code: DB04868) the inhibitor identified in the paper, to be ranked among the best scored ligands of the 'DrugBank FDA' ligand set, so it should be ranked among the top 20 best ligands.
+
+.. image:: images/settings_nrgdock_tut.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+The ligand rotations will remain 9 (default)
+
 
 
 
