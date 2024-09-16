@@ -149,7 +149,7 @@ A window with the results for surfaces should appear:
 
 A list view of all interactions is shown in the PyMOL interface.
 
-.. image:: images/surf_plot.png
+.. image:: images/surf-plot.png
        :alt: An example image
        :width: 300px
        :align: center
