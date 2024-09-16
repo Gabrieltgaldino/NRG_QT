@@ -51,6 +51,7 @@ https://salilab.org/modeller/registration.html
 and install modeller via conda:
 
 .. code-block:: console
+
     conda config --add channels salilab
     conda install modeller
 
