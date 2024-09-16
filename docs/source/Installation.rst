@@ -36,9 +36,24 @@ Pymol installation will be done using Miniconda (https://docs.anaconda.com/minic
 
 Once miniconda was installed:
 
+.. note::
+
+    Windowns users: after installing, open the “Anaconda Prompt (miniconda3)” program to use Miniconda3.
+
 .. code-block:: console
 
     conda install conda-forge::pymol-open-source
+
+Modeller install:
+The user should obtain a modeller license key at:
+https://salilab.org/modeller/registration.html
+
+and install modeller via conda:
+.. code-block:: console
+    conda config --add channels salilab
+    conda install modeller
+
+You will be prompted after installation to edit a file to add your Modeller license key.
 
 
 Plug-in installation
