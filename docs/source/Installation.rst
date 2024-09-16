@@ -55,7 +55,6 @@ and install modeller via conda:
 
 You will be prompted after installation to edit a file to add your Modeller license key.
 
-
 Plug-in installation
 ----------------
 
