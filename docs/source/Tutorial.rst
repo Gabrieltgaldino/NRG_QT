@@ -155,5 +155,8 @@ A list view of all interactions is shown in the PyMOL interface.
        :align: center
 
 
-
 In the article the authors say: 'Nilotinib is predicted to form hydrogen bonds with Q70 in the D-E loop and T104 as well as hydrophobic interactions with F154, V157, I163, L166, A193, and V195.'
+
+Analysing Nilotinib/EphA4 Dynamical signature
+------------------------------------------------------
+

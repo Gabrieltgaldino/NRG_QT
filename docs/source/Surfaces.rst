@@ -19,7 +19,7 @@ Select surfaces in the main menu on the left corner of the plug-in. Press 'Refre
 
 The visual of surfaces will be shown in the pymol window.
 
-.. image:: images/surf_plot.png
+.. image:: images/surf-plot.png
        :alt: An example image
        :width: 300px
        :align: center
