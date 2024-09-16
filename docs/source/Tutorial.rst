@@ -125,9 +125,24 @@ The top 10 results will be plotted in the PyMOL interface:
 Visualizing Nilotinib/EphA4 Interactions with Surfaces
 ------------------------------------------------------
 
-We will now run the Surfaces for the best pose. Click the 'Surfaces' button in the menu. Click 'Refresh' and select 'Result_0'. Press 'Run Surfaces'.
+We will now run the Surfaces for the best pose.
+Make a selection for the ligand:
 
-.. image:: images/surf_menu.png
+.. code-block:: console
+
+    select Ligand, resn LIG
+
+Click the 'Surfaces' button in the menu. Click in 'Refresh' on the 'Surfaces selection:' area and select 'Result_0'. Press 'Run Surfaces'. Select 'Ligand' in the 'Ligand:' list and press 'Run'
+
+
+.. image:: images/surfaces_flexaid.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+A window with the results for surfaces should appear:
+
+.. image:: images/surfaces_reslist.png
        :alt: An example image
        :width: 300px
        :align: center
@@ -139,15 +154,6 @@ A list view of all interactions is shown in the PyMOL interface.
        :width: 300px
        :align: center
 
-To better visualize the interactions, run the following command in PyMOL:
 
-.. code-block:: console
-
-    hide surface
-
-.. image:: images/best_view_surf.png
-       :alt: An example image
-       :width: 300px
-       :align: center
 
 In the article the authors say: 'Nilotinib is predicted to form hydrogen bonds with Q70 in the D-E loop and T104 as well as hydrophobic interactions with F154, V157, I163, L166, A193, and V195.'
