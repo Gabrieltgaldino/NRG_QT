@@ -16,7 +16,7 @@ Open PyMOL and run the command:
 
 .. image:: images/Tutorial/fetch_2wo2.png
        :alt: An example image
-       :width: 300px
+       :width: 500px
        :align: center
 
 The structure of the target should appear in the PyMOL window.
@@ -30,7 +30,7 @@ Run the commands:
 
 .. image:: images/Tutorial/prep_2wo2.png
        :alt: An example image
-       :width: 300px
+       :width: 500px
        :align: center
 
 Defining Binding Site Area of EphA4
@@ -40,7 +40,7 @@ Open the NRGqt plugin from the PyMOL plugin menu and click on the button 'GetCle
 
 .. image:: images/Tutorial/get_cleft_2wo2.png
        :alt: An example image
-       :width: 300px
+       :width: 500px
        :align: center
 
 Five clefts should load in the PyMOL interface.
@@ -48,7 +48,7 @@ The cleft with the largest volume, 'receptor_sph_1', is the one we will use for 
 
 .. image:: images/Tutorial/clefts_view.png
        :alt: An example image
-       :width: 300px
+       :width: 500px
        :align: center
 
 Running the FDA-Approved-Drugs Ligand Set on EphA4 (this can take up to 30 minutes on certain laptops)
