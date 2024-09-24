@@ -14,7 +14,7 @@ Open PyMOL and run the command:
 
         fetch 2wo2
 
-.. image:: images/fetch.png
+.. image:: images/Tutorial/fetch_2wo2.png
        :alt: An example image
        :width: 300px
        :align: center
@@ -28,7 +28,7 @@ Run the commands:
     remove chain B
     remove solvent
 
-.. image:: images/remove_chains.png
+.. image:: images/Tutorial/prep_2wo2.png
        :alt: An example image
        :width: 300px
        :align: center
@@ -38,10 +38,15 @@ Defining Binding Site Area of EphA4
 
 Open the NRGqt plugin from the PyMOL plugin menu and click on the button 'GetCleft' (see :doc:`GetCleft`). Click 'Refresh', select '2wo2', and press 'Play'.
 
+.. image:: images/Tutorial/get_cleft_2wo2.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
 Five clefts should load in the PyMOL interface.
 The cleft with the largest volume, 'receptor_sph_1', is the one we will use for our docking experiments.
 
-.. image:: images/clefts_tutorial.png
+.. image:: images/Tutorial/clefts_view.png
        :alt: An example image
        :width: 300px
        :align: center
