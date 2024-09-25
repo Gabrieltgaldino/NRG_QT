@@ -19,6 +19,7 @@ Open PyMOL and run the command:
        :width: 700px
        :align: center
 
+
 The structure of the target should appear in the PyMOL window.
 We now follow the preparation steps for docking, removing the EPHRIN-B2 chain and water molecules.
 Run the commands:
