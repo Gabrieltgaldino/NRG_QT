@@ -111,7 +111,7 @@ Go to the 'Simulate' tab. Press 'Refresh' in the target list, ligand list, and b
 
 The 'Results' tab will open automatically. The progress bar will indicate the progress of the simulation and list the top 5 best ligand poses and their scores (CF, most negative -> better scoring).
 
-.. image:: images/Tutorial/flexaid_resulttable.pgn
+.. image:: images/Tutorial/flexaid_resulttable.png
        :alt: An example image
        :width: 700px
        :align: center
