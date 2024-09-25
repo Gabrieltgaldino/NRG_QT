@@ -165,7 +165,10 @@ Analysing Nilotinib/EphA4 Dynamical signature
 ------------------------------------------------------
 
 We can now run calculate the dynamical signature for the complex using NRGTEN.
+
+
 .. image:: images/Tutorial/NRGTEN_dynasigview.png
        :alt: An example image
        :width: 700px
        :align: center
+
