@@ -143,24 +143,29 @@ Click the 'Surfaces' button in the menu. Click in 'Refresh' on the 'Surfaces sel
        :width: 700px
        :align: center
 
-A window with the results for surfaces should appear:
+A table with all surfaces results can be seen in the tab 'Results', press 'Refresh' to list all individual results. Select: 'List_RESULT_0_csv_output'.
 
-.. image:: images/surfaces_reslist.png
-       :alt: An example image
-       :width: 300px
-       :align: center
-
-A list view of all interactions is shown in the PyMOL interface.
-
-.. image:: images/surf-plot.png
+.. image:: images/Tutorial/surfaces_result_table.png
        :alt: An example image
        :width: 700px
        :align: center
 
+A list view of all interactions is shown in the PyMOL interface in a group named: "surfaces_results". The table in 'Results' table is interactive. Individual residues can be selected by clicking the result name. A selection named:'sele_surefaces' is created with that specific residue:
 
-In the article the authors say: 'Nilotinib is predicted to form hydrogen bonds with Q70 in the D-E loop and T104 as well as hydrophobic interactions with F154, V157, I163, L166, A193, and V195.'
+.. image:: images/Tutorial/surfaces_result_view.png
+       :alt: An example image
+       :width: 700px
+       :align: center
+
+In the article the authors say: 'Nilotinib is predicted to form hydrogen bonds with Q71 in the D-E loop and T104 as well as hydrophobic interactions with F154, V157, I163, L166, A193, and V195.'
+Also, we can create a selection with the Top N residues by interection absolute value. Type 10 in the 'TOP N residues:' field and press the button 'Interface'. A selection called 'all_residues' is created.
+
 
 Analysing Nilotinib/EphA4 Dynamical signature
 ------------------------------------------------------
 
-We can now run calculate the dynamical signature for
+We can now run calculate the dynamical signature for the complex using NRGTEN.
+.. image:: images/Tutorial/NRGTEN_dynasigview.png
+       :alt: An example image
+       :width: 700px
+       :align: center
