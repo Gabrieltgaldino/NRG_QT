@@ -164,11 +164,23 @@ Also, we can create a selection with the Top N residues by interection absolute 
 Analysing Nilotinib/EphA4 with Normal Mode Analysis
 ------------------------------------------------------
 
-We can now run calculate the dynamical signature for the complex using NRGTEN. In 'NRGTEN' menu, in the 'Load object' area press 'Refresh'. Select 'RESULT_O' the 'Object:' list and 'Ligand' in the ligand 'List'. In the Dynamical Signature area write 1 in the 'Beta' field and press 'Run'
+We can now run calculate the dynamical signature for the complex using NRGTEN. In 'NRGTEN' menu, in the 'Load object' area press 'Refresh'. Select 'RESULT_O' the 'Object:' list and 'Ligand' in the ligand 'List'. In the Dynamical Signature area write 1 in the 'Beta' field and press 'Run'.
 
+.. image:: images/Tutorial/NRGTEN_dynasig_config.png
+       :alt: An example image
+       :width: 700px
+       :align: center
+
+A object called 'RESULT_0_dynasig' will show a fluctuation plot in the structure. Blue residues are more rigid while Red residues are more flexible. Also, another object 'no_lig_RESULT_0_dynasig' will be plotted showing the difference between the dynamical signature of EphA4 in presence and absence of ligand.
 
 .. image:: images/Tutorial/NRGTEN_dynasigview.png
        :alt: An example image
        :width: 700px
        :align: center
 
+We can also generate a dynamical ensemble of EphA4. Type '7' in the 'modes list:' field and select 'optimize states' to generate a conformation ensemble using the first non trivial normal mode. An object named 'RESULT_0_ensemble' containing the optimized conformational ensemble will be created.
+
+.. image:: images/Tutorial/NRGTEN_ensembleview.png
+       :alt: An example image
+       :width: 700px
+       :align: center
