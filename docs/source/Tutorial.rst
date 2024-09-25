@@ -128,19 +128,19 @@ The top 10 results will be plotted in the PyMOL interface in a group called Flex
 Visualizing Nilotinib/EphA4 Interactions with Surfaces
 ------------------------------------------------------
 
-We will now run the Surfaces for the best pose.
+We will now run the Surfaces for the top pose of FLEXAID.
 Make a selection for the ligand:
 
 .. code-block:: console
 
-    select Ligand, resn LIG
+    select Ligand, resn LIG and Result_0
 
 Click the 'Surfaces' button in the menu. Click in 'Refresh' on the 'Surfaces selection:' area and select 'Result_0'. Press 'Run Surfaces'. Select 'Ligand' in the 'Ligand:' list and press 'Run'
 
 
-.. image:: images/surfaces_flexaid.png
+.. image:: images/Tutorial/surfaces_run_lig.png
        :alt: An example image
-       :width: 300px
+       :width: 700px
        :align: center
 
 A window with the results for surfaces should appear:
