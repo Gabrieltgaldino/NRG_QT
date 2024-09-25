@@ -94,37 +94,35 @@ To obtain a more realistic pose of the nilotinib/EphA4 complex, we will re-do th
 Performing Docking of Nilotinib Using FlexAID
 ---------------------------------------------
 
-Click the 'FlexAID' button in the left corner menu. Go to the 'Settings' tab. Set the 'Number of chromosomes' to 500 and 'Number of generations' to 500.
+Click the 'FlexAID' button in the left corner menu. Go to the 'Settings' tab. Set the 'Number of chromosomes' to 500 and 'Number of generations' to 500. Check the box 'Ligand pose as reference' to compare FLEXAID and NRGDock poses.
 
-.. image:: images/set-flex-tut.png
+.. image:: images/Tutorial/flexaid_config
        :alt: An example image
-       :width: 300px
+       :width: 700px
        :align: center
 
 Go to the 'Simulate' tab. Press 'Refresh' in the target list, ligand list, and bind-site list. Select '2wo2' as the target, 'DB04868' as the ligand, and 'receptor_sph_1' as the target cleft.
 
-.. image:: images/simu-flex-tut.png
+.. image:: images/Tutorial/flexaid_simulation.png
        :alt: An example image
-       :width: 300px
+       :width: 700px
        :align: center
 
 The 'Results' tab will open automatically. The progress bar will indicate the progress of the simulation and list the top 5 best ligand poses and their scores (CF, most negative -> better scoring).
 
-.. image:: images/results_flex_tut.png
+.. image:: images/Tutorial/flexaid_resulttable.pgn
        :alt: An example image
-       :width: 300px
+       :width: 700px
        :align: center
 
-The top 10 results will be plotted in the PyMOL interface:
+The top 10 results will be plotted in the PyMOL interface in a group called Flexaid results:
 
-.. image:: images/results_plot_py_tut.png
+.. image:: images/Tutorial/flexaid_results_view.png
        :alt: An example image
-       :width: 300px
+       :width: 700px
        :align: center
 
-.. note::
-    Some windows users may not be capable of running FlexAID properly. So we added a pre-processed version of the docked nilotinib.
-    on the surfaces interface. Click the button 'Browse' and select: 'RESULT_0.pdb'
+
 
 Visualizing Nilotinib/EphA4 Interactions with Surfaces
 ------------------------------------------------------
