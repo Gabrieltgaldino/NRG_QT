@@ -154,7 +154,7 @@ A list view of all interactions is shown in the PyMOL interface.
 
 .. image:: images/surf-plot.png
        :alt: An example image
-       :width: 300px
+       :width: 700px
        :align: center
 
 
