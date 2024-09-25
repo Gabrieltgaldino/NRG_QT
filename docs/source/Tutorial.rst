@@ -161,10 +161,10 @@ In the article the authors say: 'Nilotinib is predicted to form hydrogen bonds w
 Also, we can create a selection with the Top N residues by interection absolute value. Type 10 in the 'TOP N residues:' field and press the button 'Interface'. A selection called 'all_residues' is created.
 
 
-Analysing Nilotinib/EphA4 Dynamical signature
+Analysing Nilotinib/EphA4 with Normal Mode Analysis
 ------------------------------------------------------
 
-We can now run calculate the dynamical signature for the complex using NRGTEN.
+We can now run calculate the dynamical signature for the complex using NRGTEN. In 'NRGTEN' menu, in the 'Load object' area press 'Refresh'. Select 'RESULT_O' the 'Object:' list and 'Ligand' in the ligand 'List'. In the Dynamical Signature area write 1 in the 'Beta' field and press 'Run'
 
 
 .. image:: images/Tutorial/NRGTEN_dynasigview.png
