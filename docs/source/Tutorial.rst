@@ -197,10 +197,38 @@ Generating Nilotinib/EphA4 mutants with modeller.
 ------------------------------------------------------
 
 We now want to generate single mutants of EphA4 in the position 154 to see changes in the binding energy using Surfaces and in the complex flexibility using NRGTEN.
-Open the 'Modeller' menu. Press "Refresh" and select '2wo2' in the 'Object to mutate' and 'PHE154A' in the 'Selected residues(s):' list. Then mark 'ALL' in single mutations area.
+Open the 'Modeller' menu. Press "Refresh" and select 'Result_0' in the 'Object to mutate' and 'PHE154A' in the 'Selected residues(s):' list. Then mark 'ALL' in single mutations area.
 
 .. image:: images/Tutorial/tutorial_modeller_config.png
        :alt: An example image
        :width: 700px
        :align: center
+
+An object called 'Result_0_mutants' show be created. Each of the 19 single mutants will be loaded as a state in this object.
+Create a selection for the ligand in this new object:
+
+.. code-block::
+
+    select Ligand_mutants, resn LIG and Result_0_mutants
+
+Analysing the effect of transmutations in the interactions Nilotinib/EphA4 with Surfaces.
+------------------------------------------------------
+
+Open 'Surfaces' menu. Press button 'Refresh' in 'Surfaces selection:'. In 'Object:' list select 'Result_0' and 'Ligand' in the ligand list.
+Now press 'Refresh' in 'Surfaces selection 2:' area. Select 'Result_0_mutants' in 'Object2:' list and 'Ligand_mutants' in the ligand list. Then press 'Run Surfaces'.
+
+
+.. image:: images/Tutorial/Surfaces_mutants_config.png
+       :alt: An example image
+       :width: 700px
+       :align: center
+
+A list of CF of each mutant will be plotted in the tab 'Results'. The individual results for each mutant can be select in the 'individual results:' list.
+
+.. image:: images/Tutorial/Surfaces_results_table.png
+       :alt: An example image
+       :width: 700px
+       :align: center
+
+
 
