@@ -218,14 +218,14 @@ Open 'Surfaces' menu. Press button 'Refresh' in 'Surfaces selection:'. In 'Objec
 Now press 'Refresh' in 'Surfaces selection 2:' area. Select 'Result_0_mutants' in 'Object2:' list and 'Ligand_mutants' in the ligand list. Then press 'Run Surfaces'.
 
 
-.. image:: images/Tutorial/Surfaces_mutants_config.png
+.. image:: images/Tutorial/surfaces_mutants_config.png
        :alt: An example image
        :width: 700px
        :align: center
 
 A list of CF of each mutant will be plotted in the tab 'Results'. The individual results for each mutant can be select in the 'individual results:' list.
 
-.. image:: images/Tutorial/Surfaces_results_table.png
+.. image:: images/Tutorial/surfaces_results_table.png
        :alt: An example image
        :width: 700px
        :align: center
