@@ -150,12 +150,20 @@ A table with all surfaces results can be seen in the tab 'Results', press 'Refre
        :width: 700px
        :align: center
 
-A list view of all interactions is shown in the PyMOL interface in a group named: "surfaces_results". The table in 'Results' table is interactive. Individual residues can be selected by clicking the result name. A selection named:'sele_surefaces' is created with that specific residue:
+A list view of all interactions is shown in the PyMOL interface in a group named: "surfaces_results". The table in 'Results' table is interactive. Individual residues can be selected by clicking the result name. A selection named:'sele_surefaces' is created with that specific residue.
 
 .. image:: images/Tutorial/surfaces_result_view.png
        :alt: An example image
        :width: 700px
        :align: center
+
+Click on PHE154A int the result table and Run the command:
+
+.. code-block::
+
+    rename sele_surfaces, PHE154A
+
+a selection containing the residue F154 will be created.
 
 In the article the authors say: 'Nilotinib is predicted to form hydrogen bonds with Q71 in the D-E loop and T104 as well as hydrophobic interactions with F154, V157, I163, L166, A193, and V195.'
 Also, we can create a selection with the Top N residues by interection absolute value. Type 10 in the 'TOP N residues:' field and press the button 'Interface'. A selection called 'all_residues' is created.
@@ -184,3 +192,8 @@ We can also generate a dynamical ensemble of EphA4. Type '7' in the 'modes list:
        :alt: An example image
        :width: 700px
        :align: center
+
+Generating Nilotinib/EphA4 mutantes with modeller.
+------------------------------------------------------
+
+We now want to generate single mutants of EphA4 in the position 154 to see changes in the binding energy using Surfaces and in the complex flexibility using NRGTEN.
