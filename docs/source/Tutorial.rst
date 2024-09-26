@@ -66,14 +66,14 @@ The ligand rotations will remain at 9 (default).
 
 .. image:: images/Tutorial/NRG_dock_settings.png
        :alt: An example image
-       :width: 300px
+       :width: 700px
        :align: center
 
 Click the 'Run' tab. Press 'Refresh' on the target list and select '2wo2'. Press 'Refresh' in the 'Binding site' list and select 'receptor_sph_1'. Press 'Run' and wait until the progress bar is full.
 
 .. image:: images/Tutorial/nrg_dock_run.png
        :alt: An example image
-       :width: 300px
+       :width: 700px
        :align: center
 
 .. note::
@@ -97,7 +97,7 @@ Performing Docking of Nilotinib Using FlexAID
 
 Click the 'FlexAID' button in the left corner menu. Go to the 'Settings' tab. Set the 'Number of chromosomes' to 500 and 'Number of generations' to 500. Check the box 'Ligand pose as reference' to compare FLEXAID and NRGDock poses.
 
-.. image:: images/Tutorial/flexaid_config
+.. image:: images/Tutorial/flexaid_config.png
        :alt: An example image
        :width: 700px
        :align: center
@@ -161,7 +161,7 @@ Click on PHE154A int the result table and Run the command:
 
 .. code-block::
 
-    rename sele_surfaces, PHE154A
+    set_name sele_surfaces, PHE154A
 
 a selection containing the residue F154 will be created.
 
@@ -193,7 +193,14 @@ We can also generate a dynamical ensemble of EphA4. Type '7' in the 'modes list:
        :width: 700px
        :align: center
 
-Generating Nilotinib/EphA4 mutantes with modeller.
+Generating Nilotinib/EphA4 mutants with modeller.
 ------------------------------------------------------
 
 We now want to generate single mutants of EphA4 in the position 154 to see changes in the binding energy using Surfaces and in the complex flexibility using NRGTEN.
+Open the 'Modeller' menu. Press "Refresh" and select '2wo2' in the 'Object to mutate' and 'PHE154A' in the 'Selected residues(s):' list. Then mark 'ALL' in single mutations area.
+
+.. image:: images/Tutorial/tutorial_modeller_config.png
+       :alt: An example image
+       :width: 700px
+       :align: center
+
