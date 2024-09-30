@@ -211,7 +211,7 @@ Create a selection for the ligand in this new object:
 
     select Ligand_mutants, resn LIG and Result_0_mutants
 
-Analysing the effect of transmutations in the interactions Nilotinib/EphA4 with Surfaces.
+Analysing the effect of mutations in the interactions Nilotinib/EphA4 with Surfaces.
 ------------------------------------------------------
 
 Open 'Surfaces' menu. Press button 'Refresh' in 'Surfaces selection:'. In 'Object:' list select 'Result_0' and 'Ligand' in the ligand list.
@@ -231,4 +231,9 @@ A list of CF of each mutant will be plotted in the tab 'Results'. The individual
        :align: center
 
 A positive CF means that the biding is reduced in that mutant.
+
+Analysing the effect of mutations in the flexibility of Nilotinib/EphA4 complex with NRGTEN
+------------------------------------------------------
+
+Open the 'NRGTEN' menu
 
