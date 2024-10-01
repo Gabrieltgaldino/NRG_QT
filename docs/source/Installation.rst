@@ -13,14 +13,15 @@ Bellow we provide instructions on how to install Miniconda.
 .. _install-macos:
 
 Anaconda Installation
------
+---------------------
 
 .. _install-ana_macos:
 
 MacOS (x86_64)
 ~~~~~~~~~~~~~~~~~~
 .. note::
-    In your 'System Settings' in the session 'Private and Security' menu the option 'Allow applications from' should marked as 'App store and identified developers'.
+    In your 'System Settings', 'Private and Security' section verify that 'Allow applications from'
+    is marked as 'App store and identified developers'.
 
     .. image:: images/sucrity_mac.png
         :alt: An example image
@@ -30,7 +31,11 @@ MacOS (x86_64)
 Open 'Terminal':
     Open **Spotlight Search** by pressing:
 
-        **command** + **Space**
+    **command** + **Space**
+
+    Type in “Terminal.”
+
+    Click on the first result
 
 Paste the following command:
 
@@ -45,11 +50,24 @@ Paste the following command:
 
 close terminal and open it again.
 
-Windows
+Windows (from the anaconda website)
 ~~~~~~~~~~~~~~~~~~~
 
+#. Download the latest version of miniconda at the following link (Platform: Windows):
+    https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
+#. Double-click the downloaded .exe file.
+#. Follow the instructions on the screen. If you are unsure about any setting, accept the defaults. You can change them later.
+#. When the installation finishes, use the windows key and search for Anaconda Prompt.
+#. Click on it.
 
+Modeller (optional)
+---------------------
 
+In the open terminal window paste the following code and press enter:
+.. code-block:: console
+
+    conda config --add channels salilab
+    conda install modeller
 
 
 .. _Anaconda: https://docs.anaconda.com/anaconda/
