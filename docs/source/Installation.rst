@@ -18,7 +18,7 @@ Anaconda Installation
 .. _install-ana_macos:
 
 MacOS (x86_64)
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 .. note::
     In your 'System Settings', within the 'Private and Security' section, verify that 'Allow applications from'
     is marked as 'App store and identified developers'.
@@ -51,7 +51,7 @@ Paste the following command:
 Close terminal and open it again.
 
 Windows (from the anaconda website)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Download the latest version of miniconda at the following link (Platform: Windows):
     https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
@@ -80,22 +80,22 @@ The source code of latest release of NRG_QT version is available at: https://git
 .. _install-general-plugin:
 
 Download Plugin
-_______________
+---------------
 
 .. _download-plugin:
 
 MacOS
-~~~~~
+^^^^^
 
 Download ***NRGSuite_Qt_mac.zip*** by clicking on it under assets
 
 Windows
-~~~~~~~
+^^^^^^^
 
 Download ***Source code (zip)*** by clicking on it under assets
 
 Installation instructions
-_________________________
+-------------------------
 
 #. Open Pymol interface and click in **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
 
