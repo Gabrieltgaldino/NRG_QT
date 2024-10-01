@@ -74,9 +74,11 @@ You will be prompted after installation to edit a file to add your Modeller lice
 Plugin
 ======
 
-To save your work, press :kbd:`Ctrl` + :kbd:`S`.
+To save your work, press :kbd:`⌘` + :kbd:`Space`.
 
 .. _Anaconda: https://docs.anaconda.com/anaconda/
 .. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
 .. |command-key| image:: images/Installation/img.png
+    :width: 50px
+   :height: 50px
 .. |s-key| image:: path/to/s-key.png
