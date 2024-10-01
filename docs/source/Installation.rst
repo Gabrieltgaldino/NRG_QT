@@ -74,20 +74,29 @@ You will be prompted after installation to edit a file to add your Modeller lice
 Plugin
 ======
 
-.. _install-plugin-macos:
+.. _general-plugin:
 
 The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
 
+Download Plugin
+_______________
+
+.. _download-plugin:
+
 MacOS
----------------------
+~~~~~
 
 Download ***NRGSuite_Qt_mac.zip*** by clicking on it under assets
 
 Windows
----------------------
+~~~~~~~
 
 Download ***Source code (zip)*** by clicking on it under assets
 
+Download Plugin
+_______________
+
+.. _install-plugin:
 
 #. Open Pymol interface and click in **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
 
