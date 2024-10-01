@@ -33,7 +33,7 @@ Open 'Terminal':
 
         :kbd:`⌘` + :kbd:`Space`
 
-    Type in “Terminal.”
+    Type “Terminal”
 
     Click on the first result
 
@@ -91,34 +91,34 @@ Download "Source code (zip)" by clicking on it under assets
 
 #. Open Pymol interface and click in 'Plugin -> Plugin Manager -> Install New Plugin -> Choose file'.
 
-.. image:: images/pymol_interface.png
-       :alt: An example image
-       :width: 300px
-       :align: center
+    .. image:: images/pymol_interface.png
+           :alt: An example image
+           :width: 300px
+           :align: center
 
 #. Go to the directory of the source code and select 'NRGSuite_Qt.zip'  and click 'Open'.
 
-.. note::
-    If the file was downloaded via Safari and the zip was extracted and doesn't exist in the directory. Go to the extracted directory and click on the file '__ini__.py'.
+    .. note::
+        If the file was downloaded via Safari and the zip was extracted and doesn't exist in the directory. Go to the extracted directory and click on the file '__ini__.py'.
 
-    .. image:: images/inifig.png
-       :alt: An example image
-       :width: 300px
-       :align: center
+        .. image:: images/inifig.png
+           :alt: An example image
+           :width: 300px
+           :align: center
 
 #. Choose a directory for the installed plug-in.
 
-.. image:: images/plug-inpath.png
-       :alt: An example image
-       :width: 300px
-       :align: center
+    .. image:: images/plug-inpath.png
+           :alt: An example image
+           :width: 300px
+           :align: center
 
 #. Close and re-open pymol. The plug-in must be listed as 'NRGSuite_QT' the 'Plugin' menu and should be listed in the 'Installed Plugins' list in the 'Plugin Manager' window.
 
-.. image:: images/pluginlisted.png
-    :alt: An example image
-    :width: 300px
-    :align: center
+    .. image:: images/pluginlisted.png
+        :alt: An example image
+        :width: 300px
+        :align: center
 
 .. _Anaconda: https://docs.anaconda.com/anaconda/
 .. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
