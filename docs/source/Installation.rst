@@ -93,8 +93,8 @@ Windows
 
 Download ***Source code (zip)*** by clicking on it under assets
 
-Download Plugin
-_______________
+Installation instructions
+_________________________
 
 #. Open Pymol interface and click in **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
 
