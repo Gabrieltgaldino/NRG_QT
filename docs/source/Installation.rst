@@ -20,7 +20,7 @@ Anaconda Installation
 MacOS (x86_64)
 ~~~~~~~~~~~~~~~~~~
 .. note::
-    In your 'System Settings', 'Private and Security' section verify that 'Allow applications from'
+    In your 'System Settings', within the 'Private and Security' section, verify that 'Allow applications from'
     is marked as 'App store and identified developers'.
 
     .. image:: images/sucrity_mac.png
@@ -31,7 +31,7 @@ MacOS (x86_64)
 Open 'Terminal':
     Open **Spotlight Search** by pressing:
 
-    **command** + **Space**
+    |command-key| + **Space**
 
     Type in “Terminal.”
 
@@ -48,7 +48,7 @@ Paste the following command:
         ~/miniconda3/bin/conda init bash
         ~/miniconda3/bin/conda init zsh
 
-close terminal and open it again.
+Close terminal and open it again.
 
 Windows (from the anaconda website)
 ~~~~~~~~~~~~~~~~~~~
@@ -60,15 +60,23 @@ Windows (from the anaconda website)
 #. When the installation finishes, use the windows key and search for Anaconda Prompt.
 #. Click on it.
 
-Modeller (optional)
+Modeller (optional; requires license key)
 ---------------------
 
 In the open terminal window paste the following code and press enter:
-.. code-block:: console
 
+.. code-block:: console
     conda config --add channels salilab
     conda install modeller
 
+You will be prompted after installation to edit a file to add your Modeller license key.
+
+Plugin
+======
+
+To save your work, press :kbd:`Ctrl` + :kbd:`S`.
 
 .. _Anaconda: https://docs.anaconda.com/anaconda/
 .. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+.. |command-key| image:: images/Installation/img.png
+.. |s-key| image:: path/to/s-key.png
