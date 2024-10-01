@@ -74,7 +74,51 @@ You will be prompted after installation to edit a file to add your Modeller lice
 Plugin
 ======
 
-To save your work, press :kbd:`⌘` + :kbd:`Space`.
+.. _install-plugin-macos:
+
+The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
+
+MacOS
+---------------------
+
+Download "NRGSuite_Qt_mac.zip" by clicking on it under assets
+
+Windows
+---------------------
+
+Download "Source code (zip)" by clicking on it under assets
+
+
+#. Open Pymol interface and click in 'Plugin -> Plugin Manager -> Install New Plugin -> Choose file'.
+
+.. image:: images/pymol_interface.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+#. Go to the directory of the source code and select 'NRGSuite_Qt.zip'  and click 'Open'.
+
+.. note::
+    If the file was downloaded via Safari and the zip was extracted and doesn't exist in the directory. Go to the extracted directory and click on the file '__ini__.py'.
+
+    .. image:: images/inifig.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+#. Choose a directory for the installed plug-in.
+
+.. image:: images/plug-inpath.png
+       :alt: An example image
+       :width: 300px
+       :align: center
+
+#. Close and re-open pymol. The plug-in must be listed as 'NRGSuite_QT' the 'Plugin' menu and should be listed in the 'Installed Plugins' list in the 'Plugin Manager' window.
+
+.. image:: images/pluginlisted.png
+    :alt: An example image
+    :width: 300px
+    :align: center
 
 .. _Anaconda: https://docs.anaconda.com/anaconda/
 .. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
