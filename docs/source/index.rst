@@ -16,7 +16,7 @@ Contents
 --------
 
 .. toctree::
-
+    Installation_current
     Installation
     GetCleft
     NRGdock
