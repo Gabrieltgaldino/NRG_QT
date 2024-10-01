@@ -1,5 +1,5 @@
 ==================
-Installation (New)
+Installation
 ==================
 
 .. _installation:
