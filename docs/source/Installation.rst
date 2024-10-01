@@ -1,6 +1,6 @@
-============
+==================
 Installation (New)
-============
+==================
 
 .. _installation:
 
@@ -18,7 +18,7 @@ Anaconda Installation
 .. _install-ana_macos:
 
 MacOS (x86_64)
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 .. note::
     In your 'System Settings', within the 'Private and Security' section, verify that 'Allow applications from'
     is marked as 'App store and identified developers'.
@@ -51,7 +51,7 @@ Paste the following command:
 Close terminal and open it again.
 
 Windows (from the anaconda website)
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Download the latest version of miniconda at the following link (Platform: Windows):
     https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
@@ -61,11 +61,12 @@ Windows (from the anaconda website)
 #. Click on it.
 
 Modeller (optional; requires license key)
----------------------
+-----------------------------------------
 
 In the open terminal window paste the following code and press enter:
 
 .. code-block:: console
+
     conda config --add channels salilab
     conda install modeller
 
@@ -76,8 +77,12 @@ Plugin
 
 The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
 
+.. _install-general-plugin:
+
 Download Plugin
 _______________
+
+.. _download-plugin:
 
 MacOS
 ~~~~~
