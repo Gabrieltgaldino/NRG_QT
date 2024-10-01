@@ -10,7 +10,7 @@ how to install the project.
 
 .. note::
 
-   This project is under active development.
+   This project is under active development. Please contact rafael.najmanovich@umontreal.ca if you encounter any issues.
 
 Contents
 --------

@@ -1,20 +1,29 @@
+============
 Installation
-=====
+============
 
 .. _installation:
 
-Pymol Installation
-------------
+Pre-requisites
+==============
 
+To avoid operating system specific installation issues, we recommend to install pymol with `Anaconda`_ or `Miniconda`_.
+Bellow we provide instructions on how to install Miniconda.
+
+.. _intro-install-macos:
+
+MacOS
+-----
+
+Pymol Installation
+~~~~~~~~~~~~~~~~~~
 .. note::
-    For macOS users: In your 'System Settings' in the session 'Private and Security' menu the option 'Allow applications from' should marked as 'App store and identified developers'.
+    In your 'System Settings' in the session 'Private and Security' menu the option 'Allow applications from' should marked as 'App store and identified developers'.
 
     .. image:: images/sucrity_mac.png
         :alt: An example image
         :width: 300px
         :align: center
-
-    For users of older MACs (not M1) open 'Terminal' and type command:
 
     .. code-block:: console
 
@@ -57,6 +66,12 @@ and install modeller via conda:
 
 You will be prompted after installation to edit a file to add your Modeller license key.
 
+
+Plugin Installation
+~~~~~~~~~~~~~~~~~~~
+
+
+
 Plug-in installation
 ----------------
 
@@ -95,3 +110,5 @@ The source code of latest release of NRG_QT version is available at: https://git
     :width: 300px
     :align: center
 
+.. _Anaconda: https://docs.anaconda.com/anaconda/
+.. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
