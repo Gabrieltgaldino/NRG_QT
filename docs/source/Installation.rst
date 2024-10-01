@@ -31,7 +31,7 @@ MacOS (x86_64)
 Open 'Terminal':
     Open **Spotlight Search** by pressing:
 
-    |command-key| + **Space**
+        :kbd:`⌘` + :kbd:`Space`
 
     Type in “Terminal.”
 
@@ -78,7 +78,3 @@ To save your work, press :kbd:`⌘` + :kbd:`Space`.
 
 .. _Anaconda: https://docs.anaconda.com/anaconda/
 .. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
-.. |command-key| image:: images/Installation/img.png
-    :width: 50px
-   :height: 50px
-.. |s-key| image:: path/to/s-key.png
