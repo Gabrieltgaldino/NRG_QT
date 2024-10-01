@@ -74,9 +74,9 @@ You will be prompted after installation to edit a file to add your Modeller lice
 Plugin
 ======
 
-.. _install-general-plugin:
-
 The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
+
+.. _install-general-plugin:
 
 Download Plugin
 _______________
