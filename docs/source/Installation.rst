@@ -72,15 +72,15 @@ In the open terminal window paste the following code and press enter:
 
 You will be prompted after installation to edit a file to add your Modeller license key.
 
-Plugin
-======
-
-The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
+NRGSuite_Qt
+===========
 
 .. _install-general-plugin:
 
-Download Plugin
----------------
+Download NRGSuite_Qt
+--------------------
+
+The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
 
 .. _download-plugin:
 
