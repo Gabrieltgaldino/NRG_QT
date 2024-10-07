@@ -113,7 +113,7 @@ Installation instructions
 
         .. image:: images/installation/plugin_install_init.png
            :alt: An example image
-           :width: 300px
+           :width: 600px
            :align: center
 
 #. A prompt will appear to choose a directory for the installed plug-in. We recommend the suggested path
@@ -124,7 +124,7 @@ If the plugin has been installed correctly it will appear in the "Plugin" tab.
 
     .. image:: images/installation/installation_end.png
         :alt: An example image
-        :width: 500px
+        :width: 700px
         :align: center
 
 .. _Anaconda: https://docs.anaconda.com/anaconda/
