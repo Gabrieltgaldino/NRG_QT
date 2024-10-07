@@ -25,7 +25,7 @@ MacOS (x86_64)
 
     .. image:: images/installation/security.png
         :alt: Privacy and security
-        :width: 400px
+        :width: 500px
         :align: center
 
 Open 'Terminal':
@@ -99,9 +99,9 @@ Installation instructions
 
 #. Open Pymol interface and click in **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
 
-    .. image:: images/pymol_interface.png
+    .. image:: images/plugin_install.png
            :alt: An example image
-           :width: 300px
+           :width: 450px
            :align: center
 
 #. Go to the directory of the source code and select the downloaded ***.zip*** file and click 'Open'.
