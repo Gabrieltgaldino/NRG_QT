@@ -36,6 +36,6 @@ html_theme = 'sphinx_rtd_theme'
 epub_show_urls = 'footnote'
 
 def setup(app):
-    app.add_css_file('my_theme.css')
+    app.add_css_file('css/my_theme.css')
 
 html_static_path = ['_static']
