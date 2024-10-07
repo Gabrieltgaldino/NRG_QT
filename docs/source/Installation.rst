@@ -33,6 +33,8 @@ Open 'Terminal':
 
         :kbd:`⌘` + :kbd:`Space`
 
+.. apple website has keys
+
     Type “Terminal”
 
     Click on the first result
@@ -101,7 +103,7 @@ Installation instructions
 
     .. image:: images/installation/plugin_install.png
            :alt: An example image
-           :width: 450px
+           :width: 1000px
            :align: center
 
 #. Go to the directory of the source code and select the downloaded ***.zip*** file and click 'Open'.
@@ -109,23 +111,20 @@ Installation instructions
     .. note::
         If the file was downloaded via Safari and the zip was extracted and doesn't exist in the directory. Go to the extracted directory and click on the file '__ini__.py'.
 
-        .. image:: images/inifig.png
+        .. image:: images/installation/plugin_install_init.png
            :alt: An example image
            :width: 300px
            :align: center
 
-#. Choose a directory for the installed plug-in.
+#. A prompt will appear to choose a directory for the installed plug-in. We recommend the suggested path
 
-    .. image:: images/plug-inpath.png
-           :alt: An example image
-           :width: 300px
-           :align: center
 
-#. Close and re-open pymol. The plug-in must be listed as 'NRGSuite_QT' the 'Plugin' menu and should be listed in the 'Installed Plugins' list in the 'Plugin Manager' window.
+#. Close and open PyMol. If installed using anaconda you will need to write pymol in a terminal window and press enter.
+If the plugin has been installed correctly it will appear in the "Plugin" tab.
 
-    .. image:: images/pluginlisted.png
+    .. image:: images/installation/installation_end.png
         :alt: An example image
-        :width: 300px
+        :width: 500px
         :align: center
 
 .. _Anaconda: https://docs.anaconda.com/anaconda/
