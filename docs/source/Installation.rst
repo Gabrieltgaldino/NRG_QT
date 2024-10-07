@@ -24,8 +24,8 @@ MacOS (x86_64)
     is marked as 'App store and identified developers'.
 
     .. image:: images/installation/security.png
-        :alt: An example image
-        :width: 300px
+        :alt: Privacy and security
+        :width: 400px
         :align: center
 
 Open 'Terminal':
