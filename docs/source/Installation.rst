@@ -23,7 +23,7 @@ MacOS (x86_64)
     In your 'System Settings', within the 'Private and Security' section, verify that 'Allow applications from'
     is marked as 'App store and identified developers'.
 
-    .. image:: images/sucrity_mac.png
+    .. image:: images/installation/security.png
         :alt: An example image
         :width: 300px
         :align: center
