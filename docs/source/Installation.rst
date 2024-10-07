@@ -99,7 +99,7 @@ Installation instructions
 
 #. Open Pymol interface and click in **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
 
-    .. image:: images/plugin_install.png
+    .. image:: images/installation/plugin_install.png
            :alt: An example image
            :width: 450px
            :align: center
