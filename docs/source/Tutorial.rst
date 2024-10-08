@@ -267,3 +267,4 @@ A html. file will open showing the difference between the dynamical signature of
 Bind-site comparison between EphA4 and ABL kinase using ISOMIF
 ------------------------------------------------------
 
+A structure of ABL kinase in complex with Nalotinib is available in PDB (https://www.rcsb.org/structure/3cs9). We can use ISOMIF to compare both binding sites of EphA4 and ABL using molecular interaction field to identify geographically and chemically equivalent areas of their binding sites. This can give us an idea of how Nalotinib is capable of biding both proteins and what are the chemical properties that allows this binding.
