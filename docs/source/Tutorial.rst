@@ -264,7 +264,17 @@ A html. file will open showing the difference between the dynamical signature of
        :width: 700px
        :align: center
 
-Bind-site comparison between EphA4 and ABL kinase using ISOMIF
+Binding-site comparison between EphA4 and ABL kinase using ISOMIF
 ------------------------------------------------------
 
-A structure of ABL kinase in complex with Nalotinib is available in PDB (https://www.rcsb.org/structure/3cs9). We can use ISOMIF to compare both binding sites of EphA4 and ABL using molecular interaction field to identify geographically and chemically equivalent areas of their binding sites. This can give us an idea of how Nalotinib is capable of biding both proteins and what are the chemical properties that allows this binding.
+A structure of ABL kinase in complex with Nalotinib is available in PDB (https://www.rcsb.org/structure/3cs9). We can use ISOMIF to compare both binding sites of EphA4 and ABL using molecular interaction field to identify geographically and chemically equivalent areas of their binding sites. This can give us an idea of how Nalotinib is capable of biding both proteins and what are the chemical properties important for this process.
+
+To download and make a selection with the ligand in 3cs9, run these commands in pymol:
+
+.. code-block::
+
+    fetch 3cs9, type=pdb1
+    remove solvent
+    select Ligand_3cs9, resn NIL and 3cs9
+
+Open 'GetCleft' menu. Select 3cs9 in the 'PyMOL objects/selections:' list
