@@ -5,6 +5,9 @@ Tutorial
 
 .. _Lingand-Protein exemple:
 
+Eph4 drug repurposing
+========
+
 In this tutorial, we will reproduce the results of Gu S. et al. 2018 (https://www.nature.com/articles/s41598-018-25790-1). In their work, they searched a dataset of FDA-approved drugs for inhibitors of the receptor tyrosine kinase erythropoietin-producing hepatocellular A4 (EphA4). This receptor was identified as a molecular target for Alzheimer’s disease (AD). They selected and tested 22 molecules and found 5 potential inhibitors of EphA4. Specifically, nilotinib (https://go.drugbank.com/drugs/DB04868), a kinase inhibitor, inhibited the binding of EphA4 and ephrin-A at a micromolar scale in a dose-dependent manner. In this tutorial, we are going to use a structure of EphA4 (PDB code: 2wo2, https://www.rcsb.org/structure/2WO2), the same structure Gu S. et al. used in their work.
 
 Preparing the Target
