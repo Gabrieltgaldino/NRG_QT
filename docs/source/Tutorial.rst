@@ -259,7 +259,7 @@ A html. file will open showing the difference between the dynamical signature of
        :width: 700px
        :align: center
 
-.. image:: images/Tutorial/nrgten_res_mutants.png
+.. image:: images/Tutorial/nrgten_pymol_res_mutants.png
        :alt: An example image
        :width: 700px
        :align: center
