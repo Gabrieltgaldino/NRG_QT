@@ -3,6 +3,8 @@
 Tutorial
 ========
 
+.. _Lingand-Protein exemple:
+
 In this tutorial, we will reproduce the results of Gu S. et al. 2018 (https://www.nature.com/articles/s41598-018-25790-1). In their work, they searched a dataset of FDA-approved drugs for inhibitors of the receptor tyrosine kinase erythropoietin-producing hepatocellular A4 (EphA4). This receptor was identified as a molecular target for Alzheimer’s disease (AD). They selected and tested 22 molecules and found 5 potential inhibitors of EphA4. Specifically, nilotinib (https://go.drugbank.com/drugs/DB04868), a kinase inhibitor, inhibited the binding of EphA4 and ephrin-A at a micromolar scale in a dose-dependent manner. In this tutorial, we are going to use a structure of EphA4 (PDB code: 2wo2, https://www.rcsb.org/structure/2WO2), the same structure Gu S. et al. used in their work.
 
 Preparing the Target
@@ -235,5 +237,26 @@ A positive CF means that the biding is reduced in that mutant.
 Analysing the effect of mutations in the flexibility of Nilotinib/EphA4 complex with NRGTEN
 ------------------------------------------------------
 
-Open the 'NRGTEN' menu
+Open the 'NRGTEN' menu. Select 'RESULT_0' in the object list in the 'load object' menu. Select 'RESULT_0_mutants' in the 'Object 2' list. Press run in the dynamical signature menu.
+
+
+.. image:: images/Tutorial/nrgten_config_mutants.png
+       :alt: An example image
+       :width: 700px
+       :align: center
+
+A html. file will open showing the difference between the dynamical signature of the wildtype and the mutants. Also the differential will be plotted to the structure in pymol window in a group off objects called 'RESULT_0_mutants_dynasigdif'.
+
+.. image:: images/Tutorial/nrgten_graphic_plot_mutants.png
+       :alt: An example image
+       :width: 700px
+       :align: center
+
+.. image:: images/Tutorial/nrgten_res_mutants.png
+       :alt: An example image
+       :width: 700px
+       :align: center
+
+Bind-site comparison between EphA4 and ABL kinase using ISOMIF
+------------------------------------------------------
 
