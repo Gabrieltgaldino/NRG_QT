@@ -277,4 +277,19 @@ To download and make a selection with the ligand in 3cs9, run these commands in 
     remove solvent
     select Ligand_3cs9, resn NIL and 3cs9
 
-Open 'GetCleft' menu. Select 3cs9 in the 'PyMOL objects/selections:' list
+Open 'GetCleft' menu. Select 3cs9 in the 'PyMOL objects/selections:' list and press 'start'.
+
+.. image:: images/Tutorial/ISOMIF_getcleft_config.png
+       :alt: An example image
+       :width: 700px
+       :align: center
+
+The first cleft will be the one containing the ligand in 3cs9. We can now open ISOMIF menu and in the "Load object 1" area select "3cs9" in "Object 1" list, "3cs9_sph_1" in the "Cleft" list and "Ligand_3cs9" in "LIG" list.
+In the "Load object 2" area select RESULT_0 in the "Object 2" list, "RESULT_0_sph_1" in the "Cleft" list and "Ligand" list.
+Press "Run".
+
+.. image:: images/Tutorial/ISOMIF_config.png
+       :alt: An example image
+       :width: 700px
+       :align: center
+
