@@ -35,3 +35,5 @@ The generated clefts will be displayed in pymol and marked according to their vo
        :alt: An example image
        :width: 700px
        :align: center
+
+In the case where a ligand or residue was given in the "Residue in contact" line edit, only the clefts in contact with the ligand/residue indicated will be displayed.
