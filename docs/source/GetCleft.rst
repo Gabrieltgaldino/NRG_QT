@@ -11,7 +11,7 @@ Press 'Refresh' in the 'Select a structure' session and the select the target in
 
 .. image:: images/GetCleft/GetCleft_menu.png
        :alt: An example image
-       :width: 300px
+       :width: 700px
        :align: center
 
 .. note::
@@ -33,5 +33,5 @@ The generated clefts will be displayed in pymol and marked according to their vo
 
 .. image:: images/GetCleft/Clefts_2wo2.png
        :alt: An example image
-       :width: 300px
+       :width: 700px
        :align: center
