@@ -9,7 +9,7 @@ To use it, open the plug-in on the 'Plugin' menu in pymol click on the 'GetCleft
 Load the structure of the target in Pymol.
 Press 'Refresh' in the 'Select a structure' session and the select the target in the 'PyMOL objects/selections:' list.
 
-.. image:: images/GetCleft_menu.png
+.. image:: images/GetCleft/GetCleft_menu.png
        :alt: An example image
        :width: 300px
        :align: center
@@ -31,7 +31,7 @@ GetCleft will output the top N clefts defined in "Number of clefts to show" (def
 
 The generated clefts will be displayed in pymol and marked according to their volume:
 
-.. image:: images/Clefts_2wo2.png
+.. image:: images/GetCleft/Clefts_2wo2.png
        :alt: An example image
        :width: 300px
        :align: center
