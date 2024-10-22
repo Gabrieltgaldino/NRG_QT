@@ -33,7 +33,7 @@ The 'Progress bar' will indicate how many generations have passed in the genetic
 
 The scores for the top 5 poses are shown under the buttons. The 'CF' is the scoring for the pose (a more negative CF indicates a better score).
 
-.. image:: images/Flexaid/results_flex_tut.png
+.. image:: images/Flexaid/flexaid_result.png
        :alt: An example image
        :width: 700px
        :align: center
