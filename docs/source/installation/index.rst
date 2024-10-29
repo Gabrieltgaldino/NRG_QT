@@ -1,11 +1,13 @@
+.. _installation:
+
 ==================
 Installation guide
 ==================
+
 hello, welcome
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   step1
-   step2
-   step3
+   prerequisits/index
+   nrgsuite_qt/nrgsuite
