@@ -8,7 +8,6 @@ Bellow we provide instructions on how to install Miniconda.
 .. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
 
 .. toctree::
-   :maxdepth: 2
 
    sub_prerequisites/miniconda
    sub_prerequisites/pymol
