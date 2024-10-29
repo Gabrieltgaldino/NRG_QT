@@ -21,7 +21,7 @@ Installation instructions
 
 #. Open Pymol interface and click in **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
 
-    .. image:: _static/images/installation/plugin_install.png
+    .. image:: ../../_static/images/installation/plugin_install.png
            :alt: An example image
            :width: 1000px
            :align: center
@@ -31,7 +31,7 @@ Installation instructions
     .. note::
         If the file was downloaded via Safari and the zip was extracted and doesn't exist in the directory. Go to the extracted directory and click on the file '__ini__.py'.
 
-        .. image:: _static/images/installation/plugin_install_init.png
+        .. image:: ../../_static/images/installation/plugin_install_init.png
            :alt: An example image
            :width: 600px
            :align: center
@@ -42,7 +42,7 @@ Installation instructions
 #. Close and open PyMol. If installed using anaconda you will need to write pymol in a terminal window and press enter.
 If the plugin has been installed correctly it will appear in the "Plugin" tab.
 
-    .. image:: _static/images/installation/installation_end.png
+    .. image:: ../../_static/images/installation/installation_end.png
         :alt: An example image
         :width: 700px
         :align: center
