@@ -16,7 +16,10 @@ Contents
 --------
 
 .. toctree::
+    :maxdepth: 2
+
     Installation
+    installation/index
     GetCleft
     NRGdock
     FlexAID
