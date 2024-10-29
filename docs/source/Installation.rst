@@ -129,3 +129,7 @@ If the plugin has been installed correctly it will appear in the "Plugin" tab.
 
 .. _Anaconda: https://docs.anaconda.com/anaconda/
 .. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+
+.. toctree::
+   :maxdepth: 1
+   prerequisites
