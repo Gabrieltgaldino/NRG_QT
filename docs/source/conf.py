@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'NRG-qt'
+project = 'NRGSuite-Qt'
 copyright = '2024, DesCoteaux and Galdino'
 author = 'DesCoteaux and Galdino'
 
