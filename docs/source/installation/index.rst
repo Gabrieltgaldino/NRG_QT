@@ -1,4 +1,5 @@
-Installation Guide
+==================
+Installation guide
 ==================
 hello, welcome
 
