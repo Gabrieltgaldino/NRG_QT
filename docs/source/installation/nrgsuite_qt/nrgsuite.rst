@@ -42,7 +42,7 @@ Installation instructions
 #. Close and open PyMol. If installed using anaconda you will need to write pymol in a terminal window and press enter.
 If the plugin has been installed correctly it will appear in the "Plugin" tab.
 
-    .. image:: ../../_static/images/installation/installation_end.png
+    .. image:: /_static/images/installation/installation_end.png
         :alt: An example image
         :width: 700px
         :align: center

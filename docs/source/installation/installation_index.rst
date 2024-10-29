@@ -4,8 +4,6 @@
 Installation
 ============
 
-hello, welcome
-
 .. toctree::
 
    prerequisites/index
