@@ -11,7 +11,7 @@ FlexAID (https://pubs.acs.org/doi/10.1021/acs.jcim.5b00078) is a docking algorit
 
 Click on the 'FlexAID' button in the main menu on the left side of the plugin interface. In the 'Settings' tab, set the 'Number of generations' and 'Number of chromosomes' for the FlexAID genetic algorithm. We recommend increasing the 'Number of generations' and 'Number of chromosomes' from the default 500/500 to 1000/1000 or even 2000/2000 (this may take more than 30 minutes on certain laptops) for large binding pockets and large ligands.
 
-.. image:: images/Flexaid/flexaid_settings.png
+.. image:: _static/images/Flexaid/flexaid_settings.png
        :alt: An example image
        :width: 700px
        :align: center
@@ -22,7 +22,7 @@ The button 'Retrieve NRGDock ligands' should be used if :doc:`Surfaces` was prev
 
 The white box will display the path to the results folder once the simulation is complete.
 
-.. image:: images/Flexaid/flexaid_simulate.png
+.. image:: _static/images/Flexaid/flexaid_simulate.png
        :alt: An example image
        :width: 700px
        :align: center
@@ -33,7 +33,7 @@ The 'Progress bar' will indicate how many generations have passed in the genetic
 
 The scores for the top 5 poses are shown under the buttons. The 'CF' is the scoring for the pose (a more negative CF indicates a better score).
 
-.. image:: images/Flexaid/flexaid_result.png
+.. image:: _static/images/Flexaid/flexaid_result.png
        :alt: An example image
        :width: 700px
        :align: center

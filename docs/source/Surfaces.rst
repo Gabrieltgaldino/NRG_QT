@@ -16,14 +16,14 @@ Surfaces to protein-ligand interactions
 
 Select surfaces in the main menu on the left corner of the plug-in. Press 'Refresh' and select the FlexAID result in 'Result to run surfaces on' list. Press the button 'Run Surfaces'.
 
-.. image:: images/surf_menu.png
+.. image:: _static/images/surf_menu.png
        :alt: An example image
        :width: 700px
        :align: center
 
 The visual of surfaces will be shown in the pymol window.
 
-.. image:: images/surf-plot.png
+.. image:: _static/images/surf-plot.png
        :alt: An example image
        :width: 700px
        :align: center

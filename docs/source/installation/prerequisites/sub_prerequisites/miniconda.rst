@@ -9,7 +9,7 @@ MacOS (x86_64)
     In your 'System Settings', within the 'Private and Security' section, verify that 'Allow applications from'
     is marked as 'App store and identified developers'.
 
-    .. image:: images/installation/security.png
+    .. image:: _static/_static/images/installation/security.png
         :alt: Privacy and security
         :width: 500px
         :align: center
