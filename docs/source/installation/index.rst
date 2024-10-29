@@ -1,8 +1,8 @@
 .. _installation:
 
-==================
-Installation guide
-==================
+============
+Installation
+============
 
 hello, welcome
 
