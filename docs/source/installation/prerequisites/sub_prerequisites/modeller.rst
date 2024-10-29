@@ -1,7 +1,7 @@
 Modeller (optional; requires license key)
 -----------------------------------------
 
-In the open terminal window paste the following code and press enter:
+Paste the following command in Terminal (MacOS) or Anaconda Prompt (Windows) and press :kbd:`Enter`:
 
 .. code-block:: console
 
