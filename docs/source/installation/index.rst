@@ -9,5 +9,5 @@ hello, welcome
 .. toctree::
    :maxdepth: 2
 
-   prerequisits/index
+   prerequisites/index
    nrgsuite_qt/nrgsuite
