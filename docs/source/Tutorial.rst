@@ -202,11 +202,11 @@ We can also generate a dynamical ensemble of EphA4. Type '7' in the 'modes list:
        :width: 700px
        :align: center
 
-Generating Nilotinib/EphA4 mutants with modeller.
+Generating Nilotinib/EphA4 mutants with MODELLER.
 ------------------------------------------------------
 
 We now want to generate single mutants of EphA4 in the position 154 to see changes in the binding energy using Surfaces and in the complex flexibility using NRGTEN.
-Open the 'Modeller' menu. Press "Refresh" and select 'Result_0' in the 'Object to mutate' and 'PHE154A' in the 'Selected residues(s):' list. Then mark 'ALL' in single mutations area.
+Open the 'MODELLER' menu. Press "Refresh" and select 'Result_0' in the 'Object to mutate' and 'PHE154A' in the 'Selected residues(s):' list. Then mark 'ALL' in single mutations area.
 
 .. image:: _static/images/Tutorial/tutorial_modeller_config.png
        :alt: An example image

@@ -25,5 +25,5 @@ Contents
     Surfaces
     NRGTEN
     ISOMIF
-    Single-mutations (Using Modeller)
+    Single-mutations (Using MODELLER)
     Tutorial
