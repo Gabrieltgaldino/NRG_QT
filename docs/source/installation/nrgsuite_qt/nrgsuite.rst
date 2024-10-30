@@ -4,7 +4,7 @@ NRGSuite_Qt
 Download NRGSuite_Qt
 --------------------
 
-The source code of latest release of NRG_QT version is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
+The latest release of NRGSuite-Qt is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
 
 MacOS
 ^^^^^

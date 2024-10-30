@@ -48,7 +48,7 @@ Run the commands:
 Defining Binding Site Area of EphA4
 -----------------------------------
 
-Open the NRGqt plugin from the PyMOL plugin menu and click on the button 'GetCleft' (see :doc:`GetCleft`). Click 'Refresh', select '2wo2', and press 'Play'.
+Open the NRGSuite-Qt plugin from the PyMOL plugin menu and click on the button 'GetCleft' (see :doc:`GetCleft`). Click 'Refresh', select '2wo2', and press 'Play'.
 
 .. image:: _static/images/Tutorial/get_cleft_2wo2.png
        :alt: An example image
