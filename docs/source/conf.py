@@ -35,6 +35,7 @@ html_logo = "_static/images/main_menu/logo.png"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+html_theme_options = {'logo_only': True}
 
 def setup(app):
     app.add_css_file('css/my_theme.css')
