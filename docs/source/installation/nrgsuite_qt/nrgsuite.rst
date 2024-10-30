@@ -16,8 +16,8 @@ Windows
 
 Download ***Source code (zip)*** by clicking on it under assets
 
-Installation instructions
--------------------------
+Installing NRGSuite-Qt
+----------------------
 
 #. Open Pymol interface and click in **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
 
