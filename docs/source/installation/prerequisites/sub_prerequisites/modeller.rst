@@ -1,5 +1,7 @@
-Modeller (optional; requires license key)
+MODELLER (optional; requires license key)
 -----------------------------------------
+
+MODELLER is available free for academic non-profit institutions. You can obtain a key here: https://salilab.org/modeller/registration.html
 
 Paste the following command in Terminal (MacOS) or Anaconda Prompt (Windows) and press :kbd:`Enter`:
 
@@ -8,6 +10,4 @@ Paste the following command in Terminal (MacOS) or Anaconda Prompt (Windows) and
     conda config --add channels salilab
     conda install modeller
 
-You will be prompted after installation to edit a file to add your Modeller license key.
-
-MODELLER is available free for academic non-profit institutions. You can obtain a key here: https://salilab.org/modeller/registration.html
+You will be prompted after installation to edit a file to add your MODELLER license key to a config.py file.
