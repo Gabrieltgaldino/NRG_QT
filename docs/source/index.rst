@@ -19,6 +19,7 @@ Contents
     :maxdepth: 2
 
     installation/installation_index
+    Uninstalling
     GetCleft
     NRGdock
     FlexAID
