@@ -9,10 +9,10 @@ To use it, open the plug-in on the 'Plugin' menu in pymol click on the 'GetCleft
 Load the structure of the target in Pymol. test
 Press 'Refresh' in the 'Select a structure' session and the select the target in the 'PyMOL objects/selections:' list.
 
-.. figure:: _static/images/GetCleft/GetCleft_menu.png
-       :alt: An example image
-       :width: 50%
-       :align: center
+    .. figure:: _static/images/GetCleft/GetCleft_menu.png
+           :alt: An example image
+           :width: 50%
+           :align: center
 
 .. note::
     To understand better the parameters of GetCleft read the manual for NRGsuite: http://biophys.umontreal.ca/nrg/ewExternalFiles/NRGsuite_Guide.pdf
@@ -31,9 +31,10 @@ GetCleft will output the top N clefts defined in "Number of clefts to show" (def
 
 The generated clefts will be displayed in pymol and marked according to their volume:
 
-.. image:: _static/images/GetCleft/Clefts_2wo2.png
-       :alt: An example image
-       :width: 700px
-       :align: center
+    .. image:: _static/images/GetCleft/Clefts_2wo2.png
+           :alt: An example image
+           :width: 700px
+           :align: center
+
 
 In the case where a ligand or residue was given in the "Residue in contact" line edit, only the clefts in contact with the ligand/residue indicated will be displayed.
