@@ -163,7 +163,7 @@ A list view of all interactions is shown in the PyMOL interface in a group named
 
     .. image:: _static/images/Tutorial/surfaces_result_view.png
            :alt: An example image
-           :width: 80%
+           :width: 100%
            :align: center
 
 Click on PHE154A int the result table and Run the command:
