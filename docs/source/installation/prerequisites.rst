@@ -28,8 +28,6 @@ Open 'Terminal':
 
         :kbd:`⌘` + :kbd:`Space`
 
-.. apple website has keys
-
     Type “Terminal”
 
     Click on the first result
@@ -57,10 +55,25 @@ Windows (from the anaconda website)
 #. When the installation finishes, use the windows key and search for Anaconda Prompt.
 #. Click on it.
 
-MODELLER
-========
+MODELLER  (optional; requires license key)
+==========================================
+
+MODELLER is available free for academic non-profit institutions. You can obtain a key here: https://salilab.org/modeller/registration.html
+
+Paste the following command in Terminal (MacOS) or Anaconda Prompt (Windows) and press :kbd:`Enter`:
+
+    .. code-block:: console
+
+        conda config --add channels salilab
+        conda install modeller
+
+You will be prompted after installation to edit a file to add your MODELLER license key to a config.py file.
 
 PyMOL
 =====
 
+Paste the following command in Terminal (MacOS) or Anaconda Prompt (Windows) and press :kbd:`Enter`:
 
+    .. code-block:: console
+
+        conda install conda-forge::pymol-open-source
