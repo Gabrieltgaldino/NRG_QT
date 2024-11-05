@@ -13,9 +13,7 @@ Miniconda
 
 .. tabs::
 
-    .. group-tab::
-
-        MacOS
+    .. group-tab:: MacOS
 
         .. note::
             In your 'System Settings', within the 'Private and Security' section, verify that 'Allow applications from'
@@ -48,12 +46,9 @@ Miniconda
 
         Close terminal and open it again.
 
-    .. group-tab::
+    .. group-tab:: Windows
 
-        Windows
-
-        #. Download the latest version of miniconda at the following link (Platform: Windows):
-        https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
+        #. Download the latest version of miniconda at the following link (Platform: Windows): https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
         #. Double-click the downloaded .exe file.
         #. Follow the instructions on the screen. If you are unsure about any setting, accept the defaults. You can change them later.
         #. When the installation finishes, use the windows key and search for Anaconda Prompt.
