@@ -18,6 +18,7 @@ Contents
 
 .. toctree::
     :maxdepth: 2
+    :hidden:
     :caption: Getting Started
 
     installation/installation_index
@@ -25,12 +26,14 @@ Contents
 
 .. toctree::
     :maxdepth: 2
+    :hidden:
     :caption: Case Studies
 
     case_studies/case_study_index
 
 .. toctree::
     :maxdepth: 2
+    :hidden:
     :caption: Software Description
 
     software_description/software_description_index
