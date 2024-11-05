@@ -2,18 +2,15 @@
 Pre-requisites
 ==============
 
-To avoid operating system specific installation issues, we recommend to install PyMOL with `Anaconda`_ or `Miniconda`_.
-Bellow we provide instructions on how to install Miniconda.
-
-.. _Anaconda: https://docs.anaconda.com/anaconda/
-.. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
-
-Miniconda
-=========
-
 .. tabs::
 
     .. tab:: Miniconda
+
+        To avoid operating system specific installation issues, we recommend to install PyMOL with `Anaconda`_ or `Miniconda`_.
+        Bellow we provide instructions on how to install Miniconda.
+
+        .. _Anaconda: https://docs.anaconda.com/anaconda/
+        .. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
 
         .. tabs::
 
@@ -58,7 +55,7 @@ Miniconda
                 #. When the installation finishes, use the windows key and search for Anaconda Prompt.
                 #. Click on it.
 
-    .. tab:: MODELLER
+    .. tab:: MODELLER (optional; requires license key)
 
         MODELLER is available free for academic non-profit institutions. You can obtain a key here: https://salilab.org/modeller/registration.html
 
