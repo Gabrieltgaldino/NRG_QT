@@ -41,7 +41,7 @@ Bellow we provide instructions on how to install Miniconda.
                 Open 'Terminal':
                     #. Open **Spotlight Search** by pressing :kbd:`⌘` + :kbd:`Space`
 
-                    #. Type “Terminal”
+                    #. Type "Terminal"
 
                     #. Click on the first result
 
