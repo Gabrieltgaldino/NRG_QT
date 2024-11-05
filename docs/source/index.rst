@@ -21,19 +21,13 @@ Contents
     :caption: Getting Started
 
     installation/installation_index
-    Uninstalling
+    Removing NRGSuite <installation/Uninstalling>
 
 .. toctree::
     :maxdepth: 2
     :caption: Software Description
 
-    GetCleft
-    NRGDock
-    FlexAID
-    Surfaces
-    NRGTEN
-    IsoMIF
-    Single Mutations <Single_Mutations>
+    software_description/software_description_index
 
 .. toctree::
     :maxdepth: 2
