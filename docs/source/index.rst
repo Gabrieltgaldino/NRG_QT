@@ -37,6 +37,6 @@ Contents
 
 .. toctree::
     :maxdepth: 2
-    :caption: Examples
+    :caption: Case Studies
 
-    Tutorial
+    case_studies/case_study_index

@@ -1,21 +1,13 @@
-
-========
-Tutorial
-========
-
-.. _Tutorial:
-
-
-
+===============================================
 Eph4 drug repurposing (Ligand-Protein analysis)
-========
+===============================================
 
 In this tutorial, we will reproduce the results of Gu S. et al. 2018 (https://www.nature.com/articles/s41598-018-25790-1). In their work, they searched a dataset of FDA-approved drugs for inhibitors of the receptor tyrosine kinase erythropoietin-producing hepatocellular A4 (EphA4). This receptor was identified as a molecular target for Alzheimer’s disease (AD). They selected and tested 22 molecules and found 5 potential inhibitors of EphA4. Specifically, nilotinib (https://go.drugbank.com/drugs/DB04868), a kinase inhibitor, inhibited the binding of EphA4 and ephrin-A at a micromolar scale in a dose-dependent manner. In this tutorial, we are going to use a structure of EphA4 (PDB code: 2wo2, https://www.rcsb.org/structure/2WO2), the same structure Gu S. et al. used in their work.
 
 .. _Eph4 drug repurposing (Ligand-Protein analysis):
 
 Preparing the Target
---------------------
+====================
 
 Open PyMOL and run the command:
 
@@ -46,7 +38,7 @@ Run the commands:
 
 
 Defining Binding Site Area of EphA4
------------------------------------
+===================================
 
 Open the NRGSuite-Qt plugin from the PyMOL plugin menu and click on the button 'GetCleft' (see :doc:`GetCleft`). Click 'Refresh', select '2wo2', and press 'Play'.
 
@@ -65,7 +57,7 @@ The cleft with the largest volume, 'receptor_sph_1', is the one we will use for 
 
 
 Running the FDA-Approved-Drugs Ligand Set on EphA4 (this can take up to 30 minutes on certain laptops)
-------------------------------------------------------------------------------------------------------
+======================================================================================================
 
 In the plugin interface, click the 'NRGdock' button in the left corner. Go to the 'Settings' tab.
 
@@ -102,7 +94,7 @@ You can access the complete list of results of NRGdock by opening the '.csv' fil
 To obtain a more realistic pose of the nilotinib/EphA4 complex, we will re-do the docking simulation for nilotinib using FlexAID.
 
 Performing Docking of Nilotinib Using FlexAID
----------------------------------------------
+=============================================
 
 Click the 'FlexAID' button in the left corner menu. Go to the 'Settings' tab. Set the 'Number of chromosomes' to 500 and 'Number of generations' to 500. Check the box 'Ligand pose as reference' to compare FLEXAID and NRGDock poses.
 
@@ -135,7 +127,7 @@ The top 10 results will be plotted in the PyMOL interface in a group called Flex
 
 
 Visualizing Nilotinib/EphA4 Interactions with Surfaces
-------------------------------------------------------
+======================================================
 
 We will now run the Surfaces for the top pose of FLEXAID.
 Make a selection for the ligand:
@@ -179,7 +171,7 @@ Also, we can create a selection with the Top N residues by interection absolute 
 
 
 Analysing Nilotinib/EphA4 with Normal Mode Analysis
-------------------------------------------------------
+===================================================
 
 We can now run calculate the dynamical signature for the complex using NRGTEN. In 'NRGTEN' menu, in the 'Load object' area press 'Refresh'. Select 'RESULT_O' the 'Object:' list and 'Ligand' in the ligand 'List'. In the Dynamical Signature area write 1 in the 'Beta' field and press 'Run'.
 
@@ -203,7 +195,7 @@ We can also generate a dynamical ensemble of EphA4. Type '7' in the 'modes list:
            :align: center
 
 Generating Nilotinib/EphA4 mutants with MODELLER.
-------------------------------------------------------
+=================================================
 
 We now want to generate single mutants of EphA4 in the position 154 to see changes in the binding energy using Surfaces and in the complex flexibility using NRGTEN.
 Open the 'MODELLER' menu. Press "Refresh" and select 'Result_0' in the 'Object to mutate' and 'PHE154A' in the 'Selected residues(s):' list. Then mark 'ALL' in single mutations area.
@@ -221,7 +213,7 @@ Create a selection for the ligand in this new object:
         select Ligand_mutants, resn LIG and Result_0_mutants
 
 Analysing the effect of mutations in the interactions Nilotinib/EphA4 with Surfaces.
-------------------------------------------------------
+====================================================================================
 
 Open 'Surfaces' menu. Press button 'Refresh' in 'Surfaces selection:'. In 'Object:' list select 'Result_0' and 'Ligand' in the ligand list.
 Now press 'Refresh' in 'Surfaces selection 2:' area. Select 'Result_0_mutants' in 'Object2:' list and 'Ligand_mutants' in the ligand list. Then press 'Run Surfaces'.
@@ -242,7 +234,7 @@ A list of CF of each mutant will be plotted in the tab 'Results'. The individual
 A positive CF means that the biding is reduced in that mutant.
 
 Analysing the effect of mutations in the flexibility of Nilotinib/EphA4 complex with NRGTEN
-------------------------------------------------------
+===========================================================================================
 
 Open the 'NRGTEN' menu. Select 'RESULT_0' in the object list in the 'load object' menu. Select 'RESULT_0_mutants' in the 'Object 2' list. Press run in the dynamical signature menu.
 
@@ -265,7 +257,7 @@ A html. file will open showing the difference between the dynamical signature of
            :align: center
 
 Binding-site comparison between EphA4 and ABL kinase using ISOMIF
-------------------------------------------------------
+=================================================================
 
 A structure of ABL kinase in complex with Nalotinib is available in PDB (https://www.rcsb.org/structure/3cs9). We can use ISOMIF to compare both binding sites of EphA4 and ABL using molecular interaction field to identify geographically and chemically equivalent areas of their binding sites. This can give us an idea of how Nalotinib is capable of biding both proteins and what are the chemical properties important for this process.
 
@@ -294,7 +286,3 @@ Press "Run".
            :align: center
 
 
-
-Spike Variant (Protein-Protein analysis)
-========
-.. _Spike variant (Protein-Protein analysis):
