@@ -1,5 +1,4 @@
-Case Studies
-============
+.. _case_studies:
 
 .. toctree::
 
