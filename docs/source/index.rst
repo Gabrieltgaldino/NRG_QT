@@ -27,5 +27,5 @@ Contents
     Surfaces
     NRGTEN
     IsoMIF
-    Single Mutations
+    Single Mutations <Single_Mutations>
     Tutorial
