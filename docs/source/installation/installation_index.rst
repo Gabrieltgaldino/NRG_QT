@@ -17,3 +17,4 @@ Only install the plugin:
 ------------------------
 
 :doc:`/installation/nrgsuite_qt/nrgsuite`
+
