@@ -13,67 +13,68 @@ Miniconda
 
 .. tabs::
 
-    .. group-tab:: MacOS
+    .. tab:: Miniconda
 
-        .. note::
-            In your 'System Settings', within the 'Private and Security' section, verify that 'Allow applications from'
-            is marked as 'App store and identified developers'.
+        .. tabs::
 
-            .. image:: /_static/images/installation/security.png
-                :alt: Privacy and security
-                :width: 65%
-                :align: center
+            .. group-tab:: MacOS
 
-        Open 'Terminal':
-            Open **Spotlight Search** by pressing:
+                .. note::
+                    In your 'System Settings', within the 'Private and Security' section, verify that 'Allow applications from'
+                    is marked as 'App store and identified developers'.
 
-                :kbd:`⌘` + :kbd:`Space`
+                    .. image:: /_static/images/installation/security.png
+                        :alt: Privacy and security
+                        :width: 65%
+                        :align: center
 
-            Type “Terminal”
+                Open 'Terminal':
+                    Open **Spotlight Search** by pressing:
 
-            Click on the first result
+                        :kbd:`⌘` + :kbd:`Space`
 
-        Paste the following command:
+                    Type “Terminal”
+
+                    Click on the first result
+
+                Paste the following command:
+
+                    .. code-block:: console
+
+                            mkdir -p ~/miniconda3
+                            curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o ~/miniconda3/miniconda.sh
+                            bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+                            rm ~/miniconda3/miniconda.sh
+                            ~/miniconda3/bin/conda init bash
+                            ~/miniconda3/bin/conda init zsh
+
+                Close terminal and open it again.
+
+            .. group-tab:: Windows
+
+                #. Download the latest version of miniconda at the following link (Platform: Windows): https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
+                #. Double-click the downloaded .exe file.
+                #. Follow the instructions on the screen. If you are unsure about any setting, accept the defaults. You can change them later.
+                #. When the installation finishes, use the windows key and search for Anaconda Prompt.
+                #. Click on it.
+
+    .. tab:: MODELLER
+
+        MODELLER is available free for academic non-profit institutions. You can obtain a key here: https://salilab.org/modeller/registration.html
+
+        Paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter`:
 
             .. code-block:: console
 
-                    mkdir -p ~/miniconda3
-                    curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o ~/miniconda3/miniconda.sh
-                    bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-                    rm ~/miniconda3/miniconda.sh
-                    ~/miniconda3/bin/conda init bash
-                    ~/miniconda3/bin/conda init zsh
+                conda config --add channels salilab
+                conda install modeller
 
-        Close terminal and open it again.
+        You will be prompted after installation to edit a file to add your MODELLER license key to a config.py file.
 
-    .. group-tab:: Windows
+    .. tab:: PyMOL
 
-        #. Download the latest version of miniconda at the following link (Platform: Windows): https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
-        #. Double-click the downloaded .exe file.
-        #. Follow the instructions on the screen. If you are unsure about any setting, accept the defaults. You can change them later.
-        #. When the installation finishes, use the windows key and search for Anaconda Prompt.
-        #. Click on it.
+        Paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter`:
 
+            .. code-block:: console
 
-MODELLER  (optional; requires license key)
-==========================================
-
-MODELLER is available free for academic non-profit institutions. You can obtain a key here: https://salilab.org/modeller/registration.html
-
-Paste the following command in Terminal (MacOS) or Anaconda Prompt (Windows) and press :kbd:`Enter`:
-
-    .. code-block:: console
-
-        conda config --add channels salilab
-        conda install modeller
-
-You will be prompted after installation to edit a file to add your MODELLER license key to a config.py file.
-
-PyMOL
-=====
-
-Paste the following command in Terminal (MacOS) or Anaconda Prompt (Windows) and press :kbd:`Enter`:
-
-    .. code-block:: console
-
-        conda install conda-forge::pymol-open-source
+                conda install conda-forge::pymol-open-source
