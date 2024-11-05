@@ -27,14 +27,14 @@ Open 'Terminal':
 
 Paste the following command:
 
-.. code-block:: console
+    .. code-block:: console
 
-        mkdir -p ~/miniconda3
-        curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o ~/miniconda3/miniconda.sh
-        bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-        rm ~/miniconda3/miniconda.sh
-        ~/miniconda3/bin/conda init bash
-        ~/miniconda3/bin/conda init zsh
+            mkdir -p ~/miniconda3
+            curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -o ~/miniconda3/miniconda.sh
+            bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+            rm ~/miniconda3/miniconda.sh
+            ~/miniconda3/bin/conda init bash
+            ~/miniconda3/bin/conda init zsh
 
 Close terminal and open it again.
 

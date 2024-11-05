@@ -5,9 +5,9 @@ MODELLER is available free for academic non-profit institutions. You can obtain 
 
 Paste the following command in Terminal (MacOS) or Anaconda Prompt (Windows) and press :kbd:`Enter`:
 
-.. code-block:: console
+    .. code-block:: console
 
-    conda config --add channels salilab
-    conda install modeller
+        conda config --add channels salilab
+        conda install modeller
 
 You will be prompted after installation to edit a file to add your MODELLER license key to a config.py file.

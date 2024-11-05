@@ -7,7 +7,7 @@ NRGDock
 .. note::
     To use NRGdock the target object and target cleft (see how to generate clefts in :doc:`GetCleft`) should be loaded in PyMOL interface.
 
-    .. image:: _static/images/NRGDock/recep-cleft-nrgdock.png
+    .. image:: /_static/images/NRGDock/recep-cleft-nrgdock.png
        :alt: An example image
        :width: 65%
        :align: center
@@ -26,7 +26,7 @@ Ligands sets
 By default, two common data sets of are provided: 'DrugBank FDA' containing of all FDA approved drugs available in Drugbank(https://go.drugbank.com/ ) and 'PDB' containing all small molecules available in the Chemical Component Dictionary (https://www.wwpdb.org/data/ccd ). The list of all other ligands to be tested should be provided in a file in smiles format ('.smi') and added in the session 'Ligand set manager'.
 Add the smiles file path to the box 'Smile file' or click in browse to load it via file manager. Press Add to this set to your list of ligand sets.
 
-    .. image:: _static/images/NRGDock/settings.png
+    .. image:: /_static/images/NRGDock/settings.png
            :alt: An example image
            :width: 65%
            :align: center
@@ -34,7 +34,7 @@ Add the smiles file path to the box 'Smile file' or click in browse to load it v
 
 This set can be removed when no longer needed in the tab 'Delete' in the same session, by pressing the button refresh and selecting the Ligand set to be deleted in the 'Available ligand sets' box.
 
-.. image:: _static/images/NRGDock/delete_sets.png
+.. image:: /_static/images/NRGDock/delete_sets.png
        :alt: An example image
        :width: 65%
        :align: center
@@ -48,7 +48,7 @@ Press the button 'Refresh' in the 'Binding site' list and select the cleft objec
 To start the simulation press the button 'Start'.
 The progress of the simulation can be monitored using the 'Progress' bar and the 'Ligand' counter showing 'ligands tested / total ligands in the ligand set'.
 
-.. image:: _static/images/NRGDock/run_tab_nrgdock.png
+.. image:: /_static/images/NRGDock/run_tab_nrgdock.png
        :alt: An example image
        :width: 65%
        :align: center
