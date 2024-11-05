@@ -29,7 +29,8 @@ Contents
     :hidden:
     :caption: Case Studies
 
-    case_studies/case_study_index
+    Eph4 drug repurposing (Protein-Ligand) </case_studies/eph4>
+    Spike Variant (Protein-Protein) </case_studies/spike>
 
 .. toctree::
     :maxdepth: 2
