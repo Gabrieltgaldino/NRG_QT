@@ -45,19 +45,20 @@ how to install the project.
 Install from scratch:
 ---------------------
 
-:doc:`/installation/installation_index`
+:doc:`/installation/prerequisites/index`
     This will guide you on how to install Pymol and NRGSuite
 
 Only install the plugin:
 ------------------------
 
 :doc:`/installation/nrgsuite_qt/nrgsuite`
-    Instructions on how to install NRGSuite if you already have PyMOL
+    Instructions to install NRGSuite if you already have PyMOL
 
 Looking for examples or inspiration?
 ------------------------------------
 
 :doc:`/case_studies/eph4`
-    Useful if looking to study protein-ligand interactions
+    Useful if studying protein-ligand interactions
+
 :doc:`/case_studies/spike`
-    Useful if looking to study protein-protein interactions
+    Useful if studying protein-protein interactions

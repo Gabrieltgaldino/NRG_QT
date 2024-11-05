@@ -10,5 +10,5 @@ Bellow we provide instructions on how to install Miniconda.
 .. toctree::
 
    sub_prerequisites/miniconda
-   PyMOL <sub_prerequisites/pymol>
    sub_prerequisites/modeller
+   PyMOL <sub_prerequisites/pymol>
