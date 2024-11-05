@@ -52,7 +52,7 @@ Install from scratch:
 Only install the plugin:
 ------------------------
 
-:doc:`/installation/nrgsuite_qt/nrgsuite`
+:doc:`/installation/nrgsuite`
     Instructions to install NRGSuite if you already have PyMOL
 
 Looking for examples or inspiration?
