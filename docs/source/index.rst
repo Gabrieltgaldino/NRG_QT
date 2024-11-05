@@ -38,9 +38,6 @@ The plug-in counts with a variaty of functionalities: Binding site defition, doc
 Check out the :doc:`installation/installation_index` section for further information, including
 how to install the project.
 
-You can find more details in the `installation prerequisites </installation/prerequisites.html#Windows>`_.
-
-
 .. note::
 
    This project is under active development. Please contact rafael.najmanovich@umontreal.ca if you encounter any issues.
@@ -48,7 +45,7 @@ You can find more details in the `installation prerequisites </installation/prer
 Install from scratch:
 ---------------------
 
-:doc:`/installation/prerequisites`
+:doc:`/installation/prerequisites#Windows`
     This will guide you on how to install Pymol and NRGSuite
 
 Only install the plugin:
