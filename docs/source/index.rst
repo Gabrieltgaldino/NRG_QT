@@ -6,7 +6,7 @@ Welcome to NRGlab's documentation for NRGSuite-QT PyMOL plugin!
     :hidden:
     :caption: Getting Started
 
-    /installation/prerequisites/prerequisites_index
+    /installation/prerequisites/index
     NRGSuite </installation/nrgsuite>
     Removing NRGSuite </installation/Uninstalling>
 
