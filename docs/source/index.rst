@@ -15,7 +15,7 @@ Welcome to NRGlab's documentation for NRGSuite-QT PyMOL plugin!
     :hidden:
     :caption: Case Studies
 
-    Epha4 Drug Repurposing (Protein-Ligand) </case_studies/eph4>
+    Epha4 Drug Repurposing (Protein-Ligand) </case_studies/epha4>
     Spike Variant (Protein-Protein) </case_studies/spike>
 
 .. toctree::
