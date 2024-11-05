@@ -10,6 +10,9 @@ Installation
     prerequisites/index
     nrgsuite_qt/nrgsuite
 
+Installation Options
+=====================
+
 Install from scratch:
 ---------------------
 
