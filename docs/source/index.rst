@@ -55,6 +55,7 @@ Only install the plugin:
     Instructions on how to install NRGSuite if you already have PyMOL
 
 Looking for examples or inspiration?
+------------------------------------
 
 :doc:`/case_studies/eph4`
     Useful if looking to study protein-ligand interactions
