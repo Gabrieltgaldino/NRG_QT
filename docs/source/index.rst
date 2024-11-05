@@ -15,7 +15,7 @@ Welcome to NRGlab's documentation for NRGSuite-QT PyMOL plugin!
     :hidden:
     :caption: Case Studies
 
-    Eph4 Drug Repurposing (Protein-Ligand) </case_studies/eph4>
+    Epha4 Drug Repurposing (Protein-Ligand) </case_studies/eph4>
     Spike Variant (Protein-Protein) </case_studies/spike>
 
 .. toctree::
@@ -46,7 +46,7 @@ how to install the project.
 Install from scratch:
 ---------------------
 
-:doc:`/installation/prerequisites/index`
+:doc:`/installation/prerequisites`
     This will guide you on how to install Pymol and NRGSuite
 
 Only install the plugin:
@@ -58,7 +58,7 @@ Only install the plugin:
 Looking for examples or inspiration?
 ------------------------------------
 
-:doc:`/case_studies/eph4`
+:doc:`/case_studies/epha4`
     Useful if studying protein-ligand interactions
 
 :doc:`/case_studies/spike`
