@@ -15,6 +15,7 @@ Press 'Refresh' in the 'Select a structure' session and the select the target in
        :align: center
 
 
+
 .. note::
     To understand better the parameters of GetCleft read the manual for NRGsuite: http://biophys.umontreal.ca/nrg/ewExternalFiles/NRGsuite_Guide.pdf
 
