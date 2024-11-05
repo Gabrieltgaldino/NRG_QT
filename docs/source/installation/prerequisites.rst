@@ -39,13 +39,14 @@ Bellow we provide instructions on how to install Miniconda.
                         :align: center
 
                 Open 'Terminal':
-                    Open **Spotlight Search** by pressing:
+                    #. Open **Spotlight Search** by pressing:
 
-                        :kbd:`⌘` + :kbd:`Space`
+                       .. code-block:: none
+                          :kbd:`⌘` + :kbd:`Space`
 
-                    Type “Terminal”
+                    #. Type “Terminal”
 
-                    Click on the first result
+                    #. Click on the first result
 
                 Paste the following command:
 
