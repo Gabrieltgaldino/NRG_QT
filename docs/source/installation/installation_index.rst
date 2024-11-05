@@ -6,6 +6,7 @@ Installation
 
 .. toctree::
     :hidden:
+
     prerequisites/index
     nrgsuite_qt/nrgsuite
 
