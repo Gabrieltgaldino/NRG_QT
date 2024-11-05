@@ -6,15 +6,16 @@ To use **NRGSuite**, you need to have **PyMOL** installed on your system. For ma
 **MODELLER** is also required, though it is not necessary for using **NRGSuite**.
 You’ll find detailed installation instructions below.
 
+To avoid operating system specific installation issues, we recommend to install **PyMOL** with `Anaconda`_ or `Miniconda`_.
+Bellow we provide instructions on how to install Miniconda.
+
+.. _Anaconda: https://docs.anaconda.com/anaconda/
+.. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+
+
 .. tabs::
 
     .. tab:: Miniconda
-
-        To avoid operating system specific installation issues, we recommend to install **PyMOL** with `Anaconda`_ or `Miniconda`_.
-        Bellow we provide instructions on how to install Miniconda.
-
-        .. _Anaconda: https://docs.anaconda.com/anaconda/
-        .. _Miniconda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
 
         .. tabs::
 
