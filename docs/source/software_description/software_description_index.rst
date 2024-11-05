@@ -1,6 +1,3 @@
-Software Description
-====================
-
 .. toctree::
     :maxdepth: 2
     :caption: Software Description
