@@ -10,7 +10,7 @@ Surfaces to protein-ligand interactions
 -------
 
 .. note::
-    In order to run surfaces to calculate ligand-protein interactions, the ligand and the target must be loaded in pymol in a single object.
+    In order to run surfaces to calculate ligand-protein interactions, the ligand and the target must be loaded in PyMOL in a single object.
 
 
 
@@ -21,7 +21,7 @@ Select surfaces in the main menu on the left corner of the plug-in. Press 'Refre
            :width: 700px
            :align: center
 
-The visual of surfaces will be shown in the pymol window.
+The visual of surfaces will be shown in the PyMOL window.
 
     .. image:: _static/images/surf-plot.png
            :alt: An example image

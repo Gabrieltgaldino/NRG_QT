@@ -39,7 +39,7 @@ Installing NRGSuite-Qt
 #. A prompt will appear to choose a directory for the installed plug-in. We recommend the suggested path
 
 
-#. Close and open PyMol. If installed using anaconda you will need to write pymol in a terminal window and press enter.
+#. Close and open PyMol. If installed using anaconda you will need to write PyMOL in a terminal window and press enter.
 If the plugin has been installed correctly it will appear in the "Plugin" tab.
 
     .. image:: /_static/images/installation/installation_end.png

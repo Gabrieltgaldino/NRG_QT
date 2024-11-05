@@ -5,7 +5,7 @@ NRGDock
 **NRGDock** is a software developed for ultra-massive-high-trough-put screening using a scoring function derivated from FlexAID.
 
 .. note::
-    To use NRGdock the target object and target cleft (see how to generate clefts in :doc:`GetCleft`) should be loaded in pymol interface.
+    To use NRGdock the target object and target cleft (see how to generate clefts in :doc:`GetCleft`) should be loaded in PyMOL interface.
 
     .. image:: _static/images/NRGDock/recep-cleft-nrgdock.png
        :alt: An example image
@@ -42,9 +42,9 @@ This set can be removed when no longer needed in the tab 'Delete' in the same se
 Running NRGdock
 ------------
 To run 'NRGdock' click on the tab 'Run' in 'NRGdock' interface.
-Press the button 'Refresh' in the 'Target' list and select the target object previously loaded in pymol.
+Press the button 'Refresh' in the 'Target' list and select the target object previously loaded in PyMOL.
 Press the button 'Refresh' in the 'Ligand set' list and select the ligand set to be tested (previously added at :ref:`Ligand sets`).
-Press the button 'Refresh' in the 'Binding site' list and select the cleft object previously loaded in pymol (see: :doc:`GetCleft`).
+Press the button 'Refresh' in the 'Binding site' list and select the cleft object previously loaded in PyMOL (see: :doc:`GetCleft`).
 To start the simulation press the button 'Start'.
 The progress of the simulation can be monitored using the 'Progress' bar and the 'Ligand' counter showing 'ligands tested / total ligands in the ligand set'.
 
