@@ -35,9 +35,6 @@ NRGSuite-QT is a PyMOL plug-in for molecular docking and virtual screening using
 
 The plug-in counts with a variaty of functionalities: Binding site defition, docking similaiton with FlexAID and NRGdock, high-throughput screening with NRGdock using the Chemical Component Dictionary (CCD) and the dataset of all approved drugs of DrugBank and ligand interaction visualization using surfaces.
 
-Check out the :doc:`installation/installation_index` section for further information, including
-how to install the project.
-
 .. note::
 
    This project is under active development. Please contact rafael.najmanovich@umontreal.ca if you encounter any issues.
