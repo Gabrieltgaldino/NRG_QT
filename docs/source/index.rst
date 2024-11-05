@@ -2,12 +2,13 @@ Welcome to NRGlab's documentation for NRGSuite-QT PyMOL plugin!
 ===============================================================
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     :hidden:
     :caption: Getting Started
 
-    installation/installation_index
-    Removing NRGSuite <installation/Uninstalling>
+    /installation/prerequisites/prerequisites_index
+    NRGSuite </installation/nrgsuite>
+    Removing NRGSuite </installation/Uninstalling>
 
 .. toctree::
     :maxdepth: 2
