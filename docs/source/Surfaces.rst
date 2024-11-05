@@ -18,14 +18,14 @@ Select surfaces in the main menu on the left corner of the plug-in. Press 'Refre
 
     .. image:: _static/images/surf_menu.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 The visual of surfaces will be shown in the PyMOL window.
 
     .. image:: _static/images/surf-plot.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 

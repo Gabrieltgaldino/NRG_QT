@@ -23,7 +23,7 @@ Installing NRGSuite-Qt
 
     .. image:: /_static/images/installation/plugin_install.png
            :alt: An example image
-           :width: 1000px
+           :width: 65%
            :align: center
 
 #. Go to the directory of the source code and select the downloaded ***.zip*** file and click 'Open'.
@@ -33,7 +33,7 @@ Installing NRGSuite-Qt
 
         .. image:: /_static/images/installation/plugin_install_init.png
            :alt: An example image
-           :width: 600px
+           :width: 65%
            :align: center
 
 #. A prompt will appear to choose a directory for the installed plug-in. We recommend the suggested path
@@ -44,5 +44,5 @@ If the plugin has been installed correctly it will appear in the "Plugin" tab.
 
     .. image:: /_static/images/installation/installation_end.png
         :alt: An example image
-        :width: 700px
+        :width: 65%
         :align: center

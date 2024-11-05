@@ -11,7 +11,7 @@ MacOS (x86_64)
 
     .. image:: /_static/images/installation/security.png
         :alt: Privacy and security
-        :width: 500px
+        :width: 65%
         :align: center
 
 Open 'Terminal':

@@ -9,7 +9,7 @@ NRGDock
 
     .. image:: _static/images/NRGDock/recep-cleft-nrgdock.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 
@@ -28,7 +28,7 @@ Add the smiles file path to the box 'Smile file' or click in browse to load it v
 
     .. image:: _static/images/NRGDock/settings.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 
@@ -36,7 +36,7 @@ This set can be removed when no longer needed in the tab 'Delete' in the same se
 
 .. image:: _static/images/NRGDock/delete_sets.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 Running NRGdock
@@ -50,5 +50,5 @@ The progress of the simulation can be monitored using the 'Progress' bar and the
 
 .. image:: _static/images/NRGDock/run_tab_nrgdock.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center

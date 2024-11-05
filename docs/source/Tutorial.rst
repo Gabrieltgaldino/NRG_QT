@@ -25,7 +25,7 @@ Open PyMOL and run the command:
 
     .. image:: _static/images/Tutorial/fetch_2wo2.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 
@@ -40,7 +40,7 @@ Run the commands:
 
     .. image:: _static/images/Tutorial/prep_2wo2.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 
@@ -52,7 +52,7 @@ Open the NRGSuite-Qt plugin from the PyMOL plugin menu and click on the button '
 
     .. image:: _static/images/Tutorial/get_cleft_2wo2.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 Five clefts should load in the PyMOL interface.
@@ -60,7 +60,7 @@ The cleft with the largest volume, 'receptor_sph_1', is the one we will use for 
 
     .. image:: _static/images/Tutorial/clefts_view.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 
@@ -75,14 +75,14 @@ The ligand rotations will remain at 9 (default).
 
     .. image:: _static/images/Tutorial/NRG_dock_settings.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 Click the 'Run' tab. Press 'Refresh' on the target list and select '2wo2'. Press 'Refresh' in the 'Binding site' list and select 'receptor_sph_1'. Press 'Run' and wait until the progress bar is full.
 
     .. image:: _static/images/Tutorial/nrg_dock_run.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 .. note::
@@ -93,7 +93,7 @@ The top 20 ligands will be plotted in the PyMOL interface in a group called 'res
 
     .. image:: _static/images/Tutorial/nrgdock_results.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 You can access the complete list of results of NRGdock by opening the '.csv' file in the 'temp' directory of 'NRGsuite_QT' in documents.
@@ -108,28 +108,28 @@ Click the 'FlexAID' button in the left corner menu. Go to the 'Settings' tab. Se
 
     .. image:: _static/images/Tutorial/flexaid_config.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 Go to the 'Simulate' tab. Press 'Refresh' in the target list, ligand list, and bind-site list. Select '2wo2' as the target, 'DB04868' as the ligand, and 'receptor_sph_1' as the target cleft.
 
     .. image:: _static/images/Tutorial/flexaid_simulation.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 The 'Results' tab will open automatically. The progress bar will indicate the progress of the simulation and list the top 5 best ligand poses and their scores (CF, most negative -> better scoring).
 
     .. image:: _static/images/Tutorial/flexaid_resulttable.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 The top 10 results will be plotted in the PyMOL interface in a group called Flexaid results:
 
     .. image:: _static/images/Tutorial/flexaid_results_view.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 
@@ -149,21 +149,21 @@ Click the 'Surfaces' button in the menu. Click in 'Refresh' on the 'Surfaces sel
 
     .. image:: _static/images/Tutorial/surfaces_run_lig.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 A table with all surfaces results can be seen in the tab 'Results', press 'Refresh' to list all individual results. Select: 'List_RESULT_0_csv_output'.
 
     .. image:: _static/images/Tutorial/surfaces_result_table.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 A list view of all interactions is shown in the PyMOL interface in a group named: "surfaces_results". The table in 'Results' table is interactive. Individual residues can be selected by clicking the result name. A selection named:'sele_surefaces' is created with that specific residue.
 
     .. image:: _static/images/Tutorial/surfaces_result_view.png
            :alt: An example image
-           :width: 700px
+           :width: 65%
            :align: center
 
 Click on PHE154A int the result table and Run the command:
@@ -185,21 +185,21 @@ We can now run calculate the dynamical signature for the complex using NRGTEN. I
 
 .. image:: _static/images/Tutorial/NRGTEN_dynasig_config.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 A object called 'RESULT_0_dynasig' will show a fluctuation plot in the structure. Blue residues are more rigid while Red residues are more flexible. Also, another object 'no_lig_RESULT_0_dynasig' will be plotted showing the difference between the dynamical signature of EphA4 in presence and absence of ligand.
 
 .. image:: _static/images/Tutorial/NRGTEN_dynasigview.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 We can also generate a dynamical ensemble of EphA4. Type '7' in the 'modes list:' field and select 'optimize states' to generate a conformation ensemble using the first non trivial normal mode. An object named 'RESULT_0_ensemble' containing the optimized conformational ensemble will be created.
 
 .. image:: _static/images/Tutorial/NRGTEN_ensembleview.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 Generating Nilotinib/EphA4 mutants with MODELLER.
@@ -210,7 +210,7 @@ Open the 'MODELLER' menu. Press "Refresh" and select 'Result_0' in the 'Object t
 
 .. image:: _static/images/Tutorial/tutorial_modeller_config.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 An object called 'Result_0_mutants' show be created. Each of the 19 single mutants will be loaded as a state in this object.
@@ -229,14 +229,14 @@ Now press 'Refresh' in 'Surfaces selection 2:' area. Select 'Result_0_mutants' i
 
 .. image:: _static/images/Tutorial/surfaces_mutants_config.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 A list of CF of each mutant will be plotted in the tab 'Results'. The individual results for each mutant can be select in the 'individual results:' list.
 
 .. image:: _static/images/Tutorial/surfaces_mutants_results.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 A positive CF means that the biding is reduced in that mutant.
@@ -249,19 +249,19 @@ Open the 'NRGTEN' menu. Select 'RESULT_0' in the object list in the 'load object
 
 .. image:: _static/images/Tutorial/nrgten_config_mutants.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 A html. file will open showing the difference between the dynamical signature of the wildtype and the mutants. Also the differential will be plotted to the structure in PyMOL window in a group off objects called 'RESULT_0_mutants_dynasigdif'.
 
 .. image:: _static/images/Tutorial/nrgten_graphic_plot_mutants.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 .. image:: _static/images/Tutorial/nrgten_pymol_res_mutants.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 Binding-site comparison between EphA4 and ABL kinase using ISOMIF
@@ -281,7 +281,7 @@ Open 'GetCleft' menu. Select 3cs9 in the 'PyMOL objects/selections:' list and pr
 
 .. image:: _static/images/Tutorial/ISOMIF_getcleft_config.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 The first cleft will be the one containing the ligand in 3cs9. We can now open ISOMIF menu and in the "Load object 1" area select "3cs9" in "Object 1" list, "3cs9_sph_1" in the "Cleft" list and "Ligand_3cs9" in "LIG" list.
@@ -290,7 +290,7 @@ Press "Run".
 
 .. image:: _static/images/Tutorial/ISOMIF_config.png
        :alt: An example image
-       :width: 700px
+       :width: 65%
        :align: center
 
 
