@@ -45,7 +45,7 @@ how to install the project.
 Install from scratch:
 ---------------------
 
-:doc:`/installation/prerequisites#Windows`
+:doc:`/installation/prerequisites`
     This will guide you on how to install Pymol and NRGSuite
 
 Only install the plugin:
