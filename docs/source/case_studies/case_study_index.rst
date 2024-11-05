@@ -1,9 +1,3 @@
-.. _case_study:
-
-============
-Case Studies
-============
-
 .. toctree::
 
    Eph4 drug repurposing (Protein-Ligand) <eph4>
