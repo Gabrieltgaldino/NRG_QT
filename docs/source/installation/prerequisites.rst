@@ -10,6 +10,7 @@ Bellow we provide instructions on how to install Miniconda.
 
 Miniconda
 =========
+
 .. tabs::
 
     .. group-tab::
