@@ -37,4 +37,10 @@ Contents
     :hidden:
     :caption: Software Description
 
-    software_description/software_description_index
+    /case_studies/GetCleft
+    /case_studies/NRGDock
+    /case_studies/FlexAID
+    /case_studies/Surfaces
+    /case_studies/NRGTEN
+    /case_studies/IsoMIF
+    Single Mutations </case_studies/Single_Mutations>
