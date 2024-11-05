@@ -10,7 +10,7 @@ You’ll find detailed installation instructions below.
 
     .. tab:: Miniconda
 
-        To avoid operating system specific installation issues, we recommend to install PyMOL with `Anaconda`_ or `Miniconda`_.
+        To avoid operating system specific installation issues, we recommend to install **PyMOL** with `Anaconda`_ or `Miniconda`_.
         Bellow we provide instructions on how to install Miniconda.
 
         .. _Anaconda: https://docs.anaconda.com/anaconda/
@@ -21,7 +21,7 @@ You’ll find detailed installation instructions below.
             .. group-tab:: Windows
 
                 #. Download the latest version of miniconda at the following link (Platform: Windows): https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
-                #. Double-click the downloaded .exe file.
+                #. Double-click the downloaded **.exe** file.
                 #. Follow the instructions on the screen. If you are unsure about any setting, accept the defaults. You can change them later.
                 #. When the installation finishes, use the windows key and search for Anaconda Prompt.
                 #. Click on it.
