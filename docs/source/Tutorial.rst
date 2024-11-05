@@ -192,14 +192,14 @@ A object called 'RESULT_0_dynasig' will show a fluctuation plot in the structure
 
     .. image:: _static/images/Tutorial/NRGTEN_dynasigview.png
            :alt: An example image
-           :width: 65%
+           :width: 100%
            :align: center
 
 We can also generate a dynamical ensemble of EphA4. Type '7' in the 'modes list:' field and select 'optimize states' to generate a conformation ensemble using the first non trivial normal mode. An object named 'RESULT_0_ensemble' containing the optimized conformational ensemble will be created.
 
     .. image:: _static/images/Tutorial/NRGTEN_ensembleview.png
            :alt: An example image
-           :width: 65%
+           :width: 100%
            :align: center
 
 Generating Nilotinib/EphA4 mutants with MODELLER.
@@ -236,7 +236,7 @@ A list of CF of each mutant will be plotted in the tab 'Results'. The individual
 
     .. image:: _static/images/Tutorial/surfaces_mutants_results.png
            :alt: An example image
-           :width: 65%
+           :width: 100%
            :align: center
 
 A positive CF means that the biding is reduced in that mutant.
@@ -256,12 +256,12 @@ A html. file will open showing the difference between the dynamical signature of
 
     .. image:: _static/images/Tutorial/nrgten_graphic_plot_mutants.png
            :alt: An example image
-           :width: 65%
+           :width: 75%
            :align: center
 
     .. image:: _static/images/Tutorial/nrgten_pymol_res_mutants.png
            :alt: An example image
-           :width: 65%
+           :width: 75%
            :align: center
 
 Binding-site comparison between EphA4 and ABL kinase using ISOMIF

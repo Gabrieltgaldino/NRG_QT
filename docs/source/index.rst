@@ -19,13 +19,18 @@ Contents
 .. toctree::
     :maxdepth: 2
 
-    installation/installation_index
-    Uninstalling
-    GetCleft
-    NRGDock
-    FlexAID
-    Surfaces
-    NRGTEN
-    IsoMIF
-    Single Mutations <Single_Mutations>
-    Tutorial
+    Getting Started
+        installation/installation_index
+        Uninstalling
+
+    Software Description
+        GetCleft
+        NRGDock
+        FlexAID
+        Surfaces
+        NRGTEN
+        IsoMIF
+        Single Mutations <Single_Mutations>
+
+    Examples
+        Tutorial
