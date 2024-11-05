@@ -2,7 +2,7 @@ Welcome to NRGlab's documentation for NRGSuite-QT PyMOL plugin!
 ===============================================================
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :hidden:
     :caption: Getting Started
 
