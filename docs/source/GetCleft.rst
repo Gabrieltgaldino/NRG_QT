@@ -6,15 +6,13 @@ GetCleft
 The software **GetCleft** (https://github.com/NRGlab/Get_Cleft) was developed for detection of cavities and surface-exposed areas.
 And it is used for biding site definition in FlexAID and NRGdock.
 To use it, open the plug-in on the 'Plugin' menu in pymol click on the 'GetCleft' button in the left corner of the window.
-Load the structure of the target in Pymol.
+Load the structure of the target in Pymol. test
 Press 'Refresh' in the 'Select a structure' session and the select the target in the 'PyMOL objects/selections:' list.
 
-.. image:: _static/images/GetCleft/GetCleft_menu.png
+.. figure:: _static/images/GetCleft/GetCleft_menu.png
        :alt: An example image
-       :width: 700px
+       :width: 50%
        :align: center
-
-
 
 .. note::
     To understand better the parameters of GetCleft read the manual for NRGsuite: http://biophys.umontreal.ca/nrg/ewExternalFiles/NRGsuite_Guide.pdf
