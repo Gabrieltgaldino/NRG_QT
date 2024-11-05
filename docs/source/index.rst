@@ -21,10 +21,10 @@ Contents
     installation/installation_index
     Uninstalling
     GetCleft
-    NRGdock
+    NRGDock
     FlexAID
     Surfaces
     NRGTEN
-    ISOMIF
-    Single-mutations (Using MODELLER)
+    IsoMIF
+    Single_mutations
     Tutorial
