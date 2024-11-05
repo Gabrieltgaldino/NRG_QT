@@ -43,4 +43,4 @@ Contents
     /software_description/Surfaces
     /software_description/NRGTEN
     /software_description/IsoMIF
-    Single Mutations </case_studies/Single_Mutations>
+    Single Mutations </software_description/Single_Mutations>
