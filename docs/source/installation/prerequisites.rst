@@ -2,9 +2,9 @@
 Pre-requisites
 ==============
 
-To use NRGSuite, you need to have **PyMOL** installed on your system. For making single mutations,
-**MODELLER** is also required, though it is not necessary for using other features of the plugin.
-You’ll find detailed installation instructions for PyMOL and Modeller below.
+To use **NRGSuite**, you need to have **PyMOL** installed on your system. For making single mutations,
+**MODELLER** is also required, though it is not necessary for using **NRGSuite**.
+You’ll find detailed installation instructions below.
 
 .. tabs::
 
