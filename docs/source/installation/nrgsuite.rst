@@ -18,7 +18,10 @@ Download NRGSuite_Qt
 Installing NRGSuite-Qt
 ----------------------
 
-#. Open Pymol. If installed using **Miniconda** you will need to write **pymol** in a terminal window and press enter. In the top bar, click **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
+#. Open Pymol. In the top bar, click **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
+    .. note::
+
+        If installed using **Miniconda** you will need to write **pymol** in a terminal window and press enter.
 
     .. image:: /_static/images/installation/plugin_install.png
            :alt: An example image
@@ -28,6 +31,7 @@ Installing NRGSuite-Qt
 #. Go to the directory of the source code and select the downloaded ***.zip*** file and click **Open**.
 
     .. note::
+
         If the file was downloaded via Safari and the zip was extracted and doesn't exist in the directory. Go to the downloaded folder and click on the file '__ini__.py'.
 
         .. image:: /_static/images/installation/plugin_install_init.png
