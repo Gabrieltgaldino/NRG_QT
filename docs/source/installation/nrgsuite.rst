@@ -21,7 +21,7 @@ Installing NRGSuite-Qt
 #. Open Pymol. In the top bar, click **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
     .. note::
 
-        If installed using **Miniconda** you will need to write **pymol** in a terminal window and press enter.
+        If installed using **Miniconda** you will need to write **pymol** in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter`
 
     .. image:: /_static/images/installation/plugin_install.png
            :alt: An example image
