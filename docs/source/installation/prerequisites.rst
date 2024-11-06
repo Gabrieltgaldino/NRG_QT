@@ -1,5 +1,5 @@
 ==============
-Pre-requisites
+Prerequisites
 ==============
 
 To use **NRGSuite**, you need to have **PyMOL** installed on your system. For making single mutations,
@@ -45,7 +45,7 @@ Bellow we provide instructions on how to install Miniconda.
 
                     #. Click on the first result
 
-                Paste the following command:
+                Paste the following command and press :kbd:`Enter`:
 
                     .. code-block:: console
 

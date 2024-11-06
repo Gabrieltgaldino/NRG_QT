@@ -7,7 +7,7 @@ Welcome to NRGlab's documentation for NRGSuite-QT PyMOL plugin!
     :caption: Getting Started
 
     /installation/prerequisites
-    NRGSuite </installation/nrgsuite>
+    Installing NRGSuite </installation/nrgsuite>
     Removing NRGSuite </installation/Uninstalling>
 
 .. toctree::
