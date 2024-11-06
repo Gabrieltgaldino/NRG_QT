@@ -22,7 +22,7 @@ Installing NRGSuite-Qt
 
     .. image:: /_static/images/installation/plugin_install.png
            :alt: An example image
-           :width: 65%
+           :width: 75%
            :align: center
 
 #. Go to the directory of the source code and select the downloaded ***.zip*** file and click 'Open'.
@@ -32,15 +32,14 @@ Installing NRGSuite-Qt
 
         .. image:: /_static/images/installation/plugin_install_init.png
            :alt: An example image
-           :width: 65%
+           :width: 75%
            :align: center
 
 #. A prompt will appear to choose a directory for the installed plug-in. We recommend the suggested path
 
-#. Close and open PyMol. If installed using Miniconda you will need to write **pymol** in a terminal window and press enter.
-    If the plugin has been installed correctly it will appear in the "Plugin" tab.
+#. Close and open PyMol. If installed using Miniconda you will need to write **pymol** in a terminal window and press enter. If the plugin has been installed correctly it will appear in the "Plugin" tab.
 
     .. image:: /_static/images/installation/installation_end.png
         :alt: An example image
-        :width: 65%
+        :width: 75%
         :align: center
