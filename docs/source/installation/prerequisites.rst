@@ -56,7 +56,7 @@ Bellow we provide instructions on how to install Miniconda.
                             ~/miniconda3/bin/conda init bash
                             ~/miniconda3/bin/conda init zsh
 
-                Close **Terminal** and open it again.
+                III) Close **Terminal** and open it again.
 
     .. tab:: PyMOL
 
