@@ -18,7 +18,8 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx_copybutton',
-    'sphinx_tabs.tabs'
+    'sphinx_tabs.tabs',
+    'sphinxcontrib-jquery'
 ]
 
 intersphinx_mapping = {
@@ -42,3 +43,4 @@ def setup(app):
     app.add_css_file('css/my_theme.css')
 
 html_static_path = ['_static']
+html_js_files = ['/_static/js/custom.js']
