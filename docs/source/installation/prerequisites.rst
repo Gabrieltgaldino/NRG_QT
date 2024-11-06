@@ -58,15 +58,15 @@ Bellow we provide instructions on how to install Miniconda.
 
                 III) Close **Terminal** and open it again.
 
-    .. tab:: PyMOL
+    .. tab:: PyMOL (open-source)
 
-        Paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` :
+        1. Paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` :
 
             .. code-block:: console
 
                 conda install conda-forge::pymol-open-source
 
-        To open PyMOL, paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` :
+        2. To open PyMOL, paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` :
 
             .. code-block:: console
 
