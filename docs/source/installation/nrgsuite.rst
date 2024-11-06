@@ -22,7 +22,7 @@ Installing NRGSuite-Qt
 
     .. note::
 
-        If installed using **Miniconda** you will need to write **pymol** in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter`
+        If installed using **Miniconda** you will need to write **pymol** in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` to open PyMOL.
 
     .. image:: /_static/images/installation/plugin_install.png
            :alt: An example image
