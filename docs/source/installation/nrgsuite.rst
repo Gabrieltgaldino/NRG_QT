@@ -4,17 +4,16 @@ NRGSuite_Qt
 Download NRGSuite_Qt
 --------------------
 
-The latest release of NRGSuite-Qt is available at: https://github.com/ThomasDesc/NRG_plugin/releases/
+.. tabs::
 
-MacOS
-^^^^^
+    .. group-tab:: Windows
 
-Download ***NRGSuite_Qt_mac.zip*** by clicking on it under assets
+        Download ***Source code (zip)*** by clicking on it under assets
 
-Windows
-^^^^^^^
+    .. group-tab:: MacOS
 
-Download ***Source code (zip)*** by clicking on it under assets
+        Download ***NRGSuite_Qt_mac.zip*** by clicking on it under assets
+
 
 Installing NRGSuite-Qt
 ----------------------
@@ -29,7 +28,7 @@ Installing NRGSuite-Qt
 #. Go to the directory of the source code and select the downloaded ***.zip*** file and click 'Open'.
 
     .. note::
-        If the file was downloaded via Safari and the zip was extracted and doesn't exist in the directory. Go to the extracted directory and click on the file '__ini__.py'.
+        If the file was downloaded via Safari and the zip was extracted and doesn't exist in the directory. Go to the downloaded folder and click on the file '__ini__.py'.
 
         .. image:: /_static/images/installation/plugin_install_init.png
            :alt: An example image
@@ -38,9 +37,8 @@ Installing NRGSuite-Qt
 
 #. A prompt will appear to choose a directory for the installed plug-in. We recommend the suggested path
 
-
-#. Close and open PyMol. If installed using anaconda you will need to write PyMOL in a terminal window and press enter.
-If the plugin has been installed correctly it will appear in the "Plugin" tab.
+#. Close and open PyMol. If installed using Miniconda you will need to write **pymol** in a terminal window and press enter.
+    If the plugin has been installed correctly it will appear in the "Plugin" tab.
 
     .. image:: /_static/images/installation/installation_end.png
         :alt: An example image

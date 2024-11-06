@@ -30,8 +30,8 @@ Bellow we provide instructions on how to install Miniconda.
             .. group-tab:: MacOS
 
                 .. note::
-                    In your 'System Settings', within the 'Private and Security' section, verify that 'Allow applications from'
-                    is marked as 'App store and identified developers'.
+                    In your **System Settings**, within the **Privacy and Security** section, verify that **Allow applications from**
+                    is marked as **App store and identified developers**.
 
                     .. image:: /_static/images/installation/security.png
                         :alt: Privacy and security
@@ -60,11 +60,17 @@ Bellow we provide instructions on how to install Miniconda.
 
     .. tab:: PyMOL
 
-        Paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter`:
+        Paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` :
 
             .. code-block:: console
 
                 conda install conda-forge::pymol-open-source
+
+        To open PyMOL, paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` :
+
+            .. code-block:: console
+
+                pymol
 
     .. tab:: MODELLER (optional; requires license key)
 
