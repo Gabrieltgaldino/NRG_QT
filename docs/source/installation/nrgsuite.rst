@@ -8,11 +8,11 @@ Download NRGSuite_Qt
 
     .. group-tab:: Windows
 
-        Download **NRGSuite Qt** for Windows `here <https://github.com/ThomasDesc/NRG_plugin/archive/refs/tags/v1_30.zip>`_.
+        Download **NRGSuite Qt** for Windows `here <https://github.com/ThomasDesc/NRG_plugin/releases/download/v1_31/NRGSuite_Qt_win.zip>`_.
 
     .. group-tab:: MacOS
 
-        Download **NRGSuite Qt** for MacOS `here <https://github.com/ThomasDesc/NRG_plugin/releases/download/v1_30/NRGSuite_Qt_mac.zip>`_.
+        Download **NRGSuite Qt** for MacOS `here <https://github.com/ThomasDesc/NRG_plugin/releases/download/v1_31/NRGSuite_Qt_mac.zip>`_.
 
 
 Installing NRGSuite-Qt
