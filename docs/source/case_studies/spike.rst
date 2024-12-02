@@ -72,7 +72,7 @@ Run NRGTEN
 
 We see that K417N has similar effects to D614G, making the closed conformation more flexible around the Receptor-Binding Domain, and the open Receptor-Binding Domain becomes more rigid.
 
-We can make the same evaluation for mutation N501Y, starting by crating the mutations:
+We can make the same evaluation for mutation N501Y, starting by creating the mutations:
 
     .. code-block:: console
         
