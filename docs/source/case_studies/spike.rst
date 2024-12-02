@@ -34,6 +34,13 @@ As well as immune recognition, here represented by interactions with antibody C1
             fetch 6xcn
             remove hetatm
 
+We will use conformational ensembles to evaluate the interactions with ACE2 for the Omicron variant:
+
+.. code-block:: console
+
+            fetch 7wbl
+            remove hetatm
+
 
 Creating mutations and evaluating dynamical effects
 ====================
@@ -121,7 +128,7 @@ We start by modeling the mutation:
 
     .. code-block:: console
     
-        sele 6XCN and chain C and resi 417
+        sele 6xcn and chain C and resi 417
 
 Run Modeller
 
@@ -129,7 +136,17 @@ And we can evaluate the interactions of the wild-type and mutant Spike structure
 
 Run Surfaces
 
-We see that the mutation K417N lowers the binding affinity, as seen in escape evaluations.
+We see that the mutation K417N lowers the binding affinity in 0.47 kcal/mol, in agreement with escape evaluations.
 
 Conformational ensembles
 ====================
+
+Evaluating interactions based on a single or a few structures is inherently limited by the lack of representation of structural variability. Proteins are dynamic entities with flexible backbones and side chains. To more accurately assess complex interactions, it is essential to account for this structural variability.
+
+One way to achieve this is by employing conformational ensembles. In this study, we analyze the interactions between the Omicron Spike protein Receptor-Binding Domain and the human ACE2 receptor. When the Omicron variant was first characterized, numerous publications examined the effects of its mutations on ACE2 binding using various experimentally solved structures. However, due to the inherent structural variability among these structures, the conclusions reached by different studies often diverge (McCallum et al. 2022, Han et al. 2022, Mannar et al. 2022).
+
+Run Conformational Ensembles
+Run Surfaces
+
+
+
