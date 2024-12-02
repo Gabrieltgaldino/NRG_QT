@@ -36,7 +36,7 @@ As well as immune recognition, here represented by interactions with antibody C1
 
 We will use conformational ensembles to evaluate the interactions with ACE2 for the Omicron variant:
 
-.. code-block:: console
+    .. code-block:: console
 
             fetch 7wbl
             remove hetatm
@@ -62,13 +62,13 @@ First, we need to create the mutations:
 
     .. code-block:: console
 
-        sele resi 417 and 6vxx
+            sele resi 417 and 6vxx
 
 Run Modeller
 
     .. code-block:: console
 
-        sele resi 417 and 6vyb
+            sele resi 417 and 6vyb
 
 Run Modeller
 
@@ -83,13 +83,13 @@ We can make the same evaluation for mutation N501Y, starting by creating the mut
 
     .. code-block:: console
         
-        sele resi 501 and 6vxx
+            sele resi 501 and 6vxx
 
 Run Modeller
 
     .. code-block:: console
         
-        sele resi 501 and 6vyb
+            sele resi 501 and 6vyb
 
 Run Modeller
 
@@ -109,7 +109,7 @@ We first model the mutation in the complex structure with ACE2:
 
     .. code-block:: console
     
-        sele 6m17 and chain E and resi 501
+            sele 6m17 and chain E and resi 501
 
 Run Modeller
 
@@ -128,7 +128,7 @@ We start by modeling the mutation:
 
     .. code-block:: console
     
-        sele 6xcn and chain C and resi 417
+            sele 6xcn and chain C and resi 417
 
 Run Modeller
 
