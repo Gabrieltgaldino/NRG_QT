@@ -53,13 +53,15 @@ Teruel et al. proceeds to look for the same pattern of effect on flexibility for
 
 First, we need to create the mutations:
 
-.. code-block:: console
-    sele resi 417 and 6vxx
+    .. code-block:: console
+
+        sele resi 417 and 6vxx
 
 Run Modeller
 
-.. code-block:: console
-    sele resi 417 and 6vyb
+    .. code-block:: console
+
+        sele resi 417 and 6vyb
 
 Run Modeller
 
@@ -72,13 +74,15 @@ We see that K417N has similar effects to D614G, making the closed conformation m
 
 We can make the same evaluation for mutation N501Y, starting by crating the mutations:
 
-.. code-block:: console
-    sele resi 501 and 6vxx
+    .. code-block:: console
+        
+        sele resi 501 and 6vxx
 
 Run Modeller
 
-.. code-block:: console
-    sele resi 501 and 6vyb
+    .. code-block:: console
+        
+        sele resi 501 and 6vyb
 
 Run Modeller
 
@@ -96,8 +100,9 @@ The mutation N501Y is known for increasing interaction with the receptor ACE2 (s
 
 We first model the mutation in the complex structure with ACE2:
 
-.. code-block:: console
-    sele 6m17 and chain E and resi 501
+    .. code-block:: console
+    
+        sele 6m17 and chain E and resi 501
 
 Run Modeller
 
@@ -114,8 +119,9 @@ The K417N substition is in a very important epitope of antibody recognition. Dee
 
 We start by modeling the mutation:
 
-.. code-block:: console
-    sele 6XCN and chain C and resi 417
+    .. code-block:: console
+    
+        sele 6XCN and chain C and resi 417
 
 Run Modeller
 
