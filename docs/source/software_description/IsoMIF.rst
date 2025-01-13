@@ -1,4 +1,4 @@
-.. _ISOMIF:
+.. _IsoMIF:
 
-ISOMIF
+IsoMIF
 ======
