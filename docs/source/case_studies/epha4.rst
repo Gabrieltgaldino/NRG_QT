@@ -109,14 +109,14 @@ Go to the 'Simulate' tab. Press 'Refresh' in the target list, ligand list, and b
            :width: 65%
            :align: center
 
-The 'Results' tab will open automatically. The progress bar will indicate the progress of the simulation and list the top 5 best ligand poses and their scores (CF, most negative -> better scoring).
+The 'Results' tab will open automatically. The progress bar will indicate the progress of the simulation and list the top 1 best ligand pose and it score (CF, most negative -> better scoring) and RMSD in relation to 'NRGRank' result.
 
     .. image:: /_static/images/Tutorial/flexaid_results.png
            :alt: An example image
            :width: 100%
            :align: center
 
-The top 10 results will be plotted in the PyMOL interface in a group called Flexaid results:
+The top 1 result will be plotted in the PyMOL interface in a group called "FlexAID"
 
 
 
@@ -125,14 +125,14 @@ The top 10 results will be plotted in the PyMOL interface in a group called Flex
 Visualizing Nilotinib/EphA4 Interactions with Surfaces
 ======================================================
 
-We will now run the Surfaces for the top pose of FLEXAID.
+We will now run the Surfaces for the top pose of FlexAID.
 Make a selection for the ligand:
 
     .. code-block:: console
 
-        select Ligand, resn LIG and Result_0
+        select Ligand, resn LIG and RESULT_0_flx_DB04868_2wo2_bd_site_1_1000x1000
 
-Click the 'Surfaces' button in the menu. Click in 'Refresh' on the 'Surfaces selection:' area and select 'Result_0'. Press 'Run Surfaces'. Select 'Ligand' in the 'Ligand:' list and press 'Run'
+Click the 'Surfaces' button in the menu. Click in 'Refresh' on the 'Surfaces selection:' area and select 'RESULT_0_flx_DB04868_2wo2_bd_site_1_1000x1000'. Press 'Run Surfaces'. Select 'Ligand' in the 'Ligand:' list and press 'Run'
 
 
     .. image:: /_static/images/Tutorial/surfaces_run_lig.png
@@ -153,14 +153,6 @@ A list view of all interactions is shown in the PyMOL interface in a group named
            :alt: An example image
            :width: 100%
            :align: center
-
-Click on PHE154A int the result table and Run the command:
-
-    .. code-block::
-
-        set_name sele_surfaces, PHE154A
-
-a selection containing the residue F154 will be created.
 
 In the article the authors say: 'Nilotinib is predicted to form hydrogen bonds with Q71 in the D-E loop and T104 as well as hydrophobic interactions with F154, V157, I163, L166, A193, and V195.'
 Also, we can create a selection with the Top N residues by interection absolute value. Type 10 in the 'TOP N residues:' field and press the button 'Interface'. A selection called 'all_residues' is created.
