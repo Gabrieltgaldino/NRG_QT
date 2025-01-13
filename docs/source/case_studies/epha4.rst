@@ -135,7 +135,7 @@ Make a selection for the ligand:
 Click the 'Surfaces' button in the menu. Click in 'Refresh' on the 'Surfaces selection:' area and select 'RESULT_0_flx_DB04868_2wo2_bd_site_1_1000x1000'. Press 'Run Surfaces'. Select 'Ligand' in the 'Ligand:' list and press 'Run'
 
 
-    .. image:: /_static/images/Tutorial/surfaces_run_lig.png
+    .. image:: /_static/images/Tutorial/surfaces_run.png
            :alt: An example image
            :width: 65%
            :align: center
