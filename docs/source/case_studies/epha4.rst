@@ -70,9 +70,9 @@ The ligand rotations will remain at 9 (default).
            :width: 65%
            :align: center
 
-Click the 'Run' tab. Press 'Refresh' on the target list and select '2wo2'. Press 'Refresh' in the 'Binding site' list and select 'receptor_sph_1'. Press 'Run' and wait until the progress bar is full.
+Click the 'Run' tab. Press 'Refresh' on the target list and select '2wo2'. Press 'Refresh' in the 'Binding site' list and select '2wo2_bd_site_1'. Press 'Run' and wait until the progress bar is full.
 
-    .. image:: /_static/images/Tutorial/nrg_dock_run.png
+    .. image:: /_static/images/Tutorial/NRGRank_run.png
            :alt: An example image
            :width: 65%
            :align: center
