@@ -48,7 +48,7 @@ Open the NRGSuite-Qt plugin from the PyMOL plugin menu and click on the button '
            :align: center
 
 Five clefts should load in the PyMOL interface.
-The cleft with the largest volume, 'receptor_sph_1', is the one we will use for our docking experiments.
+The cleft with the largest volume, '2wo2_bd_site_1', is the one we will use for our docking experiments.
 
     .. image:: /_static/images/Tutorial/clefts_view.png
            :alt: An example image
@@ -65,7 +65,7 @@ Set the number of 'Save poses for top n results' to 20 (so we can have the struc
 
 The ligand rotations will remain at 9 (default).
 
-    .. image:: /_static/images/Tutorial/NRG_dock_settings.png
+    .. image:: /_static/images/Tutorial/NRGRank_settings.png
            :alt: An example image
            :width: 65%
            :align: center
