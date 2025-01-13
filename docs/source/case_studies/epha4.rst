@@ -101,6 +101,7 @@ Click the 'FlexAID' button in the left corner menu. Go to the 'Settings' tab. Se
            :width: 65%
            :align: center
 
+
 Go to the 'Simulate' tab. Press 'Refresh' in the target list, ligand list, and bind-site list. Select '2wo2' as the target, 'DB04868' as the ligand, and 'receptor_sph_1' as the target cleft.
 
     .. image:: /_static/images/Tutorial/flexaid_simulation.png
