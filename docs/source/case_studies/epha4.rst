@@ -82,7 +82,7 @@ The top 20 ligands will be plotted in the PyMOL interface in a group called 'NRG
 
     .. image:: /_static/images/Tutorial/NRGRank_results_list.png
            :alt: An example image
-           :width: 80%
+           :width: 100%
            :align: center
 
 
@@ -113,7 +113,7 @@ The 'Results' tab will open automatically. The progress bar will indicate the pr
 
     .. image:: /_static/images/Tutorial/flexaid_results.png
            :alt: An example image
-           :width: 65%
+           :width: 100%
            :align: center
 
 The top 10 results will be plotted in the PyMOL interface in a group called Flexaid results:
