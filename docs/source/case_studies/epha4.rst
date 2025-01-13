@@ -86,6 +86,7 @@ The top 20 ligands will be plotted in the PyMOL interface in a group called 'res
            :width: 65%
            :align: center
 
+
 You can access the complete list of results of NRGRank by opening the '.csv' file in the 'temp' directory of 'NRGsuite_QT' in documents.
 
 
