@@ -24,7 +24,7 @@ Welcome to NRGlab's documentation for NRGSuite-QT PyMOL plugin!
     :caption: Software Description
 
     /software_description/GetCleft
-    /software_description/NRGDock
+    /software_description/NRGRank
     /software_description/FlexAID
     /software_description/Surfaces
     /software_description/NRGTEN
