@@ -19,7 +19,7 @@ Open PyMOL and run the command:
             fetch 6vyb
             remove hetatm
 
-    .. image:: /_static/images/Tutorial/fetch_1
+    .. image:: /_static/images/Tutorial/fetch_1.png
            :alt: An example image
            :width: 65%
            :align: center
@@ -32,7 +32,7 @@ We will also evaluate the interaction with the receptor ACE2:
             remove 6m17 and (chain A or chain C or chain D or chain F)
             remove hetatm
 
-    .. image:: /_static/images/Tutorial/fetch_2
+    .. image:: /_static/images/Tutorial/fetch_2.png
            :alt: An example image
            :width: 65%
            :align: center
@@ -44,7 +44,7 @@ As well as immune recognition, here represented by interactions with antibody C1
             fetch 6xcn
             remove hetatm
 
-    .. image:: /_static/images/Tutorial/fetch_3
+    .. image:: /_static/images/Tutorial/fetch_3.png
            :alt: An example image
            :width: 65%
            :align: center
@@ -56,7 +56,7 @@ We will use conformational ensembles to evaluate the interactions with ACE2 for 
             fetch 7wbl
             remove hetatm
 
-    .. image:: /_static/images/Tutorial/fetch_4
+    .. image:: /_static/images/Tutorial/fetch_4.png
            :alt: An example image
            :width: 65%
            :align: center
@@ -71,13 +71,13 @@ The D614G substituion became common during the summer of 2020 and was the first 
 
             sele resi 614 and 6vxx
 
-    .. image:: /_static/images/Tutorial/sele_614_1
+    .. image:: /_static/images/Tutorial/sele_614_1.png
            :alt: An example image
            :width: 65%
            :align: center
 
 Run Modeller
-    .. image:: /_static/images/Tutorial/mut_614_1
+    .. image:: /_static/images/Tutorial/mut_614_1.png
            :alt: An example image
            :width: 65%
            :align: center
@@ -86,13 +86,13 @@ Run Modeller
 
             sele resi 614 and 6vyb
 
-    .. image:: /_static/images/Tutorial/sele_614_2
+    .. image:: /_static/images/Tutorial/sele_614_2.png
            :alt: An example image
            :width: 65%
            :align: center
 
 Run Modeller
-    .. image:: /_static/images/Tutorial/mut_614_2
+    .. image:: /_static/images/Tutorial/mut_614_2.png
            :alt: An example image
            :width: 65%
            :align: center
@@ -100,22 +100,22 @@ Run Modeller
 Once the mutations are done, we can evaluate their effects on dynamics using NRGTEN:
 
 Run NRGTEN
-    .. image:: /_static/images/Tutorial/run_614_1
+    .. image:: /_static/images/Tutorial/run_614_1.png
            :alt: An example image
            :width: 65%
            :align: center
 
-    .. image:: /_static/images/Tutorial/result_614_1
+    .. image:: /_static/images/Tutorial/result_614_1.png
            :alt: An example image
            :width: 65%
            :align: center
 
-    .. image:: /_static/images/Tutorial/run_614_2
+    .. image:: /_static/images/Tutorial/run_614_2.png
            :alt: An example image
            :width: 65%
            :align: center
 
-    .. image:: /_static/images/Tutorial/result_614_2
+    .. image:: /_static/images/Tutorial/result_614_2.png
            :alt: An example image
            :width: 65%
            :align: center
