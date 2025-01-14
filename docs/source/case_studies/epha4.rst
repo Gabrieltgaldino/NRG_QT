@@ -119,9 +119,6 @@ The 'Results' tab will open automatically. The progress bar will indicate the pr
 The top 1 result will be plotted in the PyMOL interface in a group called "FlexAID"
 
 
-
-
-
 Visualizing Nilotinib/EphA4 Interactions with Surfaces
 ======================================================
 
@@ -173,7 +170,7 @@ To download and make a selection with the ligand in 3cs9, run these commands in 
 
 Open 'GetCleft' menu. Select 3cs9 in the 'PyMOL objects/selections:' list and press 'start'.
 
-    .. image:: /_static/images/Tutorial/ISOMIF_getcleft_config.png
+    .. image:: /_static/images/Tutorial/ISOMIF_config.png
            :alt: An example image
            :width: 65%
            :align: center
@@ -182,7 +179,7 @@ The first cleft will be the one containing the ligand in 3cs9. We can now open I
 In the "Load object 2" area select RESULT_0 in the "Object 2" list, "RESULT_0_sph_1" in the "Cleft" list and "Ligand" list.
 Press "Run".
 
-    .. image:: /_static/images/Tutorial/ISOMIF_config.png
+    .. image:: /_static/images/Tutorial/ISOMIF_settings.png
            :alt: An example image
            :width: 65%
            :align: center
