@@ -40,7 +40,7 @@ The generated binding sites will be displayed in PyMOL and marked according to t
 In the case where a ligand or residue was given in the "Residue in contact" line edit, only the binding sites in contact with the ligand/residue indicated will be displayed.
 
 Partition Cleft
-========
+------------------
 
 Once a cavity is generated it is possible to partition it for an smaller size using the "Partition Cleft" tab in "GetCleft" menu. Press the "Refresh" button in the "STEP 1:" area o list all binding sites in the Pymol interface and select the desired binding site.
 
