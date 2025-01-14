@@ -19,6 +19,11 @@ Open PyMOL and run the command:
             fetch 6vyb
             remove hetatm
 
+    .. image:: /_static/images/Tutorial/fetch_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 We will also evaluate the interaction with the receptor ACE2:
 
     .. code-block:: console
@@ -27,12 +32,22 @@ We will also evaluate the interaction with the receptor ACE2:
             remove 6m17 and (chain A or chain C or chain D or chain F)
             remove hetatm
 
+    .. image:: /_static/images/Tutorial/fetch_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 As well as immune recognition, here represented by interactions with antibody C105:
 
     .. code-block:: console
 
             fetch 6xcn
             remove hetatm
+
+    .. image:: /_static/images/Tutorial/fetch_3.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 We will use conformational ensembles to evaluate the interactions with ACE2 for the Omicron variant:
 
@@ -41,18 +56,69 @@ We will use conformational ensembles to evaluate the interactions with ACE2 for 
             fetch 7wbl
             remove hetatm
 
+    .. image:: /_static/images/Tutorial/fetch_4.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 
 Creating mutations and evaluating dynamical effects
 ====================
 
-The D614G substituion became common during the summer of 2020 and was the first widely selected Spike substitution during the COVID-19 pandemic. Let's evaluate its effects on the Spike dynamics.
+The D614G substituion became common during the summer of 2020 and was the first widely selected Spike substitution during the COVID-19 pandemic. Let's evaluate its effects on the Spike dynamics. First, we need to perform the mutations:
 
     .. code-block:: console
 
-            sele resi 614
+            sele resi 614 and 6vxx
+
+    .. image:: /_static/images/Tutorial/sele_614_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 Run Modeller
+    .. image:: /_static/images/Tutorial/mut_614_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. code-block:: console
+
+            sele resi 614 and 6vyb
+
+    .. image:: /_static/images/Tutorial/sele_614_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+Run Modeller
+    .. image:: /_static/images/Tutorial/mut_614_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+Once the mutations are done, we can evaluate their effects on dynamics using NRGTEN:
+
 Run NRGTEN
+    .. image:: /_static/images/Tutorial/run_614_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/result_614_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/run_614_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/result_614_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 We can see the pattern of increased flexibilty of the closed state and decreased flexibility of the open conformation, particularly around the open Receptor-Binding Domain. These results reproduce the observations from Teruel et al. (2021) for the D614G mutation favoring the open state occupancy, also confirmed by more costly computational methods and experimental observations (Mansbach et al. 2021, Gobeil et al. 2021).
 
