@@ -6,7 +6,7 @@ GetCleft
 The software **GetCleft** (https://github.com/NRGlab/Get_Cleft) was developed for detection of cavities and surface-exposed areas.
 And it is used for biding site definition in FlexAID and NRGdock.
 To use it, open the plug-in on the 'Plugin' menu in PyMOL click on the 'GetCleft' button in the left corner of the window.
-Load the structure of the target in Pymol. test
+Load the structure of the target in Pymol.
 Press 'Refresh' in the 'Select a structure' session and the select the target in the 'PyMOL objects/selections:' list.
 
     .. figure:: /_static/images/GetCleft/GetCleft_menu.png
@@ -29,7 +29,7 @@ GetCleft will output the top N clefts defined in "Number of clefts to show" (def
 .. note::
     When a residue is indicated in the box, only the cavity containing the residue will be generated.
 
-The generated clefts will be displayed in PyMOL and marked according to their volume:
+The generated clefts will be displayed in PyMOL and marked according to their volume in a group called "GetCleft":
 
     .. image:: /_static/images/GetCleft/Clefts_2wo2.png
            :alt: An example image
@@ -38,3 +38,7 @@ The generated clefts will be displayed in PyMOL and marked according to their vo
 
 
 In the case where a ligand or residue was given in the "Residue in contact" line edit, only the clefts in contact with the ligand/residue indicated will be displayed.
+
+Partition Cleft
+========
+
