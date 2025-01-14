@@ -26,7 +26,7 @@ Ligands sets
 By default, two common data sets of are provided: 'DrugBank FDA' containing of all FDA approved drugs available in Drugbank(https://go.drugbank.com/ ) and 'PDB' containing all small molecules available in the Chemical Component Dictionary (https://www.wwpdb.org/data/ccd ). The list of all other ligands to be tested should be provided in a file in smiles format ('.smi') and added in the session 'Ligand set manager'.
 Add the smiles file path to the box 'Smile file' or click in browse to load it via file manager. Press Add to this set to your list of ligand sets.
 
-    .. image:: /_static/images/NRGRank/settings.png
+    .. image:: /_static/images/NRGRank/NRGRank_menu.png
            :alt: An example image
            :width: 65%
            :align: center
