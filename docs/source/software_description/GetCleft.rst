@@ -42,7 +42,7 @@ In the case where a ligand or residue was given in the "Residue in contact" line
 Partition Cleft
 ------------------
 
-Once a cavity is generated it is possible to partition it for an smaller size using the "Partition Cleft" tab in "GetCleft" menu. Press the "Refresh" button in the "STEP 1:" area o list all binding sites in the Pymol interface and select the desired binding site.
+Once a cavity is generated it is possible to crop it for an smaller size using the "Partition Cleft" tab in "GetCleft" menu. Press the "Refresh" button in the "STEP 1:" area o list all binding sites in the Pymol interface and select the desired binding site.
 
     .. image:: /_static/images/GetCleft/Partition.png
            :alt: An example image
@@ -56,7 +56,7 @@ In the "STEP 2" area click on the "Add" button to add a sphere to the pymol inte
         Mouse: Press Shift + Mouse3 (wheel Click) to move the sphere.
         Trackpad: Press Command + Mouse click to move the sphere.
 
-To delete the sphere press the button "Delete". Give a name for the partitioned binding site by using the box in the "STEP 3" area.
+To delete the sphere press the button "Delete". Give a name for the cropped binding site by using the box in the "STEP 3" area. Press "Crop binding site" and the new binding site will be added to the same group as the original binding site:
 
     .. image:: /_static/images/GetCleft/cleft_partitioned.png
            :alt: An example image
