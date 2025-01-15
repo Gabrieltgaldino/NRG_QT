@@ -16,7 +16,8 @@ Surfaces is fully implemented in NRGSuite-QT and can be applied to protein-prote
        :width: 50%
        :align: center
 
-
+Settings
+----------
 
 .. image:: /_static/images/Surfaces/surfaces_settings.png
        :alt: An example image
@@ -27,9 +28,9 @@ Press 'Refresh' in the "Surfaces selection" area.
 
 Select the object containing the object of interest in the "Object" list.
 
-If running for ** Protein-Ligand ** interactions: Select the selection containing the ligand in the "Ligand (optional)" list. All other fields should be marked as "None". By default if a ligand is specified the chain's information in the "Protein-Protein interactions" section is ignored.
+If running for **Protein-Ligand** interactions: Select the selection containing the ligand in the "Ligand (optional)" list. All other fields should be marked as "None". By default if a ligand is specified the chain's information in the "Protein-Protein interactions" section is ignored.
 
-If running for  ** Protein-Protein ** interactions: The "Ligand (optional)" list must be marked as "None". In the "Protein-Protein Interactions" section the user must specify one or a group of chains in the "Chain 1:" and "Chain 2:", those chains must be one letter or all letters representing all chains in the group (i. e. "A" for "chain A" or "ABC" for a group of three chains A, B and C).
+If running for  **Protein-Protein** interactions: The "Ligand (optional)" list must be marked as "None". In the "Protein-Protein Interactions" section the user must specify one or a group of chains in the "Chain 1:" and "Chain 2:", those chains must be one letter or all letters representing all chains in the group (i. e. "A" for "chain A" or "ABC" for a group of three chains A, B and C).
 
 .. note::
 
@@ -37,12 +38,19 @@ If running for  ** Protein-Protein ** interactions: The "Ligand (optional)" list
 
     For more information refer to the surfaces manual: https://surfaces-tutorial.readthedocs.io/en/latest/Protein-protein.html
 
-Press "Run Surfaces"
+Surfaces also supports the comparison between mutants and wild type. For that all mutants should be present as states of a second object. This object can be generated with the "Single Mutations" functionality (see :doc:`Single Mutations`) or the "Multi-state object Manager" in the "Settings" menu (see :doc:`Settings`).
+
+Select the object containing all mutants in the "Object" list in the "Surfaces selection 2" area.
+
+If analysing the difference of interactions between mutants and a **ligand** a selection containing the ligand in the multi-state object should be created. Choose the selection containing the ligand in the multi-state object in the "Ligand (optional)" list in the "Surfaces selection 2" area.
+
+If analysing the difference of **Protein-Protein** interactions between mutants, the "Ligand (optional)" list should be marked as "None" in both "Surfaces selection" areas. The chains or group of chains to be analysed in all mutants should match the ones in the wild type.
+
+Press "Run Surfaces" to initiate the calculation.
+
 
 Results
 -----------
-
-
 
 The results per interaction residue (target)/atom (ligand) will be shown in the "Results" tab that will open automatically once the calculation is done.
 
@@ -52,7 +60,7 @@ To visualize specific interactions click on the residue name and a selection cal
 
 .. image:: /_static/images/Surfaces/surfaces_results_ligand.png
        :alt: An example image
-       :width: 65%
+       :width: 100%
        :align: center
 
 
