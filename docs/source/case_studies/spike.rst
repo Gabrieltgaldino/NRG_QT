@@ -130,18 +130,59 @@ First, we need to create the mutations:
 
             sele resi 417 and 6vxx
 
+    .. image:: /_static/images/Tutorial/sele_417_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 Run Modeller
+
+    .. image:: /_static/images/Tutorial/mut_417_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
     .. code-block:: console
 
             sele resi 417 and 6vyb
 
+    .. image:: /_static/images/Tutorial/sele_417_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 Run Modeller
+
+    .. image:: /_static/images/Tutorial/mut_417_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 Now that the mutations are done for both conformational states, we can evaluate their effects on dynamics.
 
 Run NRGTEN
+
+    .. image:: /_static/images/Tutorial/run_417_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/result_417_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 Run NRGTEN
+
+    .. image:: /_static/images/Tutorial/run_417_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/result_417_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 We see that K417N has similar effects to D614G, making the closed conformation more flexible around the Receptor-Binding Domain, and the open Receptor-Binding Domain becomes more rigid.
 
@@ -151,18 +192,59 @@ We can make the same evaluation for mutation N501Y, starting by creating the mut
         
             sele resi 501 and 6vxx
 
+    .. image:: /_static/images/Tutorial/sele_501_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 Run Modeller
+
+    .. image:: /_static/images/Tutorial/mut_501_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
     .. code-block:: console
         
             sele resi 501 and 6vyb
 
+    .. image:: /_static/images/Tutorial/sele_501_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 Run Modeller
+
+    .. image:: /_static/images/Tutorial/mut_501_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 Now that the mutations are done for both conformational states, we can evaluate their effects on dynamics.
 
 Run NRGTEN
+
+    .. image:: /_static/images/Tutorial/run_501_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/result_501_1.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 Run NRGTEN
+
+    .. image:: /_static/images/Tutorial/run_501_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/result_501_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 The mutation N501Y also makes the closed conformation more flexible and the open Receptor-Binding Domain more rigid. This reproduces the predictive results from Teruel et al. (2021). The dynamical effects of these mutations have also been shown experimentally (Gobeil et al. 2021).
 
