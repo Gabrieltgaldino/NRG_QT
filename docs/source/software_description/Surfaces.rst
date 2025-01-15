@@ -9,15 +9,27 @@ Surfaces is fully implemented in NRGSuite-QT and can be applied to protein-prote
 Surfaces to protein-ligand interactions
 -------
 
+To run surfaces for a single ligand/target complex:
++++++++++++++++
+
 .. note::
     In order to run surfaces to calculate ligand-protein interactions, the ligand and the target must be loaded in pymol in a single object. A selection with containing the ligand must be created.
 
     .. image:: /_static/images/Surfaces/surfaces_note.png
        :alt: An example image
-       :width: 65%
+       :width: 50%
        :align: center
 
-Select surfaces in the main menu on the left corner of the plug-in. Press 'Refresh' and select the FlexAID result in 'Result to run surfaces on' list. Press the button 'Run Surfaces'.
+
+Press 'Refresh' in the "Surfaces selection" area.
+
+Select the object containing the target+ligand in the "Object" list.
+
+Select the selection containing the ligand in the "Ligand (optional)" list.
+
+** All oder fields must be marked as "None" **
+
+Press "Run Surfaces"
 
 .. image:: /_static/images/Surfaces/surfaces_settings.png
        :alt: An example image
