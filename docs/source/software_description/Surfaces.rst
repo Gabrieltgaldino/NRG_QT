@@ -11,14 +11,15 @@ Surfaces to protein-ligand interactions
 
 .. note::
     In order to run surfaces to calculate ligand-protein interactions, the ligand and the target must be loaded in pymol in a single object. A selection with containing the ligand must be created.
-    .. image:: _static/images/Surfaces/surfaces_note.png
+
+    .. image:: /_static/images/Surfaces/surfaces_note.png
        :alt: An example image
        :width: 65%
        :align: center
 
 Select surfaces in the main menu on the left corner of the plug-in. Press 'Refresh' and select the FlexAID result in 'Result to run surfaces on' list. Press the button 'Run Surfaces'.
 
-.. image:: _static/images/Surfaces/surfaces_settings.png
+.. image:: /_static/images/Surfaces/surfaces_settings.png
        :alt: An example image
        :width: 65%
        :align: center
