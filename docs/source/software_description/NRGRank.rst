@@ -89,6 +89,7 @@ A list of IDs and cfs is shown in a table. To show specific results click on the
      Only ligands within the "Top n results" defined in the settings before the simulations will show in pymol.
 
 
+
     .. image:: /_static/images/NRGRank/results_table.png
            :alt: An example image
            :width: 65%
