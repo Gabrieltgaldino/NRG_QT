@@ -58,13 +58,24 @@ This set can be removed when no longer needed in the tab 'Delete' in the same se
 Running NRGRank
 ------------
 To run 'NRGRank' click on the tab 'Run' in 'NRGRank' interface.
-Press the button 'Refresh' in the 'Target' list and select the target object previously loaded in PyMOL.
-Press the button 'Refresh' in the 'Ligand set' list and select the ligand set to be tested (previously added at :ref:`Ligand sets`).
-Press the button 'Refresh' in the 'Binding site' list and select the cleft object previously loaded in PyMOL (see: :doc:`GetCleft`).
-To start the simulation press the button 'Start'.
-The progress of the simulation can be monitored using the 'Progress' bar and the 'Ligand' counter showing 'ligands tested / total ligands in the ligand set'.
 
-.. image:: /_static/images/NRGRank/run_tab_nrgdock.png
+Press the button 'Refresh' in the 'Target' list and select the target object previously loaded in PyMOL.
+
+Press the button 'Refresh' in the 'Ligand set' list and select the ligand set to be tested (previously added at :ref:`Ligand sets`).
+
+Press the button 'Refresh' in the 'Binding site' list and select the cleft object previously loaded in PyMOL (see: :doc:`GetCleft`).
+
+To start the simulation press the button 'Start'.
+
+The progress of the simulation can be monitored using the 'Progress' bar and the 'Ligand' counter showing the percentage of ligands tested.
+
+
+.. image:: /_static/images/NRGRank/run_tab_nrgrank.png
+       :alt: An example image
+       :width: 65%
+       :align: center
+
+.. image:: /_static/images/NRGRank/results_table.png
        :alt: An example image
        :width: 65%
        :align: center
