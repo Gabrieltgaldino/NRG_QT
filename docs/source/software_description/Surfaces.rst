@@ -40,7 +40,7 @@ If running for  **Protein-Protein** interactions: The "Ligand (optional)" list m
 
     For more information refer to the surfaces manual: https://surfaces-tutorial.readthedocs.io/en/latest/Protein-protein.html
 
-Surfaces also supports the comparison between mutants and wild type. For that all mutants should be present as states of a second object. This object can be generated with the "Single Mutations" functionality (see :doc:`Single Mutations`) or the "Multi-state object Manager" in the "Settings" menu (see :doc:`Settings`).
+Surfaces also supports the comparison between mutants and wild type. For that all mutants should be present as states of a second object. This object can be generated with the "Single Mutations" functionality (see :doc:`Single_Mutations`) or the "Multi-state object Manager" in the "Settings" menu (see :doc:`Settings`).
 
 Select the object containing all mutants in the "Object" list in the "Surfaces selection 2" area.
 
@@ -54,13 +54,23 @@ Press "Run Surfaces" to initiate the calculation.
 Results
 -----------
 
-The results per interaction residue (target)/atom (ligand) will be shown in the "Results" tab that will open automatically once the calculation is done.
+The results per interaction, residue (target)/atom (ligand) for **Protein-Ligand** interactions and residue/residue for **Protein-Protein** interactions, will be shown in the "Results" tab that will open automatically once the calculation is done.
 
 The visual of surfaces will be shown in the pymol window.
 
-To visualize specific interactions click on the residue name and a selection called "sele_surfaces", containing the residue will be crated and the residue will be shown in lines representation.
+To visualize specific interactions click on the residue name and a selection called "sele_surfaces", containing the residue will be crated and the residue will be zoomed-in and shown in lines representation.
+
+The user can also create a selection containing "ALL" or the "TOP N" residues in the interface by pressing the "Interface" button. A selection called "all_residues" will be crated
 
 .. image:: /_static/images/Surfaces/surfaces_results_ligand.png
+       :alt: An example image
+       :width: 100%
+       :align: center
+
+A list of all previous individual results will be listed in the "Individual results:" list. In the case where a state with mutants is specified in the settings, the results of all individual mutants will be shown in the "Individual results:" list. Press "Refresh" and the comparison of differences in total "CF" of each mutant in comparison with the wild-type will appear. All previous comparisons will be listed in the "CF comparison" list. All results are shown in the pymon interface in a group called "results_surfaces"
+
+
+.. image:: /_static/images/Surfaces/surfaces_cf_comparison.png
        :alt: An example image
        :width: 100%
        :align: center
