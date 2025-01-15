@@ -27,9 +27,9 @@ Press 'Refresh' in the "Surfaces selection" area.
 
 Select the object containing the object of interest in the "Object" list.
 
-If running for *** Protein-Ligand *** interactions: Select the selection containing the ligand in the "Ligand (optional)" list. All other fields should be marked as "None". By default if a ligand is specified the chain's information in the "Protein-Protein interactions" section is ignored.
+If running for ** Protein-Ligand ** interactions: Select the selection containing the ligand in the "Ligand (optional)" list. All other fields should be marked as "None". By default if a ligand is specified the chain's information in the "Protein-Protein interactions" section is ignored.
 
-If running for  *** Protein-Protein *** interactions: The "Ligand (optional)" list must be marked as "None". In the "Protein-Protein Interactions" section the user must specify one or a group of chains in the "Chain 1:" and "Chain 2:", those chains must be one letter or all letters representing all chains in the group (i. e. "A" for "chain A" or "ABC" for a group of three chains A, B and C).
+If running for  ** Protein-Protein ** interactions: The "Ligand (optional)" list must be marked as "None". In the "Protein-Protein Interactions" section the user must specify one or a group of chains in the "Chain 1:" and "Chain 2:", those chains must be one letter or all letters representing all chains in the group (i. e. "A" for "chain A" or "ABC" for a group of three chains A, B and C).
 
 .. note::
 
