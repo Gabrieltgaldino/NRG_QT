@@ -23,6 +23,8 @@ In the 'Settings' tab, set the 'Number of Generations' and 'Number of Chromosome
            :width: 65%
            :align: center
 
+Mark the "Ligand pose as reference" box to calculate the RMSD between FlexAID results and the original ligand pose.
+
 Simulate
 -------------
 
