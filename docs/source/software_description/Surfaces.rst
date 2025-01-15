@@ -17,13 +17,13 @@ Surfaces is fully implemented in NRGSuite-QT and can be applied to protein-prote
        :align: center
 
 
-Press 'Refresh' in the "Surfaces selection" area.
-
 
 .. image:: /_static/images/Surfaces/surfaces_settings.png
        :alt: An example image
        :width: 65%
        :align: center
+
+Press 'Refresh' in the "Surfaces selection" area.
 
 Select the object containing the object of interest in the "Object" list.
 
