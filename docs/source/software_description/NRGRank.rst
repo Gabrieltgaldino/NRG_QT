@@ -28,6 +28,12 @@ To start screening from a certain ligand in the ligand set instead of screening 
 
 Select the desired CPU usage for the screening at "CPU usage target" list.
 
+
+    .. image:: /_static/images/NRGRank/NRGRank_menu.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 Ligands sets
 ------------
 
@@ -40,10 +46,6 @@ This file contain one ligand per line in the format:
 
 Add the smiles file path to the box 'Smile file' or click in browse to load it via file manager. Press Add to this set to your list of ligand sets.
 
-    .. image:: /_static/images/NRGRank/NRGRank_menu.png
-           :alt: An example image
-           :width: 65%
-           :align: center
 
 
 This set can be removed when no longer needed in the tab 'Delete' in the same session, by pressing the button refresh and selecting the Ligand set to be deleted in the 'Available ligand sets' box.
