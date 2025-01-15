@@ -46,11 +46,11 @@ Press the 'Start' button to begin the simulation, and the 'Results' tab will ope
 
 The 'Progress Bar' will indicate how many generations have passed in the genetic algorithm. The 'Pause' button can be used to temporarily stop a simulation and resume it later without closing the plugin interface. The 'Stop' button will halt the simulation and save the results as they are for the current generation. The 'Abort' button will stop the simulation without saving any results.
 
-The scores for the top 5 poses are shown under the buttons. The 'CF' indicates the scoring for the pose (a more negative CF indicates a better score).
+The scores for the top 10 poses are shown under the buttons. The 'CF' indicates the scoring for the pose (a more negative CF indicates a better score) and the RMSD to the original ligand pose is shown in "Last RMSD".
 
     .. image:: /_static/images/Flexaid/flexaid_result.png
            :alt: An example image
-           :width: 65%
+           :width: 100%
            :align: center
 
 The top 10 results are loaded into the PyMOL interface and updated in real-time during the simulation.
