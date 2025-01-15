@@ -36,7 +36,7 @@ If running for  **Protein-Protein** interactions: The "Ligand (optional)" list m
 
     In order to run surfaces for protein-protein interactions all chains must be loaded in the same object.
 
-    If the user specify "ABC" in the "Chain 1:" area and "DE" in the "Chain2" area, that will provide a calculation of the interactions between residues of the first group of chains (A, B and C in the example) and residues of the second group of chains (D and E in the example).
+    If the user specify "ABC" in the "Chain 1:" area and "DE" in the "Chain2" area, that will provide a calculation of the interactions between residues of the first group of chains (A, B and C) and residues of the second group of chains (D and E).
 
     For more information refer to the surfaces manual: https://surfaces-tutorial.readthedocs.io/en/latest/Protein-protein.html
 
