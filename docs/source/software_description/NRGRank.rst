@@ -50,10 +50,10 @@ Add the smiles file path to the box 'Smile file' or click in browse to load it v
 
 This set can be removed when no longer needed in the tab 'Delete' in the same session, by pressing the button refresh and selecting the Ligand set to be deleted in the 'Available ligand sets' box.
 
-.. image:: /_static/images/NRGRank/delete_sets.png
-       :alt: An example image
-       :width: 65%
-       :align: center
+    .. image:: /_static/images/NRGRank/delete_sets.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 Running NRGRank
 ------------
@@ -69,13 +69,27 @@ To start the simulation press the button 'Start'.
 
 The progress of the simulation can be monitored using the 'Progress' bar and the 'Ligand' counter showing the percentage of ligands tested.
 
+By pressing "Cancel" the simulation is aborted and no results are saved.
 
-.. image:: /_static/images/NRGRank/run_tab_nrgrank.png
-       :alt: An example image
-       :width: 65%
-       :align: center
 
-.. image:: /_static/images/NRGRank/results_table.png
-       :alt: An example image
-       :width: 65%
-       :align: center
+    .. image:: /_static/images/NRGRank/run_tab_nrgrank.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+Results
+------------
+
+The results from NRGRank are shown in the "Results" tab that is automatically open when the simulation is completed.
+
+A list of IDs and cfs is shown in a table. To show specific results click on the desired ligand ID and the result will be show in Pymol interface.
+
+.. note::
+
+     Only ligands within the "Top n results" defined in the settings before the simulations will show in pymol.
+
+
+    .. image:: /_static/images/NRGRank/results_table.png
+           :alt: An example image
+           :width: 65%
+           :align: center
