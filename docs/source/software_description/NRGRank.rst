@@ -16,14 +16,28 @@ NRGRank
 General settings
 ------------
 
-Click on the button 'NRGRank' on the left menu of the plugin. In the tab 'Settings':
-In the session 'General settings', select the number of 'Ligand rotations per axis' (default and recommend: 9) .
-Mark the box 'Saves Pose(s)' to select the number of poses to be saved in '.pdb' format in the end of the simulation (by default no poses are saved since NRGRank poses are an approximation and not always realistic).
+Click on the 'NRGRank' button on the left menu of the plugin.
+
+In the 'Settings' tab:
+
+Within the 'General settings' section select the number of 'Ligand rotations per axis' (default and recommend: 9).
+
+Select the number of top n poses to be shown in pymol interface at the end of the simulation in the box: "Save poses for top n results:".
+
+To start screening from a certain ligand in the ligand set instead of screening the whole data set, chose the starting ligand in the box: "Start screening at ligand:"
+
+Select the desired CPU usage for the screening at "CPU usage target" list.
 
 Ligands sets
 ------------
 
-By default, two common data sets of are provided: 'DrugBank FDA' containing of all FDA approved drugs available in Drugbank(https://go.drugbank.com/ ) and 'PDB' containing all small molecules available in the Chemical Component Dictionary (https://www.wwpdb.org/data/ccd ). The list of all other ligands to be tested should be provided in a file in smiles format ('.smi') and added in the session 'Ligand set manager'.
+By default, three common data sets of are provided: 'DrugBank FDA' containing of all FDA approved drugs available in Drugbank(https://go.drugbank.com/ ), 'PDB small ligands' containing all small molecules available in the Chemical Component Dictionary (https://www.wwpdb.org/data/ccd ) and "Tetrapeptides" that include all 16000 tetrapeptides provided by Prasasty et al. ( https://pmc.ncbi.nlm.nih.gov/articles/PMC6806445/ ).
+
+The list of all other ligands to be tested should be provided in a file in smiles format ('.smi') and added in the session 'Ligand set manager'.
+This file contain one ligand per line in the format:
+
+"SMILES ID"
+
 Add the smiles file path to the box 'Smile file' or click in browse to load it via file manager. Press Add to this set to your list of ligand sets.
 
     .. image:: /_static/images/NRGRank/NRGRank_menu.png
