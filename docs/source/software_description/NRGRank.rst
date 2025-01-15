@@ -94,3 +94,10 @@ A list of IDs and cfs is shown in a table. To show specific results click on the
            :alt: An example image
            :width: 65%
            :align: center
+
+Old results can be loaded by pressing "Browse" and selecting the ".csv" result file and by pressing "Load CSV".
+
+    .. image:: /_static/images/NRGRank/csv_file_path.png
+               :alt: An example image
+               :width: 65%
+               :align: center
