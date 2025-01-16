@@ -6,7 +6,8 @@ Spike Variant (Protein-Protein analysis)
 
 In this tutorial, we will reproduce a few results regarding the evolution of the SARS-CoV-2 Spike protein. We will employ tools available at NRGSuite_Qt to study its conformatioal dynamics, binding affiity to ACE2 and antibody recognition.
 
-Preparing the protein
+
+Evaluating dynamical effects of mutations
 ====================
 
 We will firstly evaluate conformational dynamics. For that purpose, we will use 2 Spike structures, one in the 3-down conformation and one in the 1-up conformation.
@@ -23,47 +24,6 @@ Open PyMOL and run the command:
            :alt: An example image
            :width: 65%
            :align: center
-
-We will also evaluate the interaction with the receptor ACE2:
-
-    .. code-block:: console
-            
-            fetch 6m17
-            remove 6m17 and (chain A or chain C or chain D or chain F)
-            remove hetatm
-
-    .. image:: /_static/images/Tutorial/fetch_2.png
-           :alt: An example image
-           :width: 65%
-           :align: center
-
-As well as immune recognition, here represented by interactions with antibody C105:
-
-    .. code-block:: console
-
-            fetch 6xcn
-            remove hetatm
-
-    .. image:: /_static/images/Tutorial/fetch_3.png
-           :alt: An example image
-           :width: 65%
-           :align: center
-
-We will use conformational ensembles to evaluate the interactions with ACE2 for the Omicron variant:
-
-    .. code-block:: console
-
-            fetch 7wbl
-            remove hetatm
-
-    .. image:: /_static/images/Tutorial/fetch_4.png
-           :alt: An example image
-           :width: 65%
-           :align: center
-
-
-Creating mutations and evaluating dynamical effects
-====================
 
 The D614G substituion became common during the summer of 2020 and was the first widely selected Spike substitution during the COVID-19 pandemic. Let's evaluate its effects on the Spike dynamics. First, we need to perform the mutations:
 
@@ -248,8 +208,21 @@ Run NRGTEN
 
 The mutation N501Y also makes the closed conformation more flexible and the open Receptor-Binding Domain more rigid. This reproduces the predictive results from Teruel et al. (2021). The dynamical effects of these mutations have also been shown experimentally (Gobeil et al. 2021).
 
-Creating mutations and evaluating ACE2 interactions
+Evaluating the effects of mutations on ACE2 interactions
 ====================
+
+For the evaluation of the interaction with the receptor ACE2, we will need a structure in complex with the receptor:
+
+    .. code-block:: console
+            
+            fetch 6m17
+            remove 6m17 and (chain A or chain C or chain D or chain F)
+            remove hetatm
+
+    .. image:: /_static/images/Tutorial/fetch_2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 The mutation N501Y is known for increasing interaction with the receptor ACE2 (starr2020deep, sergeeva2023free, tian2021n501y, laffeber2021experimental, geng2022structural, moulana2022compensatory). Let's see if we can reproduce these results!
 
@@ -267,8 +240,20 @@ Run Surfaces
 
 If we look at the difference in total CF, we see an increase in binding affinity of 0.31 kcal/mol due to the modeled mutation.
 
-Creating mutations and evaluating immune recognition
+Evaluating the effects of mutations on immune recognition
 ====================
+
+We can also evaluate immune recognition, here represented by interactions with antibody C105. For that, we need a structure of Spike interacting with this antibody:
+
+    .. code-block:: console
+
+            fetch 6xcn
+            remove hetatm
+
+    .. image:: /_static/images/Tutorial/fetch_3.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 The K417N substition is in a very important epitope of antibody recognition. Deep mutational scanning (DMS) results show that it affects the recognition of many antibodies, among which the C105 antibody (greaney2022antibody, cao2023imprinted). We can try to reproduce these results evaluating the complex structure.
 
@@ -288,6 +273,19 @@ We see that the mutation K417N lowers the binding affinity in 0.47 kcal/mol, in 
 
 Conformational ensembles
 ====================
+
+We will use conformational ensembles to evaluate the interactions with ACE2 for the Omicron variant. For that, we will use a PDB structure of the Omicron Receptor-Binding Domain in complex with the receptor ACE2:
+
+    .. code-block:: console
+
+            fetch 7wbl
+            remove hetatm
+
+    .. image:: /_static/images/Tutorial/fetch_4.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 
 Evaluating interactions based on a single or a few structures is inherently limited by the lack of representation of structural variability. Proteins are dynamic entities with flexible backbones and side chains. To more accurately assess complex interactions, it is essential to account for this structural variability.
 
