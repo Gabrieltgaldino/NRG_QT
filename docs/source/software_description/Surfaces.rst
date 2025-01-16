@@ -70,7 +70,7 @@ The user can also create a selection containing "ALL" or the "TOP N" residues in
 A list of all previous individual results will be listed in the "Individual results:" list. In the case where a state with mutants is specified in the settings, the results of all individual mutants will be shown in the "Individual results:" list. Press "Refresh" and the comparison of differences in total "CF" of each mutant in comparison with the wild-type will appear. All previous comparisons will be listed in the "CF comparison" list. All results are shown in the pymon interface in a group called "results_surfaces"
 
 
-.. image:: /_static/images/Surfaces/surfaces_cf_comparison.png
+.. image:: /_static/images/Surfaces/surfaces_cf_comparision.png
        :alt: An example image
        :width: 100%
        :align: center
