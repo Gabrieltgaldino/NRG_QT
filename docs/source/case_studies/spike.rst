@@ -102,7 +102,7 @@ First, we need to create the mutations. For that, we first select the residue we
            :width: 65%
            :align: center
 
-We can then run the Single Mutants function:
+We can then run the Single Mutations function:
 
     .. image:: /_static/images/Tutorial/mut_417_1.png
            :alt: An example image
