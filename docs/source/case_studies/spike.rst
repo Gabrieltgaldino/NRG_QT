@@ -284,7 +284,7 @@ We can also evaluate immune recognition, here represented by interactions with a
 
 The K417N substition is in a very important epitope of antibody recognition. Deep mutational scanning (DMS) results show that it affects the recognition of many antibodies, among which the C105 antibody (greaney2022antibody, cao2023imprinted). We can try to reproduce these results evaluating the complex structure.
 
-We start by modeling the mutation:
+We start by modeling the mutation. For that, we first select residue 417:
 
     .. code-block:: console
     
@@ -295,7 +295,7 @@ We start by modeling the mutation:
            :width: 65%
            :align: center
 
-Run Modeller
+And perform the mutation in the selected position:
 
     .. image:: /_static/images/Tutorial/mut_ab.png
            :alt: An example image
@@ -308,7 +308,6 @@ Run Modeller
 
 And we can evaluate the interactions of the wild-type and mutant Spike structures with C105 using Surfaces - the chain representing Spike is chain C and the antibody is built by the light chain L and the heavy chain H.
 
-Run Surfaces
     .. image:: /_static/images/Tutorial/run_ab.png
            :alt: An example image
            :width: 65%
