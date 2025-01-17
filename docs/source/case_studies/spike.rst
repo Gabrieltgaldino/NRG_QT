@@ -87,7 +87,7 @@ And then for the open conformation structure, so we can evaluate the dynamical e
            :width: 65%
            :align: center
 
-We can see the pattern of increased flexibilty of the closed state and decreased flexibility of the open conformation, particularly around the open Receptor-Binding Domain, which is also observed in the DeltaSvib results, representing the flexibility of the whole structure. These results reproduce the observations from `Teruel et al. 2021 <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009286`_ for the D614G mutation favoring the open state occupancy, also confirmed by more costly computational methods and experimental observations (`Mansbach et al. 2021 <https://www.science.org/doi/10.1126/sciadv.abf3671>`_, `Gobeil et al. 2021 <https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31619-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124720316193%3Fshowall%3Dtrue>`_).
+We can see the pattern of increased flexibilty of the closed state and decreased flexibility of the open conformation, particularly around the open Receptor-Binding Domain, which is also observed in the DeltaSvib results, representing the flexibility of the whole structure. These results reproduce the observations from `Teruel et al. 2021 <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009286>`_ for the D614G mutation favoring the open state occupancy, also confirmed by more costly computational methods and experimental observations (`Mansbach et al. 2021 <https://www.science.org/doi/10.1126/sciadv.abf3671>`_, `Gobeil et al. 2021 <https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31619-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124720316193%3Fshowall%3Dtrue>`_).
 
 Teruel et al. proceeds to look for the same pattern of effect on flexibility for over 17,000 mutants. Here, we will reproduce two of the main results, for positions 417 and 501.
 
@@ -209,7 +209,7 @@ And we can do the same thing for the open structure:
            :width: 65%
            :align: center
 
-The mutation N501Y also makes the closed conformation more flexible and the open Receptor-Binding Domain more rigid. This reproduces the predictive results from `Teruel et al. 2021 <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009286`_. The dynamical effects of these mutations have also been shown experimentally (`Gobeil et al. 2021 <https://www.science.org/doi/10.1126/science.abi6226>`_).
+The mutation N501Y also makes the closed conformation more flexible and the open Receptor-Binding Domain more rigid. This reproduces the predictive results from `Teruel et al. 2021 <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009286>`_. The dynamical effects of these mutations have also been shown experimentally (`Gobeil et al. 2021 <https://www.science.org/doi/10.1126/science.abi6226>`_).
 
 Evaluating the effects of mutations on ACE2 interactions
 ====================
