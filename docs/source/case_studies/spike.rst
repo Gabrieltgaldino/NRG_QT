@@ -25,7 +25,9 @@ Open PyMOL and run the command:
            :width: 65%
            :align: center
 
-The D614G substituion became common during the summer of 2020 and was the first widely selected Spike substitution during the COVID-19 pandemic. Let's evaluate its effects on the Spike dynamics. First, we need to perform the mutations:
+The D614G substituion became common during the summer of 2020 and was the first widely selected Spike substitution during the COVID-19 pandemic. Let's evaluate its effects on the Spike dynamics.
+
+First, we need to perform the mutations. For that, we first need to select the residue we want to mutate:
 
     .. code-block:: console
 
@@ -36,11 +38,14 @@ The D614G substituion became common during the summer of 2020 and was the first 
            :width: 65%
            :align: center
 
-Run Modeller
+Now that the residue in the closed conformation structure is selected, we can mutate it to the desired aminoacid:
+
     .. image:: /_static/images/Tutorial/mut_614_1.png
            :alt: An example image
            :width: 65%
            :align: center
+
+We need to do the same for the open state conformation. We first select the residue:
 
     .. code-block:: console
 
@@ -51,15 +56,15 @@ Run Modeller
            :width: 65%
            :align: center
 
-Run Modeller
+Now we can also perform the mutation using the Single Mutations functionality:
+
     .. image:: /_static/images/Tutorial/mut_614_2.png
            :alt: An example image
            :width: 65%
            :align: center
 
-Once the mutations are done, we can evaluate their effects on dynamics using NRGTEN:
+Once the mutations are done, we can evaluate their effects on dynamics using NRGTEN. For that, we will run the Dynamical Signature function, first for the closed conformation structure:
 
-Run NRGTEN
     .. image:: /_static/images/Tutorial/run_614_1.png
            :alt: An example image
            :width: 65%
@@ -69,6 +74,8 @@ Run NRGTEN
            :alt: An example image
            :width: 65%
            :align: center
+
+And then for the open conformation structure, so we can evaluate the dynamical effects for both states:
 
     .. image:: /_static/images/Tutorial/run_614_2.png
            :alt: An example image
@@ -80,11 +87,11 @@ Run NRGTEN
            :width: 65%
            :align: center
 
-We can see the pattern of increased flexibilty of the closed state and decreased flexibility of the open conformation, particularly around the open Receptor-Binding Domain. These results reproduce the observations from Teruel et al. (2021) for the D614G mutation favoring the open state occupancy, also confirmed by more costly computational methods and experimental observations (Mansbach et al. 2021, Gobeil et al. 2021).
+We can see the pattern of increased flexibilty of the closed state and decreased flexibility of the open conformation, particularly around the open Receptor-Binding Domain, which is also observed in the DeltaSvib results, representing the flexibility of the whole structure. These results reproduce the observations from Teruel et al. (2021) for the D614G mutation favoring the open state occupancy, also confirmed by more costly computational methods and experimental observations (Mansbach et al. 2021, Gobeil et al. 2021).
 
 Teruel et al. proceeds to look for the same pattern of effect on flexibility for over 17,000 mutants. Here, we will reproduce two of the main results, for positions 417 and 501.
 
-First, we need to create the mutations:
+First, we need to create the mutations. For that, we first select the residue we would like to mutate - residue 417, in this case:
 
     .. code-block:: console
 
@@ -95,12 +102,14 @@ First, we need to create the mutations:
            :width: 65%
            :align: center
 
-Run Modeller
+We can then run the Single Mutants function:
 
     .. image:: /_static/images/Tutorial/mut_417_1.png
            :alt: An example image
            :width: 65%
            :align: center
+
+The same is necessary for the other conformational state:
 
     .. code-block:: console
 
@@ -111,16 +120,12 @@ Run Modeller
            :width: 65%
            :align: center
 
-Run Modeller
-
     .. image:: /_static/images/Tutorial/mut_417_2.png
            :alt: An example image
            :width: 65%
            :align: center
 
-Now that the mutations are done for both conformational states, we can evaluate their effects on dynamics.
-
-Run NRGTEN
+Now that the mutations are done for both conformational states, we can evaluate their effects on dynamics. We first run NRGTEN to get the Dynamical Signature for the closed conformation:
 
     .. image:: /_static/images/Tutorial/run_417_1.png
            :alt: An example image
@@ -132,7 +137,7 @@ Run NRGTEN
            :width: 65%
            :align: center
 
-Run NRGTEN
+And do the same evaluation for the open conformation:
 
     .. image:: /_static/images/Tutorial/run_417_2.png
            :alt: An example image
@@ -144,9 +149,9 @@ Run NRGTEN
            :width: 65%
            :align: center
 
-We see that K417N has similar effects to D614G, making the closed conformation more flexible around the Receptor-Binding Domain, and the open Receptor-Binding Domain becomes more rigid.
+We see that K417N has similar effects to D614G, making the closed conformation more flexible around the Receptor-Binding Domain, and the open Receptor-Binding Domain becomes more rigid. We can also see this in the DeltaSvib results, in which the evaluation for the closed conformation gave us positive results, meaning a more flexible mutant, while the open conformation gave us negative results, meaning less flexible mutants.
 
-We can make the same evaluation for mutation N501Y, starting by creating the mutations:
+We can make the same evaluation for mutation N501Y, starting by selecting the residue:
 
     .. code-block:: console
         
@@ -157,12 +162,14 @@ We can make the same evaluation for mutation N501Y, starting by creating the mut
            :width: 65%
            :align: center
 
-Run Modeller
+We can then run the implementation of Modeller to perform the single mutation:
 
     .. image:: /_static/images/Tutorial/mut_501_1.png
            :alt: An example image
            :width: 65%
            :align: center
+
+And now we repeat the same process for the open conformation structure, selecting the residue and performing the mutation:
 
     .. code-block:: console
         
@@ -173,16 +180,12 @@ Run Modeller
            :width: 65%
            :align: center
 
-Run Modeller
-
     .. image:: /_static/images/Tutorial/mut_501_2.png
            :alt: An example image
            :width: 65%
            :align: center
 
-Now that the mutations are done for both conformational states, we can evaluate their effects on dynamics.
-
-Run NRGTEN
+Now that the mutations are done for both conformational states, we can evaluate their effects on dynamics using NRGTEN. First, let's run the Dynamical Signature for the closed conformation:
 
     .. image:: /_static/images/Tutorial/run_501_1.png
            :alt: An example image
@@ -194,7 +197,7 @@ Run NRGTEN
            :width: 65%
            :align: center
 
-Run NRGTEN
+And we can do the same thing for the open structure:
 
     .. image:: /_static/images/Tutorial/run_501_2.png
            :alt: An example image
@@ -226,7 +229,7 @@ For the evaluation of the interaction with the receptor ACE2, we will need a str
 
 The mutation N501Y is known for increasing interaction with the receptor ACE2 (starr2020deep, sergeeva2023free, tian2021n501y, laffeber2021experimental, geng2022structural, moulana2022compensatory). Let's see if we can reproduce these results!
 
-We first model the mutation in the complex structure with ACE2:
+We first model the mutation in the complex structure with ACE2. For that, we need to select residue 501:
 
     .. code-block:: console
     
@@ -238,20 +241,19 @@ We first model the mutation in the complex structure with ACE2:
            :width: 65%
            :align: center
 
-Run Modeller
+After the selection, we can run Modeller using the Single Mutations function:
 
     .. image:: /_static/images/Tutorial/mut_ace2.png
            :alt: An example image
            :width: 65%
            :align: center
+
     .. image:: /_static/images/Tutorial/closeup_mut_ace2.png
            :alt: An example image
            :width: 65%
            :align: center
 
-Chain E represents the Receptor-Binding Domain of the Spike protein, and chain C is the ACE2 protein. We can now evaluate their per-residue interactions.
-
-Run Surfaces
+Chain E represents the Receptor-Binding Domain of the Spike protein, and chain C is the ACE2 protein. We can now evaluate their per-residue interactions by using Surfaces:
 
     .. image:: /_static/images/Tutorial/run_ace2.png
            :alt: An example image
@@ -260,7 +262,7 @@ Run Surfaces
 
 If we look at the difference in total CF, we see an increase in binding affinity of 0.31 kcal/mol due to the modeled mutation.
 
-    .. image:: /_static/images/Tutorial/result_ace2.png
+    .. image:: /_static/images/Tutorial/result_delta_ace2.png
            :alt: An example image
            :width: 65%
            :align: center
@@ -314,7 +316,7 @@ Run Surfaces
 
 We see that the mutation K417N lowers the binding affinity in 0.47 kcal/mol, in agreement with escape evaluations.
 
-    .. image:: /_static/images/Tutorial/result_ab.png
+    .. image:: /_static/images/Tutorial/result_delta_ab.png
            :alt: An example image
            :width: 65%
            :align: center
@@ -376,7 +378,7 @@ We can then use Surfaces to check the interactions for each one of those objects
            :width: 65%
            :align: center
 
-We have already characterized residue Y501 as an important residue for ACE2 interaction. From Surfaces results we can see that in the original Omicron structure the CF of interaction between the residue Y501 from Spike and K353 from ACE2 is of -0.72 kcal/mol. We can evaluate now each of the states of the conformational ensemble to see possible variations in this interaction:
+We have already characterized residue Y501 as an important residue for ACE2 interaction. From Surfaces results we can see that in the original Omicron structure the CF of interaction between the residue Y501 from Spike and K353 from ACE2 is of -0.72 kcal/mol. We can evaluate now each of the states of the conformational ensemble to see possible variations in this interaction. First, let's do it for state 1:
 
     .. image:: /_static/images/Tutorial/surfaces1_conf.png
            :alt: An example image
@@ -387,6 +389,8 @@ We have already characterized residue Y501 as an important residue for ACE2 inte
            :alt: An example image
            :width: 65%
            :align: center
+
+And now for state 9:
 
     .. image:: /_static/images/Tutorial/surfaces9_conf.png
            :alt: An example image
