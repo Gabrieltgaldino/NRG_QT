@@ -291,8 +291,70 @@ Evaluating interactions based on a single or a few structures is inherently limi
 
 One way to achieve this is by employing conformational ensembles. In this study, we analyze the interactions between the Omicron Spike protein Receptor-Binding Domain and the human ACE2 receptor. When the Omicron variant was first characterized, numerous publications examined the effects of its mutations on ACE2 binding using various experimentally solved structures. However, due to the inherent structural variability among these structures, the conclusions reached by different studies often diverge (McCallum et al. 2022, Han et al. 2022, Mannar et al. 2022).
 
-Run Conformational Ensembles
-Run Surfaces
+To simulate the structural variability, we first need to create a conformational ensemble:
+
+    .. image:: /_static/images/Tutorial/run_conf.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+It is important to notice that the modeller optimization changes the numbering of the residues. To properly compare the per-residue interactions, we need to fix the numbering first.
+
+    .. code-block:: console
+
+        alter (chain A and 7wbl_ensemble), resi=str(int(resi) + 19)
+        alter (chain B and 7wbl_ensemble), resi=str(int(resi) - 264)
+
+Once the multiple states are created and the residue numbering is correct, we can separate them into different objects in order to evaluate them separately:
+
+    .. code-block:: console
+
+        split_states 7wbl_ensemble
+
+    .. image:: /_static/images/Tutorial/split_states_conf.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+We can then use Surfaces to check the interactions for each one of those objects, and understand the possible interaction variation that comes with the structural variability. The Receptor-Binding Domain is represented by chain A, and ACE2 is represented by chain B.
+
+    .. image:: /_static/images/Tutorial/surfaces_original_conf.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/result_original_conf.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+We have already characterized residue Y501 as an important residue for ACE2 interaction. From Surfaces results we can see that in the original Omicron structure the CF of interaction between the residue Y501 from Spike and K353 from ACE2 is of -0.72 kcal/mol. We can evaluate now each of the states of the conformational ensemble to see possible variations in this interaction:
+
+    .. image:: /_static/images/Tutorial/surfaces1_conf.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/result1_conf.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/surfaces9_conf.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+    .. image:: /_static/images/Tutorial/result9_conf.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
+These two examples, of state 1 and state 9, show, respectively, the same pairwise interaction with binding affinities of -0.95 kcal/mol and -0.88 kcal/mol, showing how the conformational variability may impact the results for binding interactions, which can justify the differences from evaluations performed with single structures. The use of conformational ensembles can help overcome this issue.
+
+
+
+
 
 
 
