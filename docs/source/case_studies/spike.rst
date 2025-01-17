@@ -364,7 +364,7 @@ Once the multiple states are created and the residue numbering is correct, we ca
            :width: 65%
            :align: center
 
-We can then use Surfaces to check the interactions for each one of those objects, and understand the possible interaction variation that comes with the structural variability. The Receptor-Binding Domain is represented by chain A, and ACE2 is represented by chain B.
+We can then use Surfaces to check the interactions for each one of those objects, and understand the possible interaction variation that comes with the structural variability. The Receptor-Binding Domain is represented by chain B, and ACE2 is represented by chain A.
 
     .. image:: /_static/images/Tutorial/surfaces_original_conf.png
            :alt: An example image
