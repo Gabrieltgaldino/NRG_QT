@@ -232,13 +232,38 @@ We first model the mutation in the complex structure with ACE2:
     
             sele 6m17 and chain E and resi 501
 
+
+    .. image:: /_static/images/Tutorial/sele_ace2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 Run Modeller
+
+    .. image:: /_static/images/Tutorial/mut_ace2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+    .. image:: /_static/images/Tutorial/closeup_mut_ace2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 Chain E represents the Receptor-Binding Domain of the Spike protein, and chain C is the ACE2 protein. We can now evaluate their per-residue interactions.
 
 Run Surfaces
 
+    .. image:: /_static/images/Tutorial/run_ace2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 If we look at the difference in total CF, we see an increase in binding affinity of 0.31 kcal/mol due to the modeled mutation.
+
+    .. image:: /_static/images/Tutorial/result_ace2.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 Evaluating the effects of mutations on immune recognition
 ====================
@@ -263,13 +288,36 @@ We start by modeling the mutation:
     
             sele 6xcn and chain C and resi 417
 
+    .. image:: /_static/images/Tutorial/sele_ab.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+
 Run Modeller
+
+    .. image:: /_static/images/Tutorial/mut_ab.png
+           :alt: An example image
+           :width: 65%
+           :align: center
+    .. image:: /_static/images/Tutorial/closeup_mut_ab.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 And we can evaluate the interactions of the wild-type and mutant Spike structures with C105 using Surfaces - the chain representing Spike is chain C and the antibody is built by the light chain L and the heavy chain H.
 
 Run Surfaces
+    .. image:: /_static/images/Tutorial/run_ab.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 We see that the mutation K417N lowers the binding affinity in 0.47 kcal/mol, in agreement with escape evaluations.
+
+    .. image:: /_static/images/Tutorial/result_ab.png
+           :alt: An example image
+           :width: 65%
+           :align: center
 
 Conformational ensembles
 ====================
