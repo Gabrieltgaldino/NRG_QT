@@ -66,6 +66,14 @@ The differential will plotted in the unbound structure and show in pymol in the 
        :width: 100%
        :align: center
 
+When a multi-state object is given, all differentials are plotted and the user can see individual results by clicking on the button that matches the variant/ligand of interest. All differentials are mapped to the structure and shown in pymol in the group 'NRGTEN'.
+
+.. image:: /_static/images/NRGTEN/dynasig_diff_mutants.png
+       :alt: An example image
+       :width: 100%
+       :align: center
+
+
 
 
 
