@@ -73,8 +73,12 @@ When a multi-state object is given, all differentials are plotted and the user c
        :width: 100%
        :align: center
 
+The conformational ensembles are returned as a multi-state object. Note that when the option of optimizing is not used (right, optimized version in the left), the structure are not realistic and bond distances are not accurate. To access individual states use the "multi-state object manager" at "Settings" menu (see :doc:`Settings`)
 
-
+.. image:: /_static/images/NRGTEN/conf_ensemble.png
+       :alt: An example image
+       :width: 100%
+       :align: center
 
 
 
