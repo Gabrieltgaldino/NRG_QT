@@ -87,7 +87,7 @@ And then for the open conformation structure, so we can evaluate the dynamical e
            :width: 65%
            :align: center
 
-We can see the pattern of increased flexibilty of the closed state and decreased flexibility of the open conformation, particularly around the open Receptor-Binding Domain, which is also observed in the DeltaSvib results, representing the flexibility of the whole structure. These results reproduce the observations from `Teruel et al., 2021 <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009286`_ for the D614G mutation favoring the open state occupancy, also confirmed by more costly computational methods and experimental observations (`Mansbach et al. 2021 <https://www.science.org/doi/10.1126/sciadv.abf3671>`_, `Gobeil et al. 2021 <https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31619-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124720316193%3Fshowall%3Dtrue>`_).
+We can see the pattern of increased flexibilty of the closed state and decreased flexibility of the open conformation, particularly around the open Receptor-Binding Domain, which is also observed in the DeltaSvib results, representing the flexibility of the whole structure. These results reproduce the observations from `Teruel et al. 2021 <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009286>`_ for the D614G mutation favoring the open state occupancy, also confirmed by more costly computational methods and experimental observations (`Mansbach et al. 2021 <https://www.science.org/doi/10.1126/sciadv.abf3671>`_, `Gobeil et al. 2021 <https://www.cell.com/cell-reports/fulltext/S2211-1247(20)31619-3?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2211124720316193%3Fshowall%3Dtrue>`_).
 
 Teruel et al. proceeds to look for the same pattern of effect on flexibility for over 17,000 mutants. Here, we will reproduce two of the main results, for positions 417 and 501.
 
@@ -102,7 +102,7 @@ First, we need to create the mutations. For that, we first select the residue we
            :width: 65%
            :align: center
 
-We can then run the Single Mutants function:
+We can then run the Single Mutations function:
 
     .. image:: /_static/images/Tutorial/mut_417_1.png
            :alt: An example image
@@ -209,7 +209,7 @@ And we can do the same thing for the open structure:
            :width: 65%
            :align: center
 
-The mutation N501Y also makes the closed conformation more flexible and the open Receptor-Binding Domain more rigid. This reproduces the predictive results from `Teruel et al., 2021 <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009286`_. The dynamical effects of these mutations have also been shown experimentally (`Gobeil et al. 2021 <https://www.science.org/doi/10.1126/science.abi6226>`_).
+The mutation N501Y also makes the closed conformation more flexible and the open Receptor-Binding Domain more rigid. This reproduces the predictive results from `Teruel et al. 2021 <https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009286>`_. The dynamical effects of these mutations have also been shown experimentally (`Gobeil et al. 2021 <https://www.science.org/doi/10.1126/science.abi6226>`_).
 
 Evaluating the effects of mutations on ACE2 interactions
 ====================
@@ -227,7 +227,7 @@ For the evaluation of the interaction with the receptor ACE2, we will need a str
            :width: 65%
            :align: center
 
-The mutation N501Y is known for increasing interaction with the receptor ACE2 (`Starr et al., 2020 <https://www.cell.com/cell/fulltext/S0092-8674(20)31003-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420310035%3Fshowall%3Dtrue>`_, `Sergeeva et al., 2023 <https://www.sciencedirect.com/science/article/pii/S0022283623002851?via%3Dihub>`_, `Tian et al., 2021 <https://elifesciences.org/articles/69091>`_, `Laffeber et al., 2021 <https://www.sciencedirect.com/science/article/pii/S002228362100276X?via%3Dihub>`_, `Moulana et al., 2022 <https://www.nature.com/articles/s41467-022-34506-z>`_). Let's see if we can reproduce these results!
+The mutation N501Y is known for increasing interaction with the receptor ACE2 (`Starr et al. 2020 <https://www.cell.com/cell/fulltext/S0092-8674(20)31003-5?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867420310035%3Fshowall%3Dtrue>`_, `Sergeeva et al. 2023 <https://www.sciencedirect.com/science/article/pii/S0022283623002851?via%3Dihub>`_, `Tian et al. 2021 <https://elifesciences.org/articles/69091>`_, `Laffeber et al. 2021 <https://www.sciencedirect.com/science/article/pii/S002228362100276X?via%3Dihub>`_, `Moulana et al. 2022 <https://www.nature.com/articles/s41467-022-34506-z>`_). Let's see if we can reproduce these results!
 
 We first model the mutation in the complex structure with ACE2. For that, we need to select residue 501:
 
@@ -282,7 +282,7 @@ We can also evaluate immune recognition, here represented by interactions with a
            :width: 65%
            :align: center
 
-The K417N substition is in a very important epitope of antibody recognition. Deep mutational scanning (DMS) results show that it affects the recognition of many antibodies, among which the C105 antibody (`Greaney et al., 2022 <https://academic.oup.com/ve/article/8/1/veac021/6549895>`_, `Cao et al., 2023 <https://www.nature.com/articles/s41586-022-05644-7>`_). We can try to reproduce these results evaluating the complex structure.
+The K417N substition is in a very important epitope of antibody recognition. Deep mutational scanning (DMS) results show that it affects the recognition of many antibodies, among which the C105 antibody (`Greaney et al. 2022 <https://academic.oup.com/ve/article/8/1/veac021/6549895>`_, `Cao et al. 2023 <https://www.nature.com/articles/s41586-022-05644-7>`_). We can try to reproduce these results evaluating the complex structure.
 
 We start by modeling the mutation. For that, we first select residue 417:
 
