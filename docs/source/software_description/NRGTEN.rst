@@ -1,84 +1,80 @@
 .. _NRGTEN:
 
 NRGTEN
-=======
+======
 
-NRGTEN (https://academic.oup.com/bioinformatics/article/37/19/3369/6179106?login=false) is a python package for Normal Mode Analysis calculations using the ENCoM potential (
-10.1371/journal.pcbi.1003569). NRGTEN can be applied for the calculation of Dynamical Signatures and Conformational ensembles of proteins and protein ligand complexes.
+NRGTEN (https://academic.oup.com/bioinformatics/article/37/19/3369/6179106?login=false) is a Python package for Normal Mode Analysis calculations using the ENCoM potential (10.1371/journal.pcbi.1003569). NRGTEN is used for calculating Dynamical Signatures and Conformational Ensembles of proteins and protein-ligand complexes.
 
 .. image:: /_static/images/NRGTEN/NRGTEN_settings.png
        :alt: An example image
        :width: 65%
        :align: center
 
-An object containing all molecules to be considered for the dynamical signature calculations must be loaded in the pymol interface.
+An object containing all molecules to be considered for the dynamical signature calculations must be loaded into the PyMOL interface.
 
 .. note::
 
-    We recommend that the user use the pymol's "Remove solvent" function before using NRGTEN in order to avoid errors. All small molecules, residues and chains are going to be considered for the calculation s of dynamical signatures and conformational ensembles. WE RECOMMEND THE CALCULATIONS USING NRGTEN TO BE DONE USING ONLY ONE CHAIN PER OBJECT AND NO MORE THAN ONE SMALL MOLECULE, since our methods were validated for those cases only. For more information about NRGTEN settings refer to its manual (https://nrgten.readthedocs.io/en/latest/) .
+    We recommend using PyMOL's "Remove Solvent" function before running NRGTEN to avoid errors. All small molecules, residues, and chains will be considered for the calculations of dynamical signatures and conformational ensembles. We advise performing calculations with NRGTEN using only one chain per object and no more than one small molecule, as our methods have only been validated for these cases. For more information about NRGTEN settings, refer to its manual (https://nrgten.readthedocs.io/en/latest/).
 
-At the "Load object" area press "Refresh" and select the object of interest at the "Object" list.
+In the "Load Object" area, press "Refresh" and select the object of interest from the "Object" list.
 
-If the user wants to define a "Ligand" of interest in the object, they must define a selection containing the ligand of interest (this selection can contain more than one molecule and they all ar going to be considered as a single group).
-
-.. note::
-    When a second object is defined, the "Ligand" selection doesn't generate a differential in NRGTEN plot.
-
-NRGTEN also allows the comparison between mutants and wild-type, as well as different ligands bound to the same target. For that a multi-state object containing all mutants (1 mutant per state) or all complexes (1 protein/ligand complex per state) must be created before running NRGTEN. Those multi-states objects can be created using the "Single Mutations" functionality (see :doc:`Single_Mutations`) or the "Multi-state object manager" functionality (see :doc:`Settings`). Load this object at the "Object" list at "Load object 2" area.
-
-The NRGTEN functionality only allow the calculations of entropic signatures so a beta value must be defined at the "Dynamical Signature" area. We recommend the user to start their study by the default value and explore the betas as wanted. Press the "Run DynaSig" button to start the calculations.
-
-For the calculation of conformational ensembles, only the object loaded at the "Load object" area will be considered.
-
-Define the normal modes to be considered for the calculation at the "modes list" line edit (the modes must be separated by ',')
+If you wish to define a "Ligand" of interest in the object, define a selection containing the ligand of interest (this selection can contain more than one molecule, and they will all be considered as a single group).
 
 .. note::
+    When a second object is defined, the "Ligand" selection does not generate a differential in the NRGTEN plot.
 
-    Note that 1 corresponds to the first normal mode, but the first 6 normal modes are trivial rotational/translational motions. Thus, index 7 is the first non-trivial normal mode.
+NRGTEN also allows for comparisons between mutants and wild-type, as well as different ligands bound to the same target. For this, a multi-state object containing all mutants (one mutant per state) or all complexes (one protein/ligand complex per state) must be created before running NRGTEN. These multi-state objects can be created using the "Single Mutations" functionality (see :doc:`Single_Mutations`) or the "Multi-state Object Manager" functionality (see :doc:`Settings`). Load this object at the "Object" list in the "Load Object 2" area.
 
-Define the steps at the "step" line edit, this represents the RMSD step between each grid point in the conformational ensemble.
+The NRGTEN functionality only allows calculations of entropic signatures, so a beta value must be defined in the "Dynamical Signature" area. We recommend starting your study with the default value and exploring other beta values as desired. Press the "Run DynaSig" button to start the calculations.
 
-Set the "max conformations", the maximum number of conformations. Ensures that users do not accidentally generate huge PDB files. Set the "max displacement", The maximum RMSD displacement for each mode (Has to be a multiple of step).
+For the calculation of conformational ensembles, only the object loaded in the "Load Object" area will be considered.
 
-If the user wants to refine their structures for further analysis, they can minimize the energy of each state generated by marking the "optimize states" checkbox.
+Define the normal modes to be considered for the calculation in the "modes list" line edit (the modes must be separated by commas).
 
 .. note::
 
-    It can take several minutes depending on the number of states generated.
+    Note that 1 corresponds to the first normal mode, but the first six normal modes are trivial rotational/translational motions. Thus, index 7 is the first non-trivial normal mode.
+
+Define the steps in the "step" line edit; this represents the RMSD step between each grid point in the conformational ensemble.
+
+Set the "max conformations," the maximum number of conformations, to ensure that users do not accidentally generate huge PDB files. Set the "max displacement," the maximum RMSD displacement for each mode (it must be a multiple of the step).
+
+If you wish to refine structures for further analysis, you can minimize the energy of each state generated by checking the "optimize states" checkbox.
+
+.. note::
+
+    This process can take several minutes, depending on the number of states generated.
 
 Results
-----------
+-------
 
-The numeric results of NRGTEN are plotted as HTML page shown in browser and are mapped to a structure added to a group called NRGTEN in pymol. The structure is colored according to the fluctuation value of each residue (The bluest the more rigid that position and the thickness is proportional to the absolute value of the fluctuation).
+The numeric results of NRGTEN are plotted as an HTML page shown in a browser and are mapped to a structure added to a group called NRGTEN in PyMOL. The structure is colored according to the fluctuation value of each residue (the bluer, the more rigid the position, and the thickness is proportional to the absolute value of the fluctuation).
 
 .. image:: /_static/images/NRGTEN/dynasigplot.png
        :alt: An example image
        :width: 100%
        :align: center
 
-The individual values of the fluctuations are shown by passing the cursor over the graph. A '.png' image of the graph can be generated by clicking in the right top corner menu. The calculated vibrational entropy is shown in the left corner together with the name of the object.
+The individual values of the fluctuations are displayed by passing the cursor over the graph. A '.png' image of the graph can be generated by clicking in the right top corner menu. The calculated vibrational entropy is shown in the left corner along with the name of the object.
 
-In the case where a ligand is defined, a differential between the unbound and bound state will be plotted and the vibrational entropy of the free target will be shown.
-The differential will plotted in the unbound structure and show in pymol in the "NRGTEN" group. Regions that become more rigid after ligand binding are shown in blue and the regions that become more flexible are shown in red. The thickness is proportional to the intensity of the difference.
+In cases where a ligand is defined, a differential between the unbound and bound state will be plotted, and the vibrational entropy of the free target will be shown. The differential will be plotted on the unbound structure and displayed in PyMOL in the "NRGTEN" group. Regions that become more rigid after ligand binding are shown in blue, and those that become more flexible are shown in red. The thickness is proportional to the intensity of the difference.
 
 .. image:: /_static/images/NRGTEN/NRGTEN_no_lig.png
        :alt: An example image
        :width: 100%
        :align: center
 
-When a multi-state object is given, all differentials are plotted and the user can see individual results by clicking on the button that matches the variant/ligand of interest. All differentials are mapped to the structure and shown in pymol in the group 'NRGTEN'.
+When a multi-state object is provided, all differentials are plotted, and the user can view individual results by clicking on the button that matches the variant/ligand of interest. All differentials are mapped to the structure and displayed in PyMOL in the 'NRGTEN' group.
 
 .. image:: /_static/images/NRGTEN/dynasig_diff_mutants.png
        :alt: An example image
        :width: 100%
        :align: center
 
-The conformational ensembles are returned as a multi-state object. Note that when the option of optimizing is not used (right, optimized version in the left), the structure are not realistic and bond distances are not accurate. To access individual states use the "multi-state object manager" at "Settings" menu (see :doc:`Settings`)
+The conformational ensembles are returned as a multi-state object. Note that when the option of optimizing is not used, the structures are not realistic, and bond distances are not accurate. To access individual states, use the "Multi-state Object Manager" in the "Settings" menu (see :doc:`Settings`).
 
 .. image:: /_static/images/NRGTEN/conf_ensemble.png
        :alt: An example image
        :width: 100%
        :align: center
-
-
 
