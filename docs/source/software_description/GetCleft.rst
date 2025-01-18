@@ -4,7 +4,7 @@ GetCleft
 .. _GetCleft:
 
 The software **GetCleft** (https://github.com/NRGlab/Get_Cleft) was developed for detection of cavities and surface-exposed areas.
-And it is used for biding site definition in FlexAID and NRGdock.
+It is used for biding site definition in FlexAID and NRGdock.
 To use it, open the plug-in on the 'Plugin' menu in PyMOL click on the 'GetCleft' button in the left corner of the window.
 Load the structure of the target in Pymol.
 Press 'Refresh' in the 'Select a structure' session and the select the target in the 'PyMOL objects/selections:' list.
@@ -20,11 +20,11 @@ Press 'Refresh' in the 'Select a structure' session and the select the target in
 The parameters session:
 
 The detection of cavities by GetCleft is based on the introduction of spheres in between pairs of atoms of the target and by reducing the volume of these spheres until no clashes are found.
-Use the option 'Insert sphere radii'. By default (Recommended) Min: 1.50 and Max: 4.0.
+Use the option 'Insert sphere radii' (default (recommended) Min: 1.50 and Max: 4.0).
 
-If the user wants a specific residue to be in the detected cavity, they must enter the residue identification in the format: "Tree letter code + resinumber + chain". "e.g. ALA13A"
+If the user wants a specific residue to be in the detected cavity, they must enter the residue identification in the format: "Tree letter code + residue number + chain". e.g. "ALA13A"
 
-GetCleft will output the top N binding sites defined in "Number of binding sites to show" (default 5).
+GetCleft will output the top N binding sites defined in "Number of binding sites to show" (default N=5).
 
 .. note::
     When a residue is indicated in the box, only the cavity containing the residue will be generated.
@@ -37,12 +37,12 @@ The generated binding sites will be displayed in PyMOL and marked according to t
            :align: center
 
 
-In the case where a ligand or residue was given in the "Residue in contact" line edit, only the binding sites in contact with the ligand/residue indicated will be displayed.
+In case a ligand or residue was given as a "Residue in contact" input, only the binding sites in contact with the ligand/residue indicated will be displayed.
 
 Partition Cleft
 ------------------
 
-Once a cavity is generated it is possible to crop it for an smaller size using the "Partition Cleft" tab in "GetCleft" menu. Press the "Refresh" button in the "STEP 1:" area o list all binding sites in the Pymol interface and select the desired binding site.
+Once a cavity is generated it is possible to crop it using the "Partition Cleft" tab in "GetCleft" menu. Press the "Refresh" button in the "STEP 1:" area o list all binding sites in the Pymol interface and select the desired binding site.
 
     .. image:: /_static/images/GetCleft/Partition.png
            :alt: An example image
