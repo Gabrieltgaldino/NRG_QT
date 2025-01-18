@@ -3,18 +3,18 @@
 NRGTEN
 ======
 
-NRGTEN (https://academic.oup.com/bioinformatics/article/37/19/3369/6179106?login=false) is a Python package for Normal Mode Analysis calculations using the ENCoM potential (10.1371/journal.pcbi.1003569). NRGTEN is used for calculating Dynamical Signatures and Conformational Ensembles of proteins and protein-ligand complexes.
+**NRGTEN** (https://academic.oup.com/bioinformatics/article/37/19/3369/6179106?login=false) is a Python package for Normal Mode Analysis calculations using the `ENCoM potential <10.1371/journal.pcbi.1003569>`_. NRGTEN is used for calculating Dynamical Signatures and Conformational Ensembles of proteins and protein-ligand complexes.
 
 .. image:: /_static/images/NRGTEN/NRGTEN_settings.png
        :alt: An example image
        :width: 65%
        :align: center
 
-An object containing all molecules to be considered for the dynamical signature calculations must be loaded into the PyMOL interface.
+An object containing all molecules to be considered for the dynamical signature calculations must be loaded into the Pymol interface.
 
 .. note::
 
-    We recommend using PyMOL's "Remove Solvent" function before running NRGTEN to avoid errors. All small molecules, residues, and chains will be considered for the calculations of dynamical signatures and conformational ensembles. We advise performing calculations with NRGTEN using only one chain per object and no more than one small molecule, as our methods have only been validated for these cases. For more information about NRGTEN settings, refer to its manual (https://nrgten.readthedocs.io/en/latest/).
+    We recommend using Pymol's "Remove Solvent" function before running NRGTEN to avoid errors. All small molecules, residues, and chains will be considered for the calculations of dynamical signatures and conformational ensembles. We advise performing calculations with NRGTEN using only one chain per object and no more than one small molecule, as our methods have only been validated for these cases. For more information about NRGTEN settings, refer to its manual (https://nrgten.readthedocs.io/en/latest/).
 
 In the "Load Object" area, press "Refresh" and select the object of interest from the "Object" list.
 
@@ -23,11 +23,11 @@ If you wish to define a "Ligand" of interest in the object, define a selection c
 .. note::
     When a second object is defined, the "Ligand" selection does not generate a differential in the NRGTEN plot.
 
-NRGTEN also allows for comparisons between mutants and wild-type, as well as different ligands bound to the same target. For this, a multi-state object containing all mutants (one mutant per state) or all complexes (one protein/ligand complex per state) must be created before running NRGTEN. These multi-state objects can be created using the "Single Mutations" functionality (see :doc:`Single_Mutations`) or the "Multi-state Object Manager" functionality (see :doc:`Settings`). Load this object at the "Object" list in the "Load Object 2" area.
+NRGTEN also allows for comparisons between mutants and wild type, as well as different ligands bound to the same target. For this, a multi-state object containing all mutants (one mutant per state) or all complexes (one protein/ligand complex per state) must be created before running NRGTEN. These multi-state objects can be created using the "Single Mutations" functionality (see :doc:`Single_Mutations`) or the "Multi-state Object Manager" functionality (see :doc:`Settings`). Load this object at the "Object" list in the "Load Object 2" section.
 
-The NRGTEN functionality only allows calculations of entropic signatures, so a beta value must be defined in the "Dynamical Signature" area. We recommend starting your study with the default value and exploring other beta values as desired. Press the "Run DynaSig" button to start the calculations.
+The NRGTEN functionality only allows calculations of entropic signatures, so a beta value must be defined in the "Dynamical Signature" area. We recommend starting your study with the default value (default beta=1) and exploring other beta values as desired. Press the "Run DynaSig" button to start the calculations.
 
-For the calculation of conformational ensembles, only the object loaded in the "Load Object" area will be considered.
+For the calculation of conformational ensembles, only the object loaded in the "Load Object" section will be considered.
 
 Define the normal modes to be considered for the calculation in the "modes list" line edit (the modes must be separated by commas).
 
@@ -48,7 +48,7 @@ If you wish to refine structures for further analysis, you can minimize the ener
 Results
 -------
 
-The numeric results of NRGTEN are plotted as an HTML page shown in a browser and are mapped to a structure added to a group called NRGTEN in PyMOL. The structure is colored according to the fluctuation value of each residue (the bluer, the more rigid the position, and the thickness is proportional to the absolute value of the fluctuation).
+The numeric results of NRGTEN are plotted as an HTML page shown in a browser and are mapped to a structure added to a group called NRGTEN in Pymol. The structural visual output is colored according to the fluctuation value of each residue (the bluer, the more rigid the position, and the thickness is proportional to the absolute value of the fluctuation).
 
 .. image:: /_static/images/NRGTEN/dynasigplot.png
        :alt: An example image
@@ -57,14 +57,14 @@ The numeric results of NRGTEN are plotted as an HTML page shown in a browser and
 
 The individual values of the fluctuations are displayed by passing the cursor over the graph. A '.png' image of the graph can be generated by clicking in the right top corner menu. The calculated vibrational entropy is shown in the left corner along with the name of the object.
 
-In cases where a ligand is defined, a differential between the unbound and bound state will be plotted, and the vibrational entropy of the free target will be shown. The differential will be plotted on the unbound structure and displayed in PyMOL in the "NRGTEN" group. Regions that become more rigid after ligand binding are shown in blue, and those that become more flexible are shown in red. The thickness is proportional to the intensity of the difference.
+In cases where a ligand is defined, a differential between the unbound and bound state will be plotted, and the vibrational entropy of the free target will be shown. The differential will be plotted on the unbound structure and displayed in Pymol in the "NRGTEN" group. Regions that become more rigid after ligand binding are shown in blue, and those that become more flexible are shown in red. The thickness is proportional to the intensity of the difference.
 
 .. image:: /_static/images/NRGTEN/NRGTEN_no_lig.png
        :alt: An example image
        :width: 100%
        :align: center
 
-When a multi-state object is provided, all differentials are plotted, and the user can view individual results by clicking on the button that matches the variant/ligand of interest. All differentials are mapped to the structure and displayed in PyMOL in the 'NRGTEN' group.
+When a multi-state object is provided, all differentials are plotted, and the user can view individual results by clicking on the button that matches the variant/ligand of interest. All differentials are mapped to the structure and displayed in Pymol in the 'NRGTEN' group.
 
 .. image:: /_static/images/NRGTEN/dynasig_diff_mutants.png
        :alt: An example image
