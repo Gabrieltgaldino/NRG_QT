@@ -85,10 +85,10 @@ A list of IDs and CFs is shown in a table and the Top n ligands poses will show 
 
      Only ligands within the "Top n results" defined in the settings before the simulation will show in the PyMOL interface.
 
-    .. image:: /_static/images/NRGRank/results_table.png
-               :alt: An example image
-               :width: 65%
-               :align: center
+.. image:: /_static/images/NRGRank/results_table.png
+        :alt: An example image
+        :width: 65%
+        :align: center
 
 Old results can be loaded by pressing "Browse" and selecting the ".csv" result file and by pressing "Load CSV".
 
