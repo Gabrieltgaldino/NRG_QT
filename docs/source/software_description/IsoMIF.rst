@@ -31,7 +31,7 @@ The Tanimoto coefficient of the IsoMIF against all DUD-E targets of different fa
 
 .. image:: /_static/images/IsoMIF/IsoMIF_results.png
        :alt: An example image
-       :width: 65%
+       :width: 100%
        :align: center
 
 
