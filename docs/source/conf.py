@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'NRGSuite-Qt'
-copyright = '2024, DesCoteaux and Galdino'
-author = 'DesCoteaux and Galdino'
+copyright = '2024, DesCoteaux, Galdino, Teruel and Najmanovich'
+author = '2024, DesCoteaux, Galdino, Teruel and Najmanovich'
 
 release = '0.1'
 version = '1.0'
