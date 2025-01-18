@@ -29,7 +29,7 @@ The visual output of each Molecular Interaction Field (MIF) and the visual outpu
 
 The Tanimoto coefficient of the IsoMIF against all DUD-E targets of different families is plotted in an HTML file. The z-scores and p-values are only significant when the user has indicated a ligand selection for both targets before running IsoMIF.
 
-.. image:: /_static/images/IsoMIF/IsoMIF_settings.png
+.. image:: /_static/images/IsoMIF/IsoMIF_results.png
        :alt: An example image
        :width: 65%
        :align: center
