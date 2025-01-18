@@ -36,7 +36,7 @@ Select the desired CPU usage for the screening at the "CPU usage target" list.
 Ligand Sets
 -----------
 
-By default, three common data sets are provided: 'DrugBank FDA', containing all FDA-approved drugs available in DrugBank (https://go.drugbank.com/), 'PDB Small Ligands', containing all small molecules available in the Chemical Component Dictionary (https://www.wwpdb.org/data/ccd), and "Tetrapeptides", which includes all 16,000 tetrapeptides provided by Prasasty et al. (https://pmc.ncbi.nlm.nih.gov/articles/PMC6806445/).
+By default, three common data sets are provided: 'DrugBank FDA', containing all FDA-approved drugs available in `DrugBank <https://go.drugbank.com/>`_, 'PDB Small Ligands', containing all small molecules available in the `Chemical Component Dictionary <https://www.wwpdb.org/data/ccd>`_, and "Tetrapeptides", which includes all 16,000 tetrapeptides provided by `Prasasty et al. 2019 <https://pmc.ncbi.nlm.nih.gov/articles/PMC6806445/>`_.
 
 The list of all other ligands to be tested should be provided in a file in SMILES format ('.smi') and added in the section 'Ligand Set Manager'.
 This file contains one ligand per line in the format:
@@ -85,10 +85,10 @@ A list of IDs and CFs is shown in a table and the Top n ligands poses will show 
 
      Only ligands within the "Top n results" defined in the settings before the simulation will show in the PyMOL interface.
 
-.. image:: /_static/images/NRGRank/results_table.png
-    :alt: An example image
-    :width: 65%
-    :align: center
+    .. image:: /_static/images/NRGRank/results_table.png
+               :alt: An example image
+               :width: 65%
+               :align: center
 
 Old results can be loaded by pressing "Browse" and selecting the ".csv" result file and by pressing "Load CSV".
 
