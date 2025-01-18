@@ -5,6 +5,10 @@ GetCleft
 
 The software **GetCleft** (https://github.com/NRGlab/Get_Cleft) was developed for detection of cavities and surface-exposed areas.
 It is used for biding site definition in FlexAID and NRGdock.
+
+General Settings
+----------------
+
 To use it, open the plug-in on the 'Plugin' menu in PyMOL click on the 'GetCleft' button in the left corner of the window.
 Load the structure of the target in Pymol.
 Press 'Refresh' in the 'Select a structure' session and the select the target in the 'PyMOL objects/selections:' list.
@@ -17,10 +21,11 @@ Press 'Refresh' in the 'Select a structure' session and the select the target in
 .. note::
     To understand better the parameters of GetCleft read the manual for NRGsuite: http://biophys.umontreal.ca/nrg/ewExternalFiles/NRGsuite_Guide.pdf
 
+
 The parameters session:
 
 The detection of cavities by GetCleft is based on the introduction of spheres in between pairs of atoms of the target and by reducing the volume of these spheres until no clashes are found.
-Use the option 'Insert sphere radii' (default (recommended) Min: 1.50 and Max: 4.0).
+Use the option 'Insert sphere radii' (default and recommended Min: 1.50 and Max: 4.0).
 
 If the user wants a specific residue to be in the detected cavity, they must enter the residue identification in the format: "Tree letter code + residue number + chain". e.g. "ALA13A"
 
