@@ -15,7 +15,7 @@ To use SMF, a selection containing the residue(s) to mutate must be previously d
 
     Even though more than one residue can be included in the "Selected Residue(s)" selection, it is important to note that **only single mutants** will be generated per run of the SMF. To perform multiple mutations on the same structure, it is necessary to rerun the single mutations functionality more than once.
 
-.. image:: /_static/images/Single_Mutations/Single_Mutations.png
+.. image:: /_static/images/Single_Mutations/Single_mutations.png
     :alt: An example image
     :width: 100%
     :align: center
