@@ -1,18 +1,18 @@
-NRGSuite_Qt
+NRGSuite-Qt
 ===========
 
-Download NRGSuite_Qt
+Download NRGSuite-Qt
 --------------------
 
 .. tabs::
 
     .. group-tab:: Windows
 
-        Download **NRGSuite Qt** for Windows `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.4.1/NRGSuite_Qt_windows.zip>`_.
+        Download **NRGSuite-Qt** for Windows `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.4.1/NRGSuite_Qt_windows.zip>`_.
 
     .. group-tab:: MacOS
 
-        Download **NRGSuite Qt** for MacOS `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.4.1/NRGSuite_Qt_mac.zip>`_.
+        Download **NRGSuite-Qt** for MacOS `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.4.1/NRGSuite_Qt_mac.zip>`_.
 
 
 Installing NRGSuite-Qt
@@ -42,7 +42,7 @@ Installing NRGSuite-Qt
 
 #. A prompt will appear to choose a directory for the installed plug-in. We recommend using the suggested path
 
-#. If the plugin has been installed correctly it will appear in the "Plugin" tab. Clicking on NRGSuite_Qt will open the plugin
+#. If the plugin has been installed correctly it will appear in the "Plugin" tab. Clicking on NRGSuite-Qt will open the plugin
 
     .. image:: /_static/images/installation/installation_end.png
         :alt: An example image

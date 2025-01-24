@@ -86,7 +86,7 @@ The top 20 ligands will be plotted in the PyMOL interface in a group called 'NRG
            :align: center
 
 
-You can also access the complete list of results of NRGRank by opening the '.csv' file in the 'temp' directory of 'NRGsuite_QT' in documents.
+You can also access the complete list of results of NRGRank by opening the '.csv' file in the 'temp' directory of 'NRGsuite-QT' in documents.
 
 
 To obtain a more realistic pose of the nilotinib/EphA4 complex, we will re-do the docking simulation for nilotinib using FlexAID.
