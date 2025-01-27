@@ -4,7 +4,7 @@ Surfaces
 ======
 
 **Surfaces** (https://academic.oup.com/bioinformatics/article/39/10/btad608/7288175) comprises a collection of Python scripts that provide rapid means to assess protein interactions by analyzing the atomic surface areas in contact and the types of atoms involved in the interaction.
-Surfaces is fully implemented in NRGSuite-QT and can be applied to Protein-Protein and Protein-Ligand interaction calculations.
+Surfaces is fully implemented in NRGSuite-Qt and can be applied to Protein-Protein and Protein-Ligand interaction calculations.
 
 
 Settings

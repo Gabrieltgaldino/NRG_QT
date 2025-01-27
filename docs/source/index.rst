@@ -1,4 +1,4 @@
-Welcome to NRGlab's documentation for NRGSuite-QT PyMOL plugin!
+Welcome to NRGlab's documentation for NRGSuite-Qt PyMOL plugin!
 ===============================================================
 
 .. toctree::
@@ -32,7 +32,7 @@ Welcome to NRGlab's documentation for NRGSuite-QT PyMOL plugin!
     Single Mutations </software_description/Single_Mutations>
     /software_description/Settings
 
-NRGSuite-QT is a PyMOL plug-in for molecular docking and virtual screening using NRGdock, GetCleft, FlexAID and Surfaces. This plug-in was created to facilitate the use the tools developed in Najmanovich's Reseach Group and was inspired in the NRG suite PyMOL plug-in (ref) for FlexAID.
+NRGSuite-Qt is a PyMOL plug-in for molecular docking and virtual screening using NRGdock, GetCleft, FlexAID and Surfaces. This plug-in was created to facilitate the use the tools developed in Najmanovich's Reseach Group and was inspired in the NRG suite PyMOL plug-in (ref) for FlexAID.
 
 The plug-in counts with a variaty of functionalities: Binding site defition, docking similaiton with FlexAID and NRGdock, high-throughput screening with NRGdock using the Chemical Component Dictionary (CCD) and the dataset of all approved drugs of DrugBank and ligand interaction visualization using surfaces.
 
