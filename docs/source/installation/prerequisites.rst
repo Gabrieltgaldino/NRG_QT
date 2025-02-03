@@ -2,11 +2,11 @@
 Prerequisites
 ==============
 
-To use **NRGSuite**, you need to have **PyMOL** installed on your system. For making single mutations,
+To use **NRGSuite**, you need to have **PyMOL open-source** installed on your system. For making single mutations,
 **MODELLER** is also required, though it is not necessary for using **NRGSuite**.
 You’ll find detailed installation instructions below.
 
-To avoid operating system specific installation issues, we recommend to install **PyMOL** with `Anaconda`_ or `Miniconda`_.
+To avoid operating system specific installation issues, we recommend to install **PyMOL open-source** with `Anaconda`_ or `Miniconda`_.
 Bellow we provide instructions on how to install Miniconda.
 
 .. _Anaconda: https://docs.anaconda.com/anaconda/
