@@ -13,3 +13,7 @@
 section {
     text-align: justify;
 }
+
+.underline {
+  text-decoration: underline;
+}

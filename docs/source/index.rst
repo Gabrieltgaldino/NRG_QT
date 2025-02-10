@@ -1,4 +1,4 @@
-The NRGSuite-Qt PyMOL plugin
+The NRGSuite-Qt PyMOL plugin.
 ===============================================================
 
 .. toctree::
