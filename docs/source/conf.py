@@ -1,5 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
-
+from docutils import nodes, parsers
+from docutils.parsers.rst import roles
 # -- Project information
 
 project = 'NRGSuite-Qt'
@@ -38,6 +39,12 @@ html_logo = "_static/images/main_menu/logo.png"
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 html_theme_options = {'logo_only': True}
+
+def underline_role(name, rawtext, text, lineno, inliner, options={}, content=[]):
+    return [nodes.inline(rawtext, text, classes=['underline'])], []
+
+roles.register_local_role('underline', underline_role)
+
 
 def setup(app):
     app.add_css_file('css/my_theme.css')
