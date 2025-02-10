@@ -1,5 +1,5 @@
 The NRGSuite-Qt PyMOL plugin
-===============================================================
+============================
 .. role:: underline
     :class: underline
 
