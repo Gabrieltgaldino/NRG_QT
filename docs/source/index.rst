@@ -1,5 +1,7 @@
-The NRGSuite-Qt PyMOL plugin.
+The NRGSuite-Qt PyMOL plugin!
 ===============================================================
+.. role:: underline
+    :class: underline
 
 .. toctree::
     :maxdepth: 2
