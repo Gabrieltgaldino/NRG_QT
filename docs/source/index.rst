@@ -42,7 +42,7 @@ The plug-in counts with a variaty of functionalities: Binding site defition, doc
 
 .. warning::
 
-    NRGSuite-Qt currently only works with the **open-source** version of PyMOL. Please follow the **Install from scratch** instructions below.
+    NRGSuite-Qt currently only works with the **open-source** version of PyMOL. Please follow the **Install from scratch** instructions below to install **open-source** PyMOL.
 
 Install from scratch:
 ---------------------
