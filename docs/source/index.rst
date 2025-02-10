@@ -1,7 +1,5 @@
 The NRGSuite-Qt PyMOL plugin
 ============================
-.. role:: underline
-    :class: underline
 
 .. toctree::
     :maxdepth: 2
@@ -50,7 +48,7 @@ Install from scratch:
 ---------------------
 
 :doc:`/installation/prerequisites`
-    This will guide you on how to install Pymol and NRGSuite
+    This will guide you on how to install PyMOL and NRGSuite
 
 Only install the plugin:
 ------------------------

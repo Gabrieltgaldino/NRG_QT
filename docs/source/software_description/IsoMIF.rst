@@ -10,7 +10,7 @@ IsoMIF
        :width: 65%
        :align: center
 
-To use IsoMIF, a binding site must be defined (see :doc:`GetCleft`) in the Pymol interface.
+To use IsoMIF, a binding site must be defined (see :doc:`GetCleft`) in the PyMOL interface.
 
 Running IsoMIF requires two targets and two binding sites. If only one target and one binding site are provided, only the molecular interaction field is generated.
 
@@ -25,7 +25,7 @@ Press "Run IsoMIF" to start the calculations.
 Results
 -------
 
-The visual output of each Molecular Interaction Field (MIF) and the visual output of IsoMIF matching both binding sites are shown in the Pymol interface in a group called "IsoMIF". Each sphere around the binding site indicates one of the six probes (hydrophobic, aromatic, H-bond donor/acceptor, and positive/negative charge). In the IsoMIF visual output, the larger the sphere, the higher the similarity at that point.
+The visual output of each Molecular Interaction Field (MIF) and the visual output of IsoMIF matching both binding sites are shown in the PyMOL interface in a group called "IsoMIF". Each sphere around the binding site indicates one of the six probes (hydrophobic, aromatic, H-bond donor/acceptor, and positive/negative charge). In the IsoMIF visual output, the larger the sphere, the higher the similarity at that point.
 
 The Tanimoto coefficient of the IsoMIF against all DUD-E targets of different families is plotted in an HTML file. The z-scores and p-values are only significant when the user has indicated a ligand selection for both targets before running IsoMIF.
 

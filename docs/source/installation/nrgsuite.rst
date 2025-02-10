@@ -18,7 +18,7 @@ Download NRGSuite_Qt
 Installing NRGSuite-Qt
 ----------------------
 
-#. Open Pymol. In the top bar, click **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
+#. Open PyMOL. In the top bar, click **Plugin** -> **Plugin Manager** -> **Install New Plugin** -> **Choose file**
 
     .. note::
 

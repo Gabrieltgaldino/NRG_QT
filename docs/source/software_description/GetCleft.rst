@@ -10,7 +10,7 @@ General Settings
 ----------------
 
 To use it, open the plug-in on the 'Plugin' menu in PyMOL click on the 'GetCleft' button in the left corner of the window.
-Load the structure of the target in Pymol.
+Load the structure of the target in PyMOL.
 Press 'Refresh' in the 'Select a structure' session and the select the target in the 'PyMOL objects/selections:' list.
 
     .. figure:: /_static/images/GetCleft/GetCleft_menu.png
@@ -47,7 +47,7 @@ In case a ligand or residue was given as a "Residue in contact" input, only the 
 Partition Cleft
 ------------------
 
-Once a cavity is generated it is possible to crop it using the "Partition Cleft" tab in "GetCleft" menu. Press the "Refresh" button in the "STEP 1" section o list all binding sites in the Pymol interface and select the desired binding site.
+Once a cavity is generated it is possible to crop it using the "Partition Cleft" tab in "GetCleft" menu. Press the "Refresh" button in the "STEP 1" section o list all binding sites in the PyMOL interface and select the desired binding site.
 
     .. image:: /_static/images/GetCleft/Partition.png
            :alt: An example image

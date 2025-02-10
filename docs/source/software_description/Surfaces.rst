@@ -22,7 +22,7 @@ Select the object containing the protein of interest in the "Object" list.
 If running for **Protein-Ligand** interactions: Select the selection containing the ligand in the "Ligand (optional)" list. All other fields should be marked as "None". By default, if a ligand is specified, the chain information in the "Protein-Protein Interactions" section is ignored.
 
 .. note::
-    In order to run Surfaces to calculate **Protein-Ligand** interactions, the ligand and the target must be loaded in Pymol in a single object. A selection containing the ligand must be created.
+    In order to run Surfaces to calculate **Protein-Ligand** interactions, the ligand and the target must be loaded in PyMOL in a single object. A selection containing the ligand must be created.
 
     .. image:: /_static/images/Surfaces/surfaces_note.png
        :alt: An example image
@@ -56,7 +56,7 @@ Results
 
 The calculated per-residue interactions, residue(target)/atom(ligand) for **Protein-Ligand** interactions and residue/residue for **Protein-Protein** interactions, will be shown in the "Results" tab that will open automatically once the calculation is done.
 
-The visual output of Surfaces will be shown in the Pymol window.
+The visual output of Surfaces will be shown in the PyMOL window.
 
 To visualize specific interactions click on the residue name and a selection called "sele_surfaces", containing the residue will be crated and the residue will be zoomed-in and shown in lines representation.
 
@@ -67,7 +67,7 @@ The user can also create a selection containing "ALL" or the "TOP N" residues in
        :width: 100%
        :align: center
 
-A list of all previous individual results will be listed in the "Individual results" list. In the case where a state with mutants is specified in the settings, the results of all individual mutants will be shown in the "Individual results" list. Press "Refresh" and the comparison of differences in total "CF" of each mutant in comparison with the wild-type will appear. All previous comparisons will be listed in the "CF comparison" list. All results are shown in the Pymol interface in a group called "results_surfaces"
+A list of all previous individual results will be listed in the "Individual results" list. In the case where a state with mutants is specified in the settings, the results of all individual mutants will be shown in the "Individual results" list. Press "Refresh" and the comparison of differences in total "CF" of each mutant in comparison with the wild-type will appear. All previous comparisons will be listed in the "CF comparison" list. All results are shown in the PyMOL interface in a group called "results_surfaces"
 
 
 .. image:: /_static/images/Surfaces/surfaces_cf_comparision.png
