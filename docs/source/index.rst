@@ -1,4 +1,4 @@
-The NRGSuite-Qt PyMOL plugin!
+The NRGSuite-Qt PyMOL plugin
 ===============================================================
 .. role:: underline
     :class: underline
@@ -44,7 +44,7 @@ The plug-in counts with a variaty of functionalities: Binding site defition, doc
 
 .. warning::
 
-    NRGSuite-Qt currently only works with the **open-source** version of PyMOL. Please follow the **:underline:`Install from scratch`** instructions below.
+    NRGSuite-Qt currently only works with the **open-source** version of PyMOL. Please follow the **Install from scratch** instructions below.
 
 Install from scratch:
 ---------------------
