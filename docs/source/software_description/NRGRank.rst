@@ -7,7 +7,7 @@ NRGRank
 .. note::
     To use NRGRank, the target object and target cleft (see how to generate clefts in :doc:`GetCleft`) should be loaded in the PyMOL interface.
 
-    .. image:: /_static/images/NRGRank/recep-cleft-nrgdock.png
+    .. image:: /_static/images/NRGRank/recep-cleft-nrgrank.png
        :alt: An example image
        :width: 65%
        :align: center

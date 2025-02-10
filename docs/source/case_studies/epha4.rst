@@ -94,7 +94,7 @@ To obtain a more realistic pose of the nilotinib/EphA4 complex, we will re-do th
 Performing Docking of Nilotinib Using FlexAID
 =============================================
 
-Click the 'FlexAID' button in the left corner menu. Go to the 'Settings' tab. Set the 'Number of chromosomes' to 1000 and 'Number of generations' to 1000. Check the box 'Ligand pose as reference' to compare FLEXAID and NRGDock poses. We are interested in the best result for FlexAID, so set "Max results" to 1
+Click the 'FlexAID' button in the left corner menu. Go to the 'Settings' tab. Set the 'Number of chromosomes' to 1000 and 'Number of generations' to 1000. Check the box 'Ligand pose as reference' to compare FLEXAID and NRGRank poses. We are interested in the best result for FlexAID, so set "Max results" to 1
 
     .. image:: /_static/images/Tutorial/flexaid_settings.png
            :alt: An example image
