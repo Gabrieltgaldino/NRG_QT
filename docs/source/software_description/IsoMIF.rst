@@ -10,7 +10,7 @@ IsoMIF
        :width: 65%
        :align: center
 
-To use IsoMIF, a binding site must be defined (see :doc:`GetCleft`) in the PyMOL interface.
+To use IsoMIF, a binding site must be defined (see :doc:`GetCleft`) in the Pymol interface.
 
 Running IsoMIF requires two targets and two binding sites. If only one target and one binding site are provided, only the molecular interaction field is generated.
 
@@ -25,7 +25,31 @@ Press "Run IsoMIF" to start the calculations.
 Results
 -------
 
-The visual output of each Molecular Interaction Field (MIF) and the visual output of IsoMIF matching both binding sites are shown in the PyMOL interface in a group called "IsoMIF". Each sphere around the binding site indicates one of the six probes (hydrophobic, aromatic, H-bond donor/acceptor, and positive/negative charge). In the IsoMIF visual output, the larger the sphere, the higher the similarity at that point.
+
+The similarity between two cavities can be measured by identifying the largest set of vertices that share corresponding interaction types and are in geometrically equivalent positions. To achieve this, IsoMIF employs the **Bron–Kerbosch (BK) algorithm** to find the **maximum common subgraph isomorphisms**.
+
+Tanimoto Score Calculation
+++++++++++++++++++++++++++++
+
+The visual output of each Molecular Interaction Field (MIF) and the visual output of IsoMIF matching both binding sites are shown in the Pymol interface in a group called "IsoMIF". Each sphere around the binding site indicates one of the six probes (cyan (hydrophobic), orange (aromatic), blue (donor), red (acceptor), green (positive charge), and magenta (negative charge)). In the IsoMIF visual output, the larger the sphere, the higher the similarity at that point.
+
+The similarity between two cavities can be measured by finding the largest ensemble of vertices between two cavities that have corresponding interaction types and that are in geometrically equivalent positions. To do this IsoMIF uses the `Bron and Kerbosch (BK) algorithm <https://dl.acm.org/doi/10.1145/362342.362367>`_ to find the maximum common subgraph isomorphisms. In the visual output of IsoMIF, the largest is the sphere in the cavity the more both cavities have common probes in that position, when no sphere is shown that position has no probes in common.
+
+
+The **Tanimoto score** quantifies this similarity by comparing the number of common probes between the two cavities to the total number of distinct probes. It is calculated as:
+
+.. math::
+
+   MSS = \frac{N_c}{N_a + N_b - N_c}
+
+where:
+
+- :math:`N_c` is the number of common probes in geometrically equivalent positions,
+- :math:`N_a` and :math:`N_b` are the total number of probes in each cavity with **significant interaction energies**.
+
+A **significant interaction energy** refers to an energy value below a predefined threshold, indicating a strong and relevant molecular interaction at that position. Only probes with such meaningful energetic contributions are considered in the similarity calculation.
+
+A higher **MSS** value indicates greater similarity between the two cavities.
 
 The Tanimoto coefficient of the IsoMIF against all DUD-E targets of different families is plotted in an HTML file. The z-scores and p-values are only significant when the user has indicated a ligand selection for both targets before running IsoMIF.
 
