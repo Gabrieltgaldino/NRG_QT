@@ -35,6 +35,7 @@ Tanimoto Score Calculation
 
 The **Tanimoto score** (in IsoMIF named: MIF similarity score or **MSS**) quantifies this similarity by comparing the number of common probes between the two cavities to the total number of distinct probes. It is calculated as:
 
+
 .. math::
 
    MSS = \frac{N_c}{N_a + N_b - N_c}
