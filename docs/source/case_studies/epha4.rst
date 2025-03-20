@@ -9,7 +9,7 @@ In this tutorial, we will reproduce the results of Gu S. et al. 2018 (https://ww
 Preparing the Target
 ====================
 
-Open PyMOL and run the command to download the structure of EphA4 as well as remove EPHRIN-B2 chain and water molecules
+Open PyMOL and run the following command to download the structure of EphA4 as well as remove EPHRIN-B2 chain and water molecules
 to prepare the structure for docking:
 
     .. code-block:: console
