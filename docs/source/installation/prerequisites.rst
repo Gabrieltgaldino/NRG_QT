@@ -2,7 +2,7 @@
 Prerequisites
 ==============
 
-To use **NRGSuite**, you need to have **PyMOL open-source** installed on your system. For making single mutations,
+**NRGSuite** works with most **PyMOL** versions. However, to generate figures without watermarks we recommend installing **PyMOL open-source**. For making single mutations,
 **MODELLER** is also required, though it is not necessary for using **NRGSuite**.
 You’ll find detailed installation instructions below.
 
@@ -60,21 +60,27 @@ Bellow we provide instructions on how to install Miniconda.
 
     .. tab:: PyMOL (open-source)
 
-        .. Note::
+        Paste following commands in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter`
 
-            If you have previously used conda we recommend making a new environment to avoid a conflict with dependency versions.
+        1. Creating a new environment to avoid a conflict with dependency versions:
 
             .. code-block:: console
 
                 conda create -n "pymol-env" python=3.12
 
-        1. Paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` :
+        2. Loading the new environment (you will need to use this command to open PyMol):
+
+            .. code-block:: console
+
+                conda activate pymol-env
+
+        3. Installing PyMol:
 
             .. code-block:: console
 
                 conda install conda-forge::pymol-open-source
 
-        2. To open PyMOL, paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` :
+        4. Open PyMol :
 
             .. code-block:: console
 
