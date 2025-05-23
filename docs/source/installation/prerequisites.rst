@@ -60,6 +60,9 @@ Bellow we provide instructions on how to install Miniconda.
 
     .. tab:: PyMOL (open-source)
 
+        .. Note::
+            test
+
         1. Paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` :
 
             .. code-block:: console
@@ -73,9 +76,6 @@ Bellow we provide instructions on how to install Miniconda.
                 pymol
 
     .. tab:: MODELLER (optional; requires license key)
-
-        .. Note::
-            test
 
         MODELLER is available free for academic non-profit institutions. You can obtain a key `here <https://salilab.org/modeller/registration.html>`_.
         Paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter`:
