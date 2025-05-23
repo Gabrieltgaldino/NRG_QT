@@ -27,6 +27,11 @@ Results
 
 The visual output of each Molecular Interaction Field (MIF) and the visual output of IsoMIF matching both binding sites are shown in the Pymol interface in a group called "IsoMIF". Each sphere around the binding site indicates one of the six probes (cyan (hydrophobic), orange (aromatic), blue (donor), red (acceptor), green (positive charge), and magenta (negative charge)). In the IsoMIF visual output, the larger the sphere, the higher the similarity at that point.
 
+.. image:: /_static/images/IsoMIF/IsoMIF_probes.png
+       :alt: Image showing various Isomif probes in the binding site to illustrate the correlation between probe colour and interaction type
+       :width: 65%
+       :align: center
+
 The similarity between two cavities can be measured by finding the largest ensemble of vertices between two cavities that have corresponding interaction types and that are in geometrically equivalent positions. To do this IsoMIF uses the `Bron and Kerbosch (BK) algorithm <https://dl.acm.org/doi/10.1145/362342.362367>`_ to find the maximum common subgraph isomorphisms. In the visual output of IsoMIF, the largest is the sphere in the cavity the more both cavities have common probes in that position, when no sphere is shown that position has no probes in common.
 
 
