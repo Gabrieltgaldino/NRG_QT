@@ -80,7 +80,7 @@ Bellow we provide instructions on how to install Miniconda.
 
                 conda install conda-forge::pymol-open-source
 
-        4. Open PyMol :
+        4. Opening PyMol :
 
             .. code-block:: console
 
