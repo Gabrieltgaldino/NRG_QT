@@ -61,7 +61,11 @@ Bellow we provide instructions on how to install Miniconda.
     .. tab:: PyMOL (open-source)
 
         .. Note::
-            test
+
+            If you have previously used conda we recommend making a new environment to avoid a conflict with dependency versions.
+
+            .. code-block::
+                conda create -n "pymol-env" python=3.12
 
         1. Paste the following command in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` :
 
