@@ -6,7 +6,7 @@ copyright = '2024, DesCoteaux, Galdino, Teruel and Najmanovich'
 author = 'DesCoteaux, Galdino, Teruel and Najmanovich'
 
 release = '0.1'
-version = '2025.14.3'
+version = '2025.14.4'
 
 # -- General configuration
 
