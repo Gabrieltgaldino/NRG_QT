@@ -73,6 +73,7 @@ Bellow we provide instructions on how to install Miniconda.
 
                 III) Close **Terminal** and open it again.
 
+
     .. tab:: PyMOL (open-source)
 
         Paste following commands in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter`
