@@ -58,6 +58,21 @@ Bellow we provide instructions on how to install Miniconda.
 
                 III) Close **Terminal** and open it again.
 
+            .. group-tab:: Linux
+
+                II) In a Terminal window paste the following command and press :kbd:`Enter`:
+
+                    .. code-block:: console
+
+                            mkdir -p ~/miniconda3
+                            curl https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o ~/miniconda3/miniconda.sh
+                            bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+                            rm ~/miniconda3/miniconda.sh
+                            ~/miniconda3/bin/conda init bash
+                            ~/miniconda3/bin/conda init zsh
+
+                III) Close **Terminal** and open it again.
+
     .. tab:: PyMOL (open-source)
 
         Paste following commands in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter`
