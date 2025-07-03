@@ -60,7 +60,7 @@ Bellow we provide instructions on how to install Miniconda.
 
             .. group-tab:: Linux
 
-                II) In a Terminal window paste the following command and press :kbd:`Enter`:
+                I) In a Terminal window paste the following command and press :kbd:`Enter`:
 
                     .. code-block:: console
 
@@ -71,7 +71,7 @@ Bellow we provide instructions on how to install Miniconda.
                             ~/miniconda3/bin/conda init bash
                             ~/miniconda3/bin/conda init zsh
 
-                III) Close **Terminal** and open it again.
+                II) Close **Terminal** and open it again.
 
 
     .. tab:: PyMOL (open-source)

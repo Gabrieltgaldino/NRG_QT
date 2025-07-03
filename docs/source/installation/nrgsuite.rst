@@ -16,7 +16,8 @@ Download NRGSuite_Qt
 
     .. group-tab:: Linux
 
-        Download **NRGSuite Qt** for MacOS `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.14.4/NRGSuite_Qt_linux.zip>`_.
+        Download **NRGSuite Qt** for Linux `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.14.4/NRGSuite_Qt_linux.zip>`_.
+
 
 Installing NRGSuite-Qt
 ----------------------
