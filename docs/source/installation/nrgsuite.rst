@@ -8,15 +8,15 @@ Download NRGSuite_Qt
 
     .. group-tab:: Windows
 
-        Download **NRGSuite Qt** for Windows `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.14.4/NRGSuite_Qt_windows.zip>`_.
+        Download **NRGSuite Qt** for Windows `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.14.5/NRGSuite_Qt_windows.zip>`_.
 
     .. group-tab:: MacOS
 
-        Download **NRGSuite Qt** for MacOS `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.14.4/NRGSuite_Qt_mac.zip>`_.
+        Download **NRGSuite Qt** for MacOS `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.14.5/NRGSuite_Qt_mac.zip>`_.
 
     .. group-tab:: Linux
 
-        Download **NRGSuite Qt** for Linux `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.14.4/NRGSuite_Qt_linux.zip>`_.
+        Download **NRGSuite Qt** for Linux `here <https://github.com/NRGlab/NRGSuite-Qt/releases/download/v2025.14.5/NRGSuite_Qt_linux.zip>`_.
 
 
 Installing NRGSuite-Qt
@@ -26,7 +26,7 @@ Installing NRGSuite-Qt
 
     .. note::
 
-        If installed using **Miniconda** you will need to write **pymol** in **Terminal** (MacOS) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` to open PyMOL.
+        If installed using **Miniconda** you will need to write **pymol** in **Terminal** (MacOS/Linux) or **Anaconda Prompt** (Windows) and press :kbd:`Enter` to open PyMOL.
 
     .. image:: /_static/images/installation/plugin_install.png
            :alt: An example image
