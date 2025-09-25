@@ -21,8 +21,8 @@ Bellow we provide instructions on how to install Miniconda.
 
             .. group-tab:: Windows
 
-                #. Download the latest version of miniconda at the following link (Platform: Windows): https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links
-                #. Double-click the downloaded **.exe** file.
+                #. Download the latest version of miniconda at the following link (Platform: Windows): https://www.anaconda.com/download/success
+                #. Download the proper file for Windows under MiniConda and double-click the downloaded **.exe** file.
                 #. Follow the instructions on the screen. If you are unsure about any setting, accept the defaults. You can change them later.
                 #. When the installation finishes, use the **Windows** key and search for Anaconda Prompt.
                 #. Click on it.
